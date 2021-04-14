@@ -10,6 +10,7 @@
     "airbnb",
     "prettier"
   ],
+  "ignorePatterns": ["*.ttf", "*.txt"],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {
     "ecmaFeatures": {
