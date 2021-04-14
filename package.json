@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "yarn install && rm -rf ./dist && webpack --progress",
-    "lint": "eslint --cache --cache-location .cache/eslint/ src/**/*",
+    "lint": "eslint --cache --cache-location .cache/eslint/ --ext .ts,.tsx src/**/*",
     "test": "jest",
     "start": "node dist/backend/node.js",
     "dev": "yarn build && sh -c \"webpack --watch & yarn dev:server\"",
