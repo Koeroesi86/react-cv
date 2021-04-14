@@ -1,8 +1,6 @@
 language: node_js
 env:
-  - NODE_ENV="development"
-  - export YARN_CACHE_FOLDER=$TRAVIS_BUILD_DIR/.cache/yarn
-  - export TRAVIS_TAG="$(git rev-parse --short ${TRAVIS_COMMIT})"
+  - NODE_ENV="development" YARN_CACHE_FOLDER=$TRAVIS_BUILD_DIR/.cache/yarn TRAVIS_TAG="$(git rev-parse --short ${TRAVIS_COMMIT})"
 node_js:
   - "14"
 cache:
