@@ -1,0 +1,2354 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`transformCv should transform cv with lightblue scheme 1`] = `
+Array [
+  Object {
+    "children": Array [
+      Object {
+        "children": Array [
+          Object {
+            "children": Array [
+              Object {
+                "props": Object {
+                  "height": 20,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "color": "#6ab9c8",
+                      "text": "/** @links:",
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "color": "#6ab9c8",
+                              "height": 12,
+                              "width": 12,
+                            },
+                            "type": "icon-github",
+                          },
+                          Object {
+                            "props": Object {
+                              "width": 3,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "props": Object {
+                              "color": "#6ab9c8",
+                              "text": "github.com/Koeroesi86",
+                            },
+                            "type": "text",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {
+                      "src": "https://github.com/Koeroesi86",
+                      "underline": false,
+                    },
+                    "type": "link",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#6ab9c8",
+                      "text": "||",
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "color": "#6ab9c8",
+                              "height": 12,
+                              "width": 12,
+                            },
+                            "type": "icon-folder",
+                          },
+                          Object {
+                            "props": Object {
+                              "width": 3,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "props": Object {
+                              "color": "#6ab9c8",
+                              "text": "chris.koro.si",
+                            },
+                            "type": "text",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {
+                      "src": "https://chris.koro.si",
+                      "underline": false,
+                    },
+                    "type": "link",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#6ab9c8",
+                      "text": "*/",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "props": Object {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "height": 2,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#6ab9c8",
+                  "size": 12,
+                  "text": "/** @var {Full-stack developer} Krisz */",
+                },
+                "type": "text",
+              },
+              Object {
+                "props": Object {
+                  "height": 6,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "size": 24,
+                  "text": "Krisztian Korosi",
+                },
+                "type": "text",
+              },
+            ],
+            "props": Object {},
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "flexGrow": 1,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "height": 16,
+                      "width": 16,
+                    },
+                    "type": "icon-flame",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "lineHeight": 1.6,
+                      "size": 18,
+                      "text": "Desire",
+                      "weight": 600,
+                    },
+                    "type": "text",
+                  },
+                ],
+                "props": Object {
+                  "flexDirection": "row",
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "backgroundColor": "#6ab9c8",
+                  "height": 3,
+                  "width": 160,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "height": 10,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "width": 20,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "My desire is to always improve myself and attain new skills, to keep up with the latest technologies.",
+                        },
+                        "type": "text",
+                      },
+                    ],
+                    "props": Object {
+                      "flexGrow": 1,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexDirection": "row",
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {},
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "flexGrow": 1,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "height": 16,
+                      "width": 16,
+                    },
+                    "type": "icon-check",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "lineHeight": 1.6,
+                      "size": 18,
+                      "text": "Skills",
+                      "weight": 600,
+                    },
+                    "type": "text",
+                  },
+                ],
+                "props": Object {
+                  "flexDirection": "row",
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "backgroundColor": "#6ab9c8",
+                  "height": 3,
+                  "width": 160,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "height": 10,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "color": "#1d1d1b",
+                              "height": 8,
+                              "width": 8,
+                            },
+                            "type": "icon-arrow-right",
+                          },
+                        ],
+                        "props": Object {
+                          "left": 4,
+                          "position": "absolute",
+                          "top": 2,
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {
+                      "flexGrow": 0,
+                      "width": 16,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "Main skills (3 or more years each)",
+                          "weight": 700,
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 2,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "node": "IntelliJ, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "SQL, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "XHTML1.0-HTML5, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "CSS2-3, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "SCSS, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "JavaScript, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "AngularJS, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "jQuery, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Photoshop, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Illustrator, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Linux, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Windows, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "MacOS, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Symfony, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Laravel, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Wordpress, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Apache, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "PHP, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Git, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "ECMA Script, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "NodeJS, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "ReactJS, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "AWS (ex. EC2, ECR, ECS, RDS, IAM, S3), ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Rest APIs, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Docker",
+                            },
+                            "type": "fragment",
+                          },
+                        ],
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "",
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 6,
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {
+                      "flexGrow": 1,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexDirection": "row",
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "color": "#1d1d1b",
+                              "height": 8,
+                              "width": 8,
+                            },
+                            "type": "icon-arrow-right",
+                          },
+                        ],
+                        "props": Object {
+                          "left": 4,
+                          "position": "absolute",
+                          "top": 2,
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {
+                      "flexGrow": 0,
+                      "width": 16,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "Also focused on (2 or more years each)",
+                          "weight": 700,
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 2,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "node": "ElasticSearch, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Typescript, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Nginx, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "APIs (ex. Facebook, Twitter, Google), ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "InDesign, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "OAuth, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "WebSockets, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Sublime, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "VisualStudio, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Jenkins, ",
+                            },
+                            "type": "fragment",
+                          },
+                          Object {
+                            "props": Object {
+                              "node": "Serverless",
+                            },
+                            "type": "fragment",
+                          },
+                        ],
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "",
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 6,
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {
+                      "flexGrow": 1,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexDirection": "row",
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {},
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "flexGrow": 1,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "height": 16,
+                      "width": 16,
+                    },
+                    "type": "icon-bag",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "lineHeight": 1.6,
+                      "size": 18,
+                      "text": "Experiences",
+                      "weight": 600,
+                    },
+                    "type": "text",
+                  },
+                ],
+                "props": Object {
+                  "flexDirection": "row",
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "backgroundColor": "#6ab9c8",
+                  "height": 3,
+                  "width": 160,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "backgroundColor": "#6ab9c8",
+                          "flexGrow": 0,
+                          "height": 15,
+                          "width": 2,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "color": "#6ab9c8",
+                              "height": 10,
+                              "width": 10,
+                            },
+                            "type": "icon-ring",
+                          },
+                        ],
+                        "props": Object {},
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "backgroundColor": "#6ab9c8",
+                          "flexGrow": 1,
+                          "width": 2,
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {
+                      "alignItems": "center",
+                      "flexDirection": "column",
+                      "width": 40,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "height": 10,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "Codra Kft. (Budapest H-1119)",
+                          "weight": 700,
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 3,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "backgroundColor": "#d3d3d3",
+                          "height": 1,
+                          "width": 400,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 3,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "2009 Aug. - 2011 Dec.",
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 6,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "color": "#1d1d1b",
+                              "text": "Role:",
+                              "weight": 700,
+                            },
+                            "type": "text",
+                          },
+                          Object {
+                            "props": Object {
+                              "width": 6,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "props": Object {
+                              "color": "#1d1d1b",
+                              "text": "Webdesign, and Development",
+                            },
+                            "type": "text",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 6,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "Responsibilities",
+                          "weight": 700,
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "color": "#1d1d1b",
+                                      "height": 8,
+                                      "width": 8,
+                                    },
+                                    "type": "icon-arrow-right",
+                                  },
+                                ],
+                                "props": Object {
+                                  "left": 4,
+                                  "position": "absolute",
+                                  "top": 2,
+                                },
+                                "type": "block",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 0,
+                              "width": 16,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "node": "Site maintenance, Editing newsletters",
+                                    },
+                                    "type": "fragment",
+                                  },
+                                  Object {
+                                    "props": Object {
+                                      "height": 3,
+                                    },
+                                    "type": "block",
+                                  },
+                                ],
+                                "props": Object {
+                                  "color": "#1d1d1b",
+                                  "text": "",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 1,
+                            },
+                            "type": "block",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "color": "#1d1d1b",
+                                      "height": 8,
+                                      "width": 8,
+                                    },
+                                    "type": "icon-arrow-right",
+                                  },
+                                ],
+                                "props": Object {
+                                  "left": 4,
+                                  "position": "absolute",
+                                  "top": 2,
+                                },
+                                "type": "block",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 0,
+                              "width": 16,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "node": "Design (Photoshop, Illustrator), Development (PHP, MySQL, JavaScript, HTML, CSS)",
+                                    },
+                                    "type": "fragment",
+                                  },
+                                  Object {
+                                    "props": Object {
+                                      "height": 3,
+                                    },
+                                    "type": "block",
+                                  },
+                                ],
+                                "props": Object {
+                                  "color": "#1d1d1b",
+                                  "text": "",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 1,
+                            },
+                            "type": "block",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "color": "#1d1d1b",
+                                      "height": 8,
+                                      "width": 8,
+                                    },
+                                    "type": "icon-arrow-right",
+                                  },
+                                ],
+                                "props": Object {
+                                  "left": 4,
+                                  "position": "absolute",
+                                  "top": 2,
+                                },
+                                "type": "block",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 0,
+                              "width": 16,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "node": "Project done: webshop (osCommerce), blog",
+                                    },
+                                    "type": "fragment",
+                                  },
+                                  Object {
+                                    "props": Object {
+                                      "height": 3,
+                                    },
+                                    "type": "block",
+                                  },
+                                ],
+                                "props": Object {
+                                  "color": "#1d1d1b",
+                                  "text": "",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 1,
+                            },
+                            "type": "block",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 6,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "Achievements",
+                          "weight": 700,
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "color": "#1d1d1b",
+                                      "height": 8,
+                                      "width": 8,
+                                    },
+                                    "type": "icon-arrow-right",
+                                  },
+                                ],
+                                "props": Object {
+                                  "left": 4,
+                                  "position": "absolute",
+                                  "top": 2,
+                                },
+                                "type": "block",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 0,
+                              "width": 16,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "props": Object {
+                                  "color": "#1d1d1b",
+                                  "text": "Making the whole company’s brand (web, and printed)",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 1,
+                            },
+                            "type": "block",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 20,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "height": 10,
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {
+                      "flexGrow": 1,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexDirection": "row",
+                  "height": undefined,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {},
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 6,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "text": "1",
+                  "weight": 600,
+                },
+                "type": "text",
+              },
+              Object {
+                "props": Object {
+                  "width": 3,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "text": "|",
+                },
+                "type": "text",
+              },
+              Object {
+                "props": Object {
+                  "width": 3,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "text": "Page",
+                },
+                "type": "text",
+              },
+              Object {
+                "props": Object {
+                  "width": 20,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 8,
+            },
+            "type": "block",
+          },
+        ],
+        "props": Object {
+          "fontFamily": "Open-Sans",
+          "size": "A4",
+        },
+        "type": "page",
+      },
+      Object {
+        "children": Array [
+          Object {
+            "props": Object {
+              "height": 40,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "props": Object {
+                  "width": 6,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "height": 16,
+                  "width": 16,
+                },
+                "type": "icon-graduation",
+              },
+              Object {
+                "props": Object {
+                  "width": 6,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "lineHeight": 1.6,
+                  "size": 18,
+                  "text": "Studies",
+                  "weight": 600,
+                },
+                "type": "text",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "backgroundColor": "#6ab9c8",
+              "height": 3,
+              "width": 160,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "backgroundColor": "#6ab9c8",
+                      "flexGrow": 0,
+                      "height": 15,
+                      "width": 2,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#6ab9c8",
+                          "height": 10,
+                          "width": 10,
+                        },
+                        "type": "icon-ring",
+                      },
+                    ],
+                    "props": Object {},
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "backgroundColor": "#6ab9c8",
+                      "flexGrow": 1,
+                      "width": 2,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "alignItems": "center",
+                  "flexDirection": "column",
+                  "width": 40,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "height": 10,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "text": "Kalmár László IT secondary School (Budapest H-1027)",
+                      "weight": 600,
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "backgroundColor": "#d3d3d3",
+                      "height": 1,
+                      "width": 400,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "text": "2007",
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "height": 3,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "Matura",
+                          "weight": 600,
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "color": "#1d1d1b",
+                                      "height": 8,
+                                      "width": 8,
+                                    },
+                                    "type": "icon-arrow-right",
+                                  },
+                                ],
+                                "props": Object {
+                                  "left": 4,
+                                  "position": "absolute",
+                                  "top": 2,
+                                },
+                                "type": "block",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 0,
+                              "width": 16,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "props": Object {
+                                  "color": "#1d1d1b",
+                                  "text": "Professional programmer degree",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 1,
+                            },
+                            "type": "block",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {},
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "height": 10,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 1,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+              "height": undefined,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "backgroundColor": "#6ab9c8",
+                      "flexGrow": 0,
+                      "height": 15,
+                      "width": 2,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#6ab9c8",
+                          "height": 10,
+                          "width": 10,
+                        },
+                        "type": "icon-ring",
+                      },
+                    ],
+                    "props": Object {},
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "alignItems": "center",
+                  "flexDirection": "column",
+                  "width": 40,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "height": 10,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "text": "SZIE – Ybl Miklós Faculty of Building (Budapest H-1146)",
+                      "weight": 600,
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "backgroundColor": "#d3d3d3",
+                      "height": 1,
+                      "width": 400,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "text": "2007 - 2011",
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "height": 3,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "Bsc education",
+                          "weight": 600,
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "color": "#1d1d1b",
+                                      "height": 8,
+                                      "width": 8,
+                                    },
+                                    "type": "icon-arrow-right",
+                                  },
+                                ],
+                                "props": Object {
+                                  "left": 4,
+                                  "position": "absolute",
+                                  "top": 2,
+                                },
+                                "type": "block",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 0,
+                              "width": 16,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "props": Object {
+                                  "color": "#1d1d1b",
+                                  "text": "Architect engineer",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 1,
+                            },
+                            "type": "block",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {},
+                    "type": "block",
+                  },
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "Achievements",
+                          "weight": 600,
+                        },
+                        "type": "text",
+                      },
+                      Object {
+                        "children": Array [
+                          Object {
+                            "children": Array [
+                              Object {
+                                "children": Array [
+                                  Object {
+                                    "props": Object {
+                                      "color": "#1d1d1b",
+                                      "height": 8,
+                                      "width": 8,
+                                    },
+                                    "type": "icon-arrow-right",
+                                  },
+                                ],
+                                "props": Object {
+                                  "left": 4,
+                                  "position": "absolute",
+                                  "top": 2,
+                                },
+                                "type": "block",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 0,
+                              "width": 16,
+                            },
+                            "type": "block",
+                          },
+                          Object {
+                            "children": Array [
+                              Object {
+                                "props": Object {
+                                  "color": "#1d1d1b",
+                                  "text": "Additional skills earned: AutoCAD, ArchiCAD",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": Object {
+                              "flexGrow": 1,
+                            },
+                            "type": "block",
+                          },
+                        ],
+                        "props": Object {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                    ],
+                    "props": Object {},
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "height": 10,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 1,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+              "height": undefined,
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 20,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "props": Object {
+                  "width": 6,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "height": 16,
+                  "width": 16,
+                },
+                "type": "icon-flower",
+              },
+              Object {
+                "props": Object {
+                  "width": 6,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "lineHeight": 1.6,
+                  "size": 18,
+                  "text": "Interests",
+                  "weight": 600,
+                },
+                "type": "text",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "backgroundColor": "#6ab9c8",
+              "height": 3,
+              "width": 160,
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 10,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "height": 8,
+                          "width": 8,
+                        },
+                        "type": "icon-arrow-right",
+                      },
+                    ],
+                    "props": Object {
+                      "left": 4,
+                      "position": "absolute",
+                      "top": 2,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 0,
+                  "width": 16,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "text": "Photography",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 1,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "height": 8,
+                          "width": 8,
+                        },
+                        "type": "icon-arrow-right",
+                      },
+                    ],
+                    "props": Object {
+                      "left": 4,
+                      "position": "absolute",
+                      "top": 2,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 0,
+                  "width": 16,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "text": "Arts (drawing, statuary, architecture)",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 1,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "height": 8,
+                          "width": 8,
+                        },
+                        "type": "icon-arrow-right",
+                      },
+                    ],
+                    "props": Object {
+                      "left": 4,
+                      "position": "absolute",
+                      "top": 2,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 0,
+                  "width": 16,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "text": "Music (even playing on guitar, harp, drums)",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 1,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 20,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "props": Object {
+                  "width": 6,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "height": 16,
+                  "width": 16,
+                },
+                "type": "icon-star",
+              },
+              Object {
+                "props": Object {
+                  "width": 6,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "lineHeight": 1.6,
+                  "size": 18,
+                  "text": "Favorites",
+                  "weight": 600,
+                },
+                "type": "text",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "backgroundColor": "#6ab9c8",
+              "height": 3,
+              "width": 160,
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 10,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "height": 8,
+                          "width": 8,
+                        },
+                        "type": "icon-arrow-right",
+                      },
+                    ],
+                    "props": Object {
+                      "left": 4,
+                      "position": "absolute",
+                      "top": 2,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 0,
+                  "width": 16,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "color": "#6ab9c8",
+                              "text": "magyartop.hu",
+                            },
+                            "type": "text",
+                          },
+                        ],
+                        "props": Object {
+                          "color": "#6ab9c8",
+                          "src": "magyartop.hu",
+                        },
+                        "type": "link",
+                      },
+                      Object {
+                        "props": Object {
+                          "width": 6,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "(Own toplist for Hungarian websites)",
+                        },
+                        "type": "text",
+                      },
+                    ],
+                    "props": Object {
+                      "flexDirection": "row",
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 1,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "height": 8,
+                          "width": 8,
+                        },
+                        "type": "icon-arrow-right",
+                      },
+                    ],
+                    "props": Object {
+                      "left": 4,
+                      "position": "absolute",
+                      "top": 2,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 0,
+                  "width": 16,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "children": Array [
+                          Object {
+                            "props": Object {
+                              "color": "#6ab9c8",
+                              "text": "chris.koro.si",
+                            },
+                            "type": "text",
+                          },
+                        ],
+                        "props": Object {
+                          "color": "#6ab9c8",
+                          "src": "chris.koro.si",
+                        },
+                        "type": "link",
+                      },
+                      Object {
+                        "props": Object {
+                          "width": 6,
+                        },
+                        "type": "block",
+                      },
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "text": "(Personal website)",
+                        },
+                        "type": "text",
+                      },
+                    ],
+                    "props": Object {
+                      "flexDirection": "row",
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 1,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 20,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "props": Object {
+                  "width": 6,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "height": 16,
+                  "width": 16,
+                },
+                "type": "icon-info",
+              },
+              Object {
+                "props": Object {
+                  "width": 6,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "lineHeight": 1.6,
+                  "size": 18,
+                  "text": "Plus info",
+                  "weight": 600,
+                },
+                "type": "text",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "backgroundColor": "#6ab9c8",
+              "height": 3,
+              "width": 160,
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 10,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "height": 8,
+                          "width": 8,
+                        },
+                        "type": "icon-arrow-right",
+                      },
+                    ],
+                    "props": Object {
+                      "left": 4,
+                      "position": "absolute",
+                      "top": 2,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 0,
+                  "width": 16,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "text": "Coming from an agile background, I have around 11 years’ experience working with",
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "height": 3,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 1,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "children": Array [
+                  Object {
+                    "children": Array [
+                      Object {
+                        "props": Object {
+                          "color": "#1d1d1b",
+                          "height": 8,
+                          "width": 8,
+                        },
+                        "type": "icon-arrow-right",
+                      },
+                    ],
+                    "props": Object {
+                      "left": 4,
+                      "position": "absolute",
+                      "top": 2,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 0,
+                  "width": 16,
+                },
+                "type": "block",
+              },
+              Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "color": "#1d1d1b",
+                      "text": "Javascript. I have worked in TDD, BDD, Scrum and Kanban environments too",
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "height": 3,
+                    },
+                    "type": "block",
+                  },
+                ],
+                "props": Object {
+                  "flexGrow": 1,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "flexGrow": 1,
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 6,
+            },
+            "type": "block",
+          },
+          Object {
+            "children": Array [
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "text": "2",
+                  "weight": 600,
+                },
+                "type": "text",
+              },
+              Object {
+                "props": Object {
+                  "width": 3,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "text": "|",
+                },
+                "type": "text",
+              },
+              Object {
+                "props": Object {
+                  "width": 3,
+                },
+                "type": "block",
+              },
+              Object {
+                "props": Object {
+                  "color": "#1d1d1b",
+                  "text": "Page",
+                },
+                "type": "text",
+              },
+              Object {
+                "props": Object {
+                  "width": 20,
+                },
+                "type": "block",
+              },
+            ],
+            "props": Object {
+              "flexDirection": "row",
+              "justifyContent": "flex-end",
+            },
+            "type": "block",
+          },
+          Object {
+            "props": Object {
+              "height": 8,
+            },
+            "type": "block",
+          },
+        ],
+        "props": Object {
+          "fontFamily": "Open-Sans",
+          "justifyContent": "flex-start",
+          "size": "A4",
+        },
+        "type": "page",
+      },
+    ],
+    "props": Object {
+      "author": "Krisztian Korosi",
+      "keywords": "IntelliJ, SQL, XHTML1.0-HTML5, CSS2-3, SCSS, JavaScript, AngularJS, jQuery, Photoshop, Illustrator, Linux, Windows, MacOS, Symfony, Laravel, Wordpress, Apache, PHP, Git, ECMA Script, NodeJS, ReactJS, AWS (ex. EC2, ECR, ECS, RDS, IAM, S3), Rest APIs, Docker, ElasticSearch, Typescript, Nginx, APIs (ex. Facebook, Twitter, Google), InDesign, OAuth, WebSockets, Sublime, VisualStudio, Jenkins, Serverless",
+      "title": "Krisztian Korosi",
+    },
+    "type": "document",
+  },
+]
+`;
