@@ -13,10 +13,16 @@ import { SchemeNames } from "./theme/types";
 (async () => {
   try {
     console.log("started render");
+    const relativeCwd = path.relative(__dirname, process.cwd()).replace(/\\/g, "/");
 
-    const desiredCVPath = path.resolve(process.cwd(), "./cv.json");
+    let desiredCVPath = `${relativeCwd}/cv.json`;
+    if (!fs.existsSync(desiredCVPath)) {
+      desiredCVPath = `${relativeCwd}/cv.js`;
+    }
+
     const cv: CV = fs.existsSync(desiredCVPath)
-      ? JSON.parse(fs.readFileSync(desiredCVPath, "utf8"))
+      // eslint-disable-next-line global-require,import/no-dynamic-require
+      ? require(desiredCVPath)
       : exampleCV;
     const pageSize: PageSizes = "A4";
     const colours = getColourScheme(SchemeNames.lightblue);

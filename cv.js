@@ -1,4 +1,5 @@
-{
+/** @type import("src/types").CV */
+module.exports = {
   "name": "Krisztian Korosi",
   "nick": "Krisz",
   "role": "Full-stack developer",
@@ -490,4 +491,4 @@
     "I’ve translated most of the Deluge torrent client and some of Ubuntu to Hungarian.",
     "I was awarded the best ArchiCAD and AutoCAD in my year at university. Now I’m using these programmes as a hobby"
   ]
-}
+};
