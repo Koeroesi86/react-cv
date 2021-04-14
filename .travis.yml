@@ -1,15 +1,22 @@
 language: node_js
 node_js:
-  - "12"
+  - "14"
 cache:
   yarn: true
   directories:
     - node_modules
     - .cache
-script:
-  - export YARN_CACHE_FOLDER=$TRAVIS_BUILD_DIR/.cache/yarn
-  - export NODE_ENV=development
-  - export TRAVIS_TAG="$(git rev-parse --short ${TRAVIS_COMMIT})"
-  - yarn install --frozen-lockfile
-  - yarn lint
-  - yarn test
+jobs:
+  include:
+    - stage: Setup
+      script:
+        - export YARN_CACHE_FOLDER=$TRAVIS_BUILD_DIR/.cache/yarn
+        - export NODE_ENV=development
+        - export TRAVIS_TAG="$(git rev-parse --short ${TRAVIS_COMMIT})"
+        - yarn install --frozen-lockfile
+    - stage: Lint
+      script:
+        - yarn lint
+    - stage: Test
+      script:
+        - yarn test
