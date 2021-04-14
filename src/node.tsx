@@ -2,28 +2,33 @@ import React from "react";
 import path from "path";
 import ReactPDF, { Font } from "@react-pdf/renderer";
 import { ReviverProvider, ReviverLayout } from "@koeroesi86/react-reviver";
-import { CV, PageSizes } from "@app-types";
-import fs from "fs";
+import {
+  // CV,
+  PageSizes,
+} from "@app-types";
+// import fs from "fs";
 import transformCv from "./theme/transformCv";
-import exampleCV from "./example/cv";
+// import exampleCV from "./example/cv";
 import components from "./theme/components";
 import getColourScheme from "./theme/utils/getColourScheme";
 import { SchemeNames } from "./theme/types";
+import cv from "../cv";
 
 (async () => {
   try {
     console.log("started render");
-    const relativeCwd = path.relative(__dirname, process.cwd()).replace(/\\/g, "/");
 
-    let desiredCVPath = `${relativeCwd}/cv.json`;
-    if (!fs.existsSync(desiredCVPath)) {
-      desiredCVPath = `${relativeCwd}/cv.js`;
-    }
+    // TODO: fix
+    // const relativeCwd = path.resolve(__dirname, process.cwd()).replace(/\\/g, "/");
+    // let cv: CV = exampleCV;
+    //
+    // if (fs.existsSync(`${process.cwd()}/cv.json`)) {
+    //   cv = JSON.parse(fs.readFileSync(`${relativeCwd}/cv.json`, "utf8"));
+    // } else if (fs.existsSync(`${process.cwd()}/cv.js`)) {
+    //   // eslint-disable-next-line global-require,import/no-dynamic-require
+    //   cv = require(path.join(process.cwd(), './cv.js'));
+    // }
 
-    const cv: CV = fs.existsSync(desiredCVPath)
-      // eslint-disable-next-line global-require,import/no-dynamic-require
-      ? require(desiredCVPath)
-      : exampleCV;
     const pageSize: PageSizes = "A4";
     const colours = getColourScheme(SchemeNames.lightblue);
 

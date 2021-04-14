@@ -1,7 +1,7 @@
 {
   "name": "react-cv",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "",
   "license": "MIT",
   "scripts": {
     "build": "yarn install && rm -rf ./dist && webpack --progress",

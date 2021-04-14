@@ -11,6 +11,11 @@ module.exports = [
     },
     target: "node",
     devtool: "eval-source-map",
+    node: {
+      global: true,
+      __filename: true,
+      __dirname: true,
+    },
     cache: {
       type: "filesystem",
       cacheDirectory: path.resolve(__dirname, ".cache/webpack/backend"),
@@ -27,7 +32,6 @@ module.exports = [
       plugins: [new TsconfigPathsPlugin()],
     },
     externals: [
-      path.resolve(__dirname, "./cv.json"),
       "iconv-lite",
       // '@react-pdf/renderer',
     ],
