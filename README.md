@@ -1,5 +1,5 @@
 # @koeroesi86/react-cv
-[![Build Status](https://travis-ci.com/Koeroesi86/react-cv.svg?branch=main)](https://travis-ci.com/Koeroesi86/react-reviver)
+[![Build Status](https://travis-ci.com/Koeroesi86/react-cv.svg?branch=main)](https://travis-ci.com/Koeroesi86/react-cv)
 
 ### Dependencies
 * [NodeJS](https://nodejs.org/en/)
