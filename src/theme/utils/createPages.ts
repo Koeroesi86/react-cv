@@ -1,7 +1,7 @@
 import { CV, PageSizes, RevivableComponent } from "@app-types";
 import { Colours } from "../types";
 import createFirstPage from "./createFirstPage";
-import createPageNumber from "./createPageNumber";
+import createPageNumber from "../elements/createPageNumber";
 import createStudies from "./createStudies";
 import createInterests from "./createInterests";
 import createFavorites from "./createFavorites";
@@ -11,7 +11,7 @@ import createExperienceBlock from "./createExperienceBlock";
 const createPages = (cv: CV, colours: Colours, pageSize: PageSizes): RevivableComponent[] => {
   const pages: RevivableComponent[] = [];
 
-  pages.push(createFirstPage(cv, pageSize, colours));
+  pages.push(createFirstPage(cv, pageSize, colours, "Open-Sans"));
 
   cv.experiences.splice(0, 1);
 

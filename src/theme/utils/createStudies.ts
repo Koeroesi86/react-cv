@@ -1,8 +1,8 @@
 import { CV, RevivableComponent } from "@app-types";
 import { Colours } from "../types";
-import createBlockTitle from "./createBlockTitle";
-import createBulletpoint from "./createBulletpoint";
-import createRailBlock from "./createRailBlock";
+import createBlockTitle from "../elements/createBlockTitle";
+import createBulletpoint from "../elements/createBulletpoint";
+import createRailBlock from "../elements/createRailBlock";
 
 const createStudies = (cv: CV, colours: Colours): RevivableComponent[] => [
   ...createBlockTitle("Studies", colours, "icon-graduation"),

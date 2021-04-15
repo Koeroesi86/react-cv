@@ -1,6 +1,6 @@
 import { RevivableComponent } from "@app-types";
 import { Colours } from "../types";
-import createBulletpoint from "./createBulletpoint";
+import createBulletpoint from "../elements/createBulletpoint";
 
 export const createAchievements = (achievements: string[], colours: Colours): RevivableComponent[] => [
   { type: "text", props: { text: "Achievements", color: colours.text, weight: 700 } },

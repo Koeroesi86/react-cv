@@ -1,6 +1,6 @@
 import { CV, RevivableComponent } from "@app-types";
 import { Colours } from "../types";
-import createBlockTitle from "./createBlockTitle";
+import createBlockTitle from "../elements/createBlockTitle";
 
 const createDesires = (cv: CV, colours: Colours): RevivableComponent[] => [
   ...createBlockTitle("Desire", colours, "icon-flame"),

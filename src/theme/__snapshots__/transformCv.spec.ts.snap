@@ -19,7 +19,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#6ab9c8",
-                      "text": "/** @links:",
+                      "text": "/**",
                     },
                     "type": "text",
                   },
@@ -33,6 +33,19 @@ Array [
                     "children": Array [
                       Object {
                         "children": Array [
+                          Object {
+                            "props": Object {
+                              "color": "#6ab9c8",
+                              "text": "@links:",
+                            },
+                            "type": "text",
+                          },
+                          Object {
+                            "props": Object {
+                              "width": 6,
+                            },
+                            "type": "block",
+                          },
                           Object {
                             "props": Object {
                               "color": "#6ab9c8",
@@ -151,12 +164,61 @@ Array [
                 "type": "block",
               },
               Object {
+                "children": Array [
+                  Object {
+                    "props": Object {
+                      "color": "#6ab9c8",
+                      "text": "/**",
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#6ab9c8",
+                      "size": 12,
+                      "text": "@var",
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#6ab9c8",
+                      "size": 12,
+                      "text": "{Full-stack developer} Krisz",
+                    },
+                    "type": "text",
+                  },
+                  Object {
+                    "props": Object {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  Object {
+                    "props": Object {
+                      "color": "#6ab9c8",
+                      "text": "*/",
+                    },
+                    "type": "text",
+                  },
+                ],
                 "props": Object {
-                  "color": "#6ab9c8",
-                  "size": 12,
-                  "text": "/** @var {Full-stack developer} Krisz */",
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
                 },
-                "type": "text",
+                "type": "block",
               },
               Object {
                 "props": Object {

@@ -1,7 +1,7 @@
 import { CV, RevivableComponent } from "@app-types";
 import { Colours } from "../types";
-import createBlockTitle from "./createBlockTitle";
-import createBulletpoint from "./createBulletpoint";
+import createBlockTitle from "../elements/createBlockTitle";
+import createBulletpoint from "../elements/createBulletpoint";
 
 const createFavorites = (cv: CV, colours: Colours): RevivableComponent[] => [
   ...createBlockTitle("Favorites", colours, "icon-star"),

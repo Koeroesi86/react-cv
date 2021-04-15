@@ -1,6 +1,6 @@
 import { CVResponsibility, RevivableComponent } from "@app-types";
 import { Colours } from "../types";
-import createBulletpoint from "./createBulletpoint";
+import createBulletpoint from "../elements/createBulletpoint";
 
 const createResponsibilities = (responsibilities: CVResponsibility[], colours: Colours): RevivableComponent[] => [
   { type: "text", props: { text: "Responsibilities", color: colours.text, weight: 700 } },

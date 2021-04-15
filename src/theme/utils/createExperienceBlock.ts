@@ -2,7 +2,7 @@ import { CVExperience } from "@app-types";
 import { Colours } from "../types";
 import createResponsibilities from "./createResponsibilities";
 import createAchievements from "./createAchievements";
-import createRailBlock from "./createRailBlock";
+import createRailBlock from "../elements/createRailBlock";
 
 const createExperienceBlock = (experience: CVExperience, colours: Colours, isLast: boolean = false, isExperienceOnly: boolean = false) => createRailBlock(
   colours.highlight,
