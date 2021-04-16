@@ -9,7 +9,7 @@ const createPlusInfo = (cv: CV, colours: Colours): RevivableComponent[] => [
   ...cv.information.map((information) => createBulletpoint(
     { type: "icon-arrow-right", props: { width: 8, height: 8, color: colours.text } },
     [
-      { type: "text", props: { text: `${information}`, color: colours.text } },
+      { type: "text", props: { text: `${information}`, color: colours.text, lineHeight: 1.2 } },
       { type: "block", props: { height: 3 } },
     ],
   )),

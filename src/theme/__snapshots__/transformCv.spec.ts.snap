@@ -19,6 +19,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#6ab9c8",
+                      "lineHeight": 1.2,
                       "text": "/**",
                     },
                     "type": "text",
@@ -36,6 +37,7 @@ Array [
                           Object {
                             "props": Object {
                               "color": "#6ab9c8",
+                              "lineHeight": 1.2,
                               "text": "@links:",
                             },
                             "type": "text",
@@ -63,6 +65,7 @@ Array [
                           Object {
                             "props": Object {
                               "color": "#6ab9c8",
+                              "lineHeight": 1.2,
                               "text": "github.com/Koeroesi86",
                             },
                             "type": "text",
@@ -89,6 +92,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#6ab9c8",
+                      "lineHeight": 1.2,
                       "text": "||",
                     },
                     "type": "text",
@@ -120,6 +124,7 @@ Array [
                           Object {
                             "props": Object {
                               "color": "#6ab9c8",
+                              "lineHeight": 1.2,
                               "text": "chris.koro.si",
                             },
                             "type": "text",
@@ -146,6 +151,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#6ab9c8",
+                      "lineHeight": 1.2,
                       "text": "*/",
                     },
                     "type": "text",
@@ -168,6 +174,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#6ab9c8",
+                      "lineHeight": 1.2,
                       "text": "/**",
                     },
                     "type": "text",
@@ -181,6 +188,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#6ab9c8",
+                      "lineHeight": 1.2,
                       "size": 12,
                       "text": "@var",
                     },
@@ -195,6 +203,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#6ab9c8",
+                      "lineHeight": 1.2,
                       "size": 12,
                       "text": "{Full-stack developer} Krisz",
                     },
@@ -209,6 +218,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#6ab9c8",
+                      "lineHeight": 1.2,
                       "text": "*/",
                     },
                     "type": "text",
@@ -229,6 +239,7 @@ Array [
               Object {
                 "props": Object {
                   "color": "#1d1d1b",
+                  "lineHeight": 1.2,
                   "size": 24,
                   "text": "Krisztian Korosi",
                 },
@@ -311,6 +322,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "My desire is to always improve myself and attain new skills, to keep up with the latest technologies.",
                         },
                         "type": "text",
@@ -425,6 +437,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "Main skills (3 or more years each)",
                           "weight": 700,
                         },
@@ -591,6 +604,7 @@ Array [
                         ],
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "",
                         },
                         "type": "text",
@@ -647,6 +661,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "Also focused on (2 or more years each)",
                           "weight": 700,
                         },
@@ -729,6 +744,7 @@ Array [
                         ],
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "",
                         },
                         "type": "text",
@@ -863,6 +879,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "Codra Kft. (Budapest H-1119)",
                           "weight": 700,
                         },
@@ -891,6 +908,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "2009 Aug. - 2011 Dec.",
                         },
                         "type": "text",
@@ -906,6 +924,7 @@ Array [
                           Object {
                             "props": Object {
                               "color": "#1d1d1b",
+                              "lineHeight": 1.2,
                               "text": "Role:",
                               "weight": 700,
                             },
@@ -920,6 +939,7 @@ Array [
                           Object {
                             "props": Object {
                               "color": "#1d1d1b",
+                              "lineHeight": 1.2,
                               "text": "Webdesign, and Development",
                             },
                             "type": "text",
@@ -939,6 +959,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "Responsibilities",
                           "weight": 700,
                         },
@@ -992,6 +1013,7 @@ Array [
                                 ],
                                 "props": Object {
                                   "color": "#1d1d1b",
+                                  "lineHeight": 1.2,
                                   "text": "",
                                 },
                                 "type": "text",
@@ -1056,6 +1078,7 @@ Array [
                                 ],
                                 "props": Object {
                                   "color": "#1d1d1b",
+                                  "lineHeight": 1.2,
                                   "text": "",
                                 },
                                 "type": "text",
@@ -1120,6 +1143,7 @@ Array [
                                 ],
                                 "props": Object {
                                   "color": "#1d1d1b",
+                                  "lineHeight": 1.2,
                                   "text": "",
                                 },
                                 "type": "text",
@@ -1145,6 +1169,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "Achievements",
                           "weight": 700,
                         },
@@ -1184,6 +1209,7 @@ Array [
                               Object {
                                 "props": Object {
                                   "color": "#1d1d1b",
+                                  "lineHeight": 1.2,
                                   "text": "Making the whole company’s brand (web, and printed)",
                                 },
                                 "type": "text",
@@ -1240,6 +1266,7 @@ Array [
               Object {
                 "props": Object {
                   "color": "#1d1d1b",
+                  "lineHeight": 1.2,
                   "text": "1",
                   "weight": 600,
                 },
@@ -1254,6 +1281,7 @@ Array [
               Object {
                 "props": Object {
                   "color": "#1d1d1b",
+                  "lineHeight": 1.2,
                   "text": "|",
                 },
                 "type": "text",
@@ -1267,6 +1295,7 @@ Array [
               Object {
                 "props": Object {
                   "color": "#1d1d1b",
+                  "lineHeight": 1.2,
                   "text": "Page",
                 },
                 "type": "text",
@@ -1405,6 +1434,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#1d1d1b",
+                      "lineHeight": 1.2,
                       "text": "Kalmár László IT secondary School (Budapest H-1027)",
                       "weight": 600,
                     },
@@ -1421,6 +1451,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#1d1d1b",
+                      "lineHeight": 1.2,
                       "text": "2007",
                     },
                     "type": "text",
@@ -1436,6 +1467,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "Matura",
                           "weight": 600,
                         },
@@ -1475,6 +1507,7 @@ Array [
                               Object {
                                 "props": Object {
                                   "color": "#1d1d1b",
+                                  "lineHeight": 1.2,
                                   "text": "Professional programmer degree",
                                 },
                                 "type": "text",
@@ -1560,6 +1593,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#1d1d1b",
+                      "lineHeight": 1.2,
                       "text": "SZIE – Ybl Miklós Faculty of Building (Budapest H-1146)",
                       "weight": 600,
                     },
@@ -1576,6 +1610,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#1d1d1b",
+                      "lineHeight": 1.2,
                       "text": "2007 - 2011",
                     },
                     "type": "text",
@@ -1591,6 +1626,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "Bsc education",
                           "weight": 600,
                         },
@@ -1630,6 +1666,7 @@ Array [
                               Object {
                                 "props": Object {
                                   "color": "#1d1d1b",
+                                  "lineHeight": 1.2,
                                   "text": "Architect engineer",
                                 },
                                 "type": "text",
@@ -1655,6 +1692,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "Achievements",
                           "weight": 600,
                         },
@@ -1694,6 +1732,7 @@ Array [
                               Object {
                                 "props": Object {
                                   "color": "#1d1d1b",
+                                  "lineHeight": 1.2,
                                   "text": "Additional skills earned: AutoCAD, ArchiCAD",
                                 },
                                 "type": "text",
@@ -1825,6 +1864,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#1d1d1b",
+                      "lineHeight": 1.2,
                       "text": "Photography",
                     },
                     "type": "text",
@@ -1875,6 +1915,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#1d1d1b",
+                      "lineHeight": 1.2,
                       "text": "Arts (drawing, statuary, architecture)",
                     },
                     "type": "text",
@@ -1925,6 +1966,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#1d1d1b",
+                      "lineHeight": 1.2,
                       "text": "Music (even playing on guitar, harp, drums)",
                     },
                     "type": "text",
@@ -2037,6 +2079,7 @@ Array [
                           Object {
                             "props": Object {
                               "color": "#6ab9c8",
+                              "lineHeight": 1.2,
                               "text": "magyartop.hu",
                             },
                             "type": "text",
@@ -2057,6 +2100,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "(Own toplist for Hungarian websites)",
                         },
                         "type": "text",
@@ -2117,6 +2161,7 @@ Array [
                           Object {
                             "props": Object {
                               "color": "#6ab9c8",
+                              "lineHeight": 1.2,
                               "text": "chris.koro.si",
                             },
                             "type": "text",
@@ -2137,6 +2182,7 @@ Array [
                       Object {
                         "props": Object {
                           "color": "#1d1d1b",
+                          "lineHeight": 1.2,
                           "text": "(Personal website)",
                         },
                         "type": "text",
@@ -2251,6 +2297,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#1d1d1b",
+                      "lineHeight": 1.2,
                       "text": "Coming from an agile background, I have around 11 years’ experience working with",
                     },
                     "type": "text",
@@ -2307,6 +2354,7 @@ Array [
                   Object {
                     "props": Object {
                       "color": "#1d1d1b",
+                      "lineHeight": 1.2,
                       "text": "Javascript. I have worked in TDD, BDD, Scrum and Kanban environments too",
                     },
                     "type": "text",
@@ -2346,6 +2394,7 @@ Array [
               Object {
                 "props": Object {
                   "color": "#1d1d1b",
+                  "lineHeight": 1.2,
                   "text": "2",
                   "weight": 600,
                 },
@@ -2360,6 +2409,7 @@ Array [
               Object {
                 "props": Object {
                   "color": "#1d1d1b",
+                  "lineHeight": 1.2,
                   "text": "|",
                 },
                 "type": "text",
@@ -2373,6 +2423,7 @@ Array [
               Object {
                 "props": Object {
                   "color": "#1d1d1b",
+                  "lineHeight": 1.2,
                   "text": "Page",
                 },
                 "type": "text",

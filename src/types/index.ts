@@ -1,16 +1,13 @@
-import { BlockComponentProps } from "@components/block";
-import { DocumentComponentProps } from "@components/document";
-import { FragmentComponentProps } from "@components/fragment";
-import { PageComponentProps } from "@components/page";
-import { TextComponentProps } from "@components/text";
+import {
+  BlockComponentProps,
+  DocumentComponentProps,
+  FragmentComponentProps,
+  LinkComponentProps,
+  PageComponentProps,
+  TextComponentProps,
+  IconProps
+} from "@koeroesi86/react-pdf-components";
 import { RevivableComponentType } from "@koeroesi86/react-reviver";
-import { LinkComponentProps } from "@components/link";
-
-export interface IconProps {
-  width: number;
-  height: number;
-  color: string;
-}
 
 export type IconAlias =
   | "icon-arrow-right"
@@ -35,8 +32,6 @@ export type RevivableComponent =
   | RevivableComponentType<"text", TextComponentProps, RevivableComponent>
   | RevivableComponentType<"link", LinkComponentProps, RevivableComponent>
   | RevivableIcon;
-
-export type PageSizes = "A4";
 
 export interface CVSkill {
   title: string;

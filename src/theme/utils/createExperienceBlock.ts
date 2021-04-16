@@ -9,7 +9,7 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
   [
     {
       type: "text",
-      props: { color: colours.text, text: experience.title, weight: 700 }
+      props: { color: colours.text, text: experience.title, weight: 700, lineHeight: 1.2 }
     },
     { type: "block", props: { height: 3 } },
     {
@@ -25,7 +25,8 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
       type: "text",
       props: {
         color: colours.text,
-        text: `${experience.from} - ${experience.to}`
+        text: `${experience.from} - ${experience.to}`,
+        lineHeight: 1.2
       }
     },
     { type: "block", props: { height: 6 } },
@@ -35,10 +36,10 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
       children: [
         {
           type: "text",
-          props: { text: "Role:", color: colours.text, weight: 700 }
+          props: { text: "Role:", color: colours.text, weight: 700, lineHeight: 1.2 }
         },
         { type: "block", props: { width: 6 } },
-        { type: "text", props: { text: experience.role, color: colours.text } }
+        { type: "text", props: { text: experience.role, color: colours.text, lineHeight: 1.2 } }
       ]
     },
     { type: "block", props: { height: 6 } },

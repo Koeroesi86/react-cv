@@ -16,10 +16,10 @@ const createFavorites = (cv: CV, colours: Colours): RevivableComponent[] => [
           {
             type: "link",
             props: { src: `${favorite.name}`, color: colours.highlight },
-            children: [{ type: "text", props: { text: `${favorite.name}`, color: colours.highlight }}]
+            children: [{ type: "text", props: { text: `${favorite.name}`, color: colours.highlight, lineHeight: 1.2 }}]
           },
           { type: "block", props: { width: 6 }},
-          { type: "text", props: { text: `${favorite.description}`, color: colours.text }},
+          { type: "text", props: { text: `${favorite.description}`, color: colours.text, lineHeight: 1.2 }},
         ]
       },
     ],

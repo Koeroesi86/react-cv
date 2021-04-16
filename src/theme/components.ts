@@ -1,21 +1,23 @@
-import Document from "@components/document";
-import Page from "@components/page";
-import Block from "@components/block";
-import Text from "@components/text";
-import Fragment from "@components/fragment";
-import IconFlame from "@components/icon-flame";
-import IconArrowRight from "@components/icon-arrow-right";
-import IconRing from "@components/icon-ring";
-import IconCheck from "@components/icon-check";
-import IconBag from "@components/icon-bag";
-import Link from "@components/link";
-import IconGraduation from "@components/icon-graduation";
-import IconFlower from "@components/icon-flower";
-import IconStar from "@components/icon-star";
-import IconInfo from "@components/icon-info";
 import { ComponentRegistry } from "@koeroesi86/react-reviver";
-import IconFolder from "@components/icon-folder";
-import IconGithub from "@components/icon-github";
+import {
+  Block,
+  Document,
+  Fragment,
+  IconArrowRight,
+  IconBag,
+  IconCheck,
+  IconFlame,
+  IconFlower,
+  IconFolder,
+  IconGithub,
+  IconGraduation,
+  IconInfo,
+  IconRing,
+  IconStar,
+  Link,
+  Page,
+  Text
+} from "@koeroesi86/react-pdf-components";
 
 const components: ComponentRegistry = {
   "document": Document,
@@ -34,7 +36,7 @@ const components: ComponentRegistry = {
   "icon-star": IconStar,
   "icon-info": IconInfo,
   "icon-folder": IconFolder,
-  "icon-github": IconGithub,
+  "icon-github": IconGithub
 };
 
 export default components;

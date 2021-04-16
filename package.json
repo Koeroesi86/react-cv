@@ -19,6 +19,7 @@
     "uuid": "^8.3.2"
   },
   "devDependencies": {
+    "@koeroesi86/react-pdf-components": "^21.4.16-414bf40",
     "@koeroesi86/react-reviver": "^21.4.15-e55ca78",
     "@types/jest": "^26.0.22",
     "@types/react": "^17.0.3",

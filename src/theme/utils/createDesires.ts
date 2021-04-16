@@ -14,7 +14,7 @@ const createDesires = (cv: CV, colours: Colours): RevivableComponent[] => [
         type: "block",
         props: { flexGrow: 1 },
         children: [
-          { type: "text", props: { text: cv.desire, color: colours.text } }
+          { type: "text", props: { text: cv.desire, color: colours.text, lineHeight: 1.2 } }
         ],
       },
     ]

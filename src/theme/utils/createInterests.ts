@@ -9,7 +9,7 @@ const createInterests = (cv: CV, colours: Colours): RevivableComponent[] => [
   ...cv.interests.map((interest) => createBulletpoint(
     { type: "icon-arrow-right", props: { width: 8, height: 8, color: colours.text } },
     [
-      { type: "text", props: { text: `${interest}`, color: colours.text }},
+      { type: "text", props: { text: `${interest}`, color: colours.text, lineHeight: 1.2 }},
     ],
   )),
 ];

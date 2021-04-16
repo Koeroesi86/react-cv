@@ -16,7 +16,6 @@
     "sourceMap": true,
     "paths": {
       "@app-types": ["types/index.ts"],
-      "@components/*": ["components/*"],
       "@test-helpers": ["test-helpers/index.tsx"]
     }
   }

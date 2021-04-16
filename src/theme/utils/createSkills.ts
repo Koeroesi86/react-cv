@@ -9,11 +9,11 @@ const createSkills = (cv: CV, colours: Colours): RevivableComponent[] => [
   ...cv.skills.map((skill) => createBulletpoint(
     { type: "icon-arrow-right", props: { width: 8, height: 8, color: colours.text } },
     [
-      { type: "text", props: { text: `${skill.title}`, color: colours.text, weight: 700 } },
+      { type: "text", props: { text: `${skill.title}`, color: colours.text, weight: 700, lineHeight: 1.2 } },
       { type: "block", props: { height: 2 } },
       {
         type: "text",
-        props: { text: "", color: colours.text },
+        props: { text: "", color: colours.text, lineHeight: 1.2 },
         children: skill.list.map((item, i): RevivableComponent => ({
           type: "fragment",
           props: {
