@@ -5,15 +5,8 @@ const createRailBlock = (railColor: string, children?: RevivableComponent[], isE
   props: { flexDirection: "row", height },
   children: [
     {
-      type: "block",
-      props: { width: 40, flexDirection: "column", alignItems: "center" },
-      children: [
-        { type: "block", props: { width: 2, height: 15, flexGrow: 0, backgroundColor: railColor } },
-        { type: "block", props: {}, children: [{ type: "icon-ring", props: { width: 10, height: 10, color: railColor }}]},
-        ...(!isEnd ? [
-          { type: "block", props: { width: 2, flexGrow: 1, backgroundColor: railColor } }
-        ] as RevivableComponent[] : []),
-      ]
+      type: "rail",
+      props: { size: 40, color: railColor, orientation: "column", startSize: 15, iconSize: 10, endSize: isEnd ? 0 : "grow" },
     },
     {
       type: "block",

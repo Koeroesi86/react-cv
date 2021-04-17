@@ -525,10 +525,10 @@
     "@types/yargs" "^15.0.0"
     chalk "^4.0.0"
 
-"@koeroesi86/react-pdf-components@^21.4.16-414bf40":
-  version "21.4.16-414bf40"
-  resolved "https://registry.yarnpkg.com/@koeroesi86/react-pdf-components/-/react-pdf-components-21.4.16-414bf40.tgz#72875c4c1ed8c6b319bf154cad57dfc39fff164e"
-  integrity sha512-9gAEo35tg+EvdjBmHqxM4bY2vyhA5kz2DVYxtO32sG73U2QbQxWLSpXD8O0x5GU1jO9v+6yw87BAWdlJ32AnlA==
+"@koeroesi86/react-pdf-components@^21.4.18-56066c3":
+  version "21.4.18-56066c3"
+  resolved "https://registry.yarnpkg.com/@koeroesi86/react-pdf-components/-/react-pdf-components-21.4.18-56066c3.tgz#d22d54cae5c8cb7d7b4af09f600d0172febb55bf"
+  integrity sha512-lWwwheyoG/ePzz5V/vfQFFb0iE9S/a/UZHLHS/h3S0EOyTHEUlFw4uxwCVqL/i9Ja9lwxOW8cVuUrh/2PT88bQ==
   dependencies:
     "@react-pdf/renderer" "^2.0.4"
     react "^17.0.2"

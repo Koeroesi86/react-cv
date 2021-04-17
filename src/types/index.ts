@@ -5,7 +5,8 @@ import {
   LinkComponentProps,
   PageComponentProps,
   TextComponentProps,
-  IconProps
+  IconProps,
+  RailComponentProps
 } from "@koeroesi86/react-pdf-components";
 import { RevivableComponentType } from "@koeroesi86/react-reviver";
 
@@ -31,6 +32,7 @@ export type RevivableComponent =
   | RevivableComponentType<"page", PageComponentProps, RevivableComponent>
   | RevivableComponentType<"text", TextComponentProps, RevivableComponent>
   | RevivableComponentType<"link", LinkComponentProps, RevivableComponent>
+  | RevivableComponentType<"rail", RailComponentProps, RevivableComponent>
   | RevivableIcon;
 
 export interface CVSkill {

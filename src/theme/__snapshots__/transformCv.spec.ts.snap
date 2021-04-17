@@ -828,45 +828,15 @@ Array [
               Object {
                 "children": Array [
                   Object {
-                    "children": Array [
-                      Object {
-                        "props": Object {
-                          "backgroundColor": "#6ab9c8",
-                          "flexGrow": 0,
-                          "height": 15,
-                          "width": 2,
-                        },
-                        "type": "block",
-                      },
-                      Object {
-                        "children": Array [
-                          Object {
-                            "props": Object {
-                              "color": "#6ab9c8",
-                              "height": 10,
-                              "width": 10,
-                            },
-                            "type": "icon-ring",
-                          },
-                        ],
-                        "props": Object {},
-                        "type": "block",
-                      },
-                      Object {
-                        "props": Object {
-                          "backgroundColor": "#6ab9c8",
-                          "flexGrow": 1,
-                          "width": 2,
-                        },
-                        "type": "block",
-                      },
-                    ],
                     "props": Object {
-                      "alignItems": "center",
-                      "flexDirection": "column",
-                      "width": 40,
+                      "color": "#6ab9c8",
+                      "endSize": "grow",
+                      "iconSize": 10,
+                      "orientation": "column",
+                      "size": 40,
+                      "startSize": 15,
                     },
-                    "type": "block",
+                    "type": "rail",
                   },
                   Object {
                     "children": Array [
@@ -1383,45 +1353,15 @@ Array [
           Object {
             "children": Array [
               Object {
-                "children": Array [
-                  Object {
-                    "props": Object {
-                      "backgroundColor": "#6ab9c8",
-                      "flexGrow": 0,
-                      "height": 15,
-                      "width": 2,
-                    },
-                    "type": "block",
-                  },
-                  Object {
-                    "children": Array [
-                      Object {
-                        "props": Object {
-                          "color": "#6ab9c8",
-                          "height": 10,
-                          "width": 10,
-                        },
-                        "type": "icon-ring",
-                      },
-                    ],
-                    "props": Object {},
-                    "type": "block",
-                  },
-                  Object {
-                    "props": Object {
-                      "backgroundColor": "#6ab9c8",
-                      "flexGrow": 1,
-                      "width": 2,
-                    },
-                    "type": "block",
-                  },
-                ],
                 "props": Object {
-                  "alignItems": "center",
-                  "flexDirection": "column",
-                  "width": 40,
+                  "color": "#6ab9c8",
+                  "endSize": "grow",
+                  "iconSize": 10,
+                  "orientation": "column",
+                  "size": 40,
+                  "startSize": 15,
                 },
-                "type": "block",
+                "type": "rail",
               },
               Object {
                 "children": Array [
@@ -1550,37 +1490,15 @@ Array [
           Object {
             "children": Array [
               Object {
-                "children": Array [
-                  Object {
-                    "props": Object {
-                      "backgroundColor": "#6ab9c8",
-                      "flexGrow": 0,
-                      "height": 15,
-                      "width": 2,
-                    },
-                    "type": "block",
-                  },
-                  Object {
-                    "children": Array [
-                      Object {
-                        "props": Object {
-                          "color": "#6ab9c8",
-                          "height": 10,
-                          "width": 10,
-                        },
-                        "type": "icon-ring",
-                      },
-                    ],
-                    "props": Object {},
-                    "type": "block",
-                  },
-                ],
                 "props": Object {
-                  "alignItems": "center",
-                  "flexDirection": "column",
-                  "width": 40,
+                  "color": "#6ab9c8",
+                  "endSize": 0,
+                  "iconSize": 10,
+                  "orientation": "column",
+                  "size": 40,
+                  "startSize": 15,
                 },
-                "type": "block",
+                "type": "rail",
               },
               Object {
                 "children": Array [

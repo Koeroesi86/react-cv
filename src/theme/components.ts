@@ -16,10 +16,12 @@ import {
   IconStar,
   Link,
   Page,
+  Rail,
   Text
 } from "@koeroesi86/react-pdf-components";
 
 const components: ComponentRegistry = {
+  "rail": Rail,
   "document": Document,
   "page": Page,
   "block": Block,
