@@ -58,9 +58,29 @@ module.exports = {
   ],
   "experiences": [
     {
+      "title": "EPAM (H-1083)",
+      "from": "2021 Jun.",
+      "to": "present",
+      "role": "Senior Software Engineer",
+      "details": {
+        "link": "https://www.epam.com",
+        "company": "EPAM",
+        "description": "is an IT outsourcing company",
+      },
+      "responsibilities": [
+        {
+          "text": "Mentoring and helping team to organize",
+        },
+        {
+          "text": "React, SCSS, Docker, Jenkins",
+        }
+      ],
+      "achievements": ["Streamlined some of the client release processes"],
+    },
+    {
       "title": "Deko (London EC4A 3BF)",
       "from": "2020 Mar.",
-      "to": "present",
+      "to": "2021 May.",
       "role": "Senior Developer",
       "details": {
         "link": "https://www.dekopay.com/",
