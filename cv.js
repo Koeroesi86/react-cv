@@ -13,27 +13,26 @@ module.exports = {
       "title": "Main skills (3 or more years each)",
       "list": [
         "IntelliJ",
+        "VSCode",
         "SQL",
         "XHTML1.0-HTML5",
         "CSS2-3",
         "SCSS",
         "JavaScript",
+        "ECMA Script",
+        "Typescript",
+        "NodeJS",
+        "ReactJS",
         "AngularJS",
         "jQuery",
         "Photoshop",
         "Illustrator",
-        "Linux",
-        "Windows",
-        "MacOS",
         "Symfony",
         "Laravel",
         "Wordpress",
         "Apache",
         "PHP",
         "Git",
-        "ECMA Script",
-        "NodeJS",
-        "ReactJS",
         "AWS (ex. EC2, ECR, ECS, RDS, IAM, S3)",
         "Rest APIs",
         "Docker"
@@ -50,17 +49,39 @@ module.exports = {
         "OAuth",
         "WebSockets",
         "Sublime",
-        "VisualStudio",
         "Jenkins",
-        "Serverless"
+        "Serverless",
+        "Linux",
+        "Windows",
+        "MacOS"
       ]
     }
   ],
   "experiences": [
     {
+      "title": "Shares S.A.S (remote)",
+      "from": "2022 Jan.",
+      "to": "present",
+      "role": "Full stack software engineer",
+      "details": {
+        "link": "https://shares.io",
+        "company": "Shares",
+        "description": "is an investment app company",
+      },
+      "responsibilities": [
+        {
+          "text": "Maintaining and improving backoffice web application",
+        },
+        {
+          "text": "React, Node, Docker, Postres, Github Actions",
+        }
+      ],
+      "achievements": ["Implemented more data driven and better typed approach for less need of testing"],
+    },
+    {
       "title": "EPAM (H-1083)",
       "from": "2021 Jun.",
-      "to": "present",
+      "to": "2022 Jan.",
       "role": "Senior Software Engineer",
       "details": {
         "link": "https://www.epam.com",

@@ -2,30 +2,34 @@ import React from "react";
 import path from "path";
 import ReactPDF, { Font } from "@react-pdf/renderer";
 import { ReviverProvider, ReviverLayout } from "@koeroesi86/react-reviver";
-// import { CV } from "@app-types";
-// import fs from "fs";
+import { CV } from "@app-types";
+import fs from "fs";
 import { PageSizes } from "@koeroesi86/react-pdf-components";
 import transformCv from "./theme/transformCv";
-// import exampleCV from "./example/cv";
+import exampleCV from "./example/cv";
 import components from "./theme/components";
 import getColourScheme from "./theme/utils/getColourScheme";
 import { SchemeNames } from "./theme/types";
-import cv from "../cv";
 
 (async () => {
   try {
     console.log("started render");
 
-    // TODO: fix
-    // const relativeCwd = path.resolve(__dirname, process.cwd()).replace(/\\/g, "/");
-    // let cv: CV = exampleCV;
-    //
-    // if (fs.existsSync(`${process.cwd()}/cv.json`)) {
-    //   cv = JSON.parse(fs.readFileSync(`${relativeCwd}/cv.json`, "utf8"));
-    // } else if (fs.existsSync(`${process.cwd()}/cv.js`)) {
-    //   // eslint-disable-next-line global-require,import/no-dynamic-require
-    //   cv = require(path.join(process.cwd(), './cv.js'));
-    // }
+    let cv: CV = exampleCV;
+
+    const jsPath = path.join(process.cwd(), './cv.js').replace(/\\/g, '/');
+    const jsonPath = path.join(process.cwd(), './cv.json').replace(/\\/g, '/');
+    
+    if (fs.existsSync(jsonPath)) {
+      console.log('found json cv');
+      cv = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
+    } else if (fs.existsSync(jsPath)) {
+      console.log('found js cv', jsPath);
+      // eslint-disable-next-line global-require,import/no-dynamic-require,no-eval
+      cv = eval(`require('${jsPath}');`);
+    } else {
+      console.warn('no custom cv found');
+    }
 
     const pageSize: PageSizes = "A4";
     const colours = getColourScheme(SchemeNames.lightblue);
