@@ -1,5 +1,5 @@
 # @koeroesi86/react-cv
-[![Build Status](https://travis-ci.com/Koeroesi86/react-cv.svg?branch=main)](https://travis-ci.com/Koeroesi86/react-cv)
+[![Publish](https://github.com/Koeroesi86/react-cv/actions/workflows/publish.yml/badge.svg)](https://github.com/Koeroesi86/react-cv/actions/workflows/publish.yml)
 
 ### Dependencies
 * [NodeJS](https://nodejs.org/en/)
