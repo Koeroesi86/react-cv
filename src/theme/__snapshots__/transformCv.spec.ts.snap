@@ -49,12 +49,21 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             "type": "block",
                           },
                           {
+                            "children": [
+                              {
+                                "props": {
+                                  "color": "#6ab9c8",
+                                  "height": 12,
+                                  "width": 12,
+                                },
+                                "type": "icon-github",
+                              },
+                            ],
                             "props": {
-                              "color": "#6ab9c8",
-                              "height": 12,
-                              "width": 12,
+                              "position": "relative",
+                              "top": -3,
                             },
-                            "type": "icon-github",
+                            "type": "block",
                           },
                           {
                             "props": {
@@ -108,12 +117,21 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       {
                         "children": [
                           {
+                            "children": [
+                              {
+                                "props": {
+                                  "color": "#6ab9c8",
+                                  "height": 12,
+                                  "width": 12,
+                                },
+                                "type": "icon-folder",
+                              },
+                            ],
                             "props": {
-                              "color": "#6ab9c8",
-                              "height": 12,
-                              "width": 12,
+                              "position": "relative",
+                              "top": -3,
                             },
-                            "type": "icon-folder",
+                            "type": "block",
                           },
                           {
                             "props": {
@@ -266,12 +284,21 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                   {
+                    "children": [
+                      {
+                        "props": {
+                          "color": "#1d1d1b",
+                          "height": 16,
+                          "width": 16,
+                        },
+                        "type": "icon-flame",
+                      },
+                    ],
                     "props": {
-                      "color": "#1d1d1b",
-                      "height": 16,
-                      "width": 16,
+                      "position": "relative",
+                      "top": -3,
                     },
-                    "type": "icon-flame",
+                    "type": "block",
                   },
                   {
                     "props": {
@@ -360,12 +387,21 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                   {
+                    "children": [
+                      {
+                        "props": {
+                          "color": "#1d1d1b",
+                          "height": 16,
+                          "width": 16,
+                        },
+                        "type": "icon-check",
+                      },
+                    ],
                     "props": {
-                      "color": "#1d1d1b",
-                      "height": 16,
-                      "width": 16,
+                      "position": "relative",
+                      "top": -3,
                     },
-                    "type": "icon-check",
+                    "type": "block",
                   },
                   {
                     "props": {
@@ -408,26 +444,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   {
                     "children": [
                       {
-                        "children": [
-                          {
-                            "props": {
-                              "color": "#1d1d1b",
-                              "height": 8,
-                              "width": 8,
-                            },
-                            "type": "icon-arrow-right",
-                          },
-                        ],
                         "props": {
-                          "left": 4,
-                          "position": "absolute",
-                          "top": 2,
+                          "height": 2,
                         },
                         "type": "block",
                       },
+                      {
+                        "props": {
+                          "color": "#1d1d1b",
+                          "height": 8,
+                          "width": 8,
+                        },
+                        "type": "icon-arrow-right",
+                      },
                     ],
                     "props": {
+                      "alignItems": "center",
                       "flexGrow": 0,
+                      "flexWrap": "nowrap",
+                      "justifyContent": "flex-start",
                       "width": 16,
                     },
                     "type": "block",
@@ -618,12 +653,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     ],
                     "props": {
                       "flexGrow": 1,
+                      "flexWrap": "nowrap",
                     },
                     "type": "block",
                   },
                 ],
                 "props": {
                   "flexDirection": "row",
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
@@ -632,26 +669,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   {
                     "children": [
                       {
-                        "children": [
-                          {
-                            "props": {
-                              "color": "#1d1d1b",
-                              "height": 8,
-                              "width": 8,
-                            },
-                            "type": "icon-arrow-right",
-                          },
-                        ],
                         "props": {
-                          "left": 4,
-                          "position": "absolute",
-                          "top": 2,
+                          "height": 2,
                         },
                         "type": "block",
                       },
+                      {
+                        "props": {
+                          "color": "#1d1d1b",
+                          "height": 8,
+                          "width": 8,
+                        },
+                        "type": "icon-arrow-right",
+                      },
                     ],
                     "props": {
+                      "alignItems": "center",
                       "flexGrow": 0,
+                      "flexWrap": "nowrap",
+                      "justifyContent": "flex-start",
                       "width": 16,
                     },
                     "type": "block",
@@ -758,12 +794,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     ],
                     "props": {
                       "flexGrow": 1,
+                      "flexWrap": "nowrap",
                     },
                     "type": "block",
                   },
                 ],
                 "props": {
                   "flexDirection": "row",
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
@@ -788,12 +826,21 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                   {
+                    "children": [
+                      {
+                        "props": {
+                          "color": "#1d1d1b",
+                          "height": 16,
+                          "width": 16,
+                        },
+                        "type": "icon-bag",
+                      },
+                    ],
                     "props": {
-                      "color": "#1d1d1b",
-                      "height": 16,
-                      "width": 16,
+                      "position": "relative",
+                      "top": -3,
                     },
-                    "type": "icon-bag",
+                    "type": "block",
                   },
                   {
                     "props": {
@@ -829,14 +876,28 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
+                      "flexGrow": 0,
+                      "width": 10,
+                    },
+                    "type": "block",
+                  },
+                  {
+                    "props": {
                       "color": "#6ab9c8",
                       "endSize": "grow",
                       "iconSize": 10,
                       "orientation": "column",
-                      "size": 40,
+                      "size": 20,
                       "startSize": 15,
                     },
                     "type": "rail",
+                  },
+                  {
+                    "props": {
+                      "flexGrow": 0,
+                      "width": 10,
+                    },
+                    "type": "block",
                   },
                   {
                     "children": [
@@ -940,26 +1001,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                           {
                             "children": [
                               {
-                                "children": [
-                                  {
-                                    "props": {
-                                      "color": "#1d1d1b",
-                                      "height": 8,
-                                      "width": 8,
-                                    },
-                                    "type": "icon-arrow-right",
-                                  },
-                                ],
                                 "props": {
-                                  "left": 4,
-                                  "position": "absolute",
-                                  "top": 2,
+                                  "height": 2,
                                 },
                                 "type": "block",
                               },
+                              {
+                                "props": {
+                                  "color": "#1d1d1b",
+                                  "height": 8,
+                                  "width": 8,
+                                },
+                                "type": "icon-arrow-right",
+                              },
                             ],
                             "props": {
+                              "alignItems": "center",
                               "flexGrow": 0,
+                              "flexWrap": "nowrap",
+                              "justifyContent": "flex-start",
                               "width": 16,
                             },
                             "type": "block",
@@ -974,12 +1034,6 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                     },
                                     "type": "fragment",
                                   },
-                                  {
-                                    "props": {
-                                      "height": 3,
-                                    },
-                                    "type": "block",
-                                  },
                                 ],
                                 "props": {
                                   "color": "#1d1d1b",
@@ -991,12 +1045,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             ],
                             "props": {
                               "flexGrow": 1,
+                              "flexWrap": "nowrap",
                             },
                             "type": "block",
                           },
                         ],
                         "props": {
                           "flexDirection": "row",
+                          "flexWrap": "nowrap",
                         },
                         "type": "block",
                       },
@@ -1005,26 +1061,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                           {
                             "children": [
                               {
-                                "children": [
-                                  {
-                                    "props": {
-                                      "color": "#1d1d1b",
-                                      "height": 8,
-                                      "width": 8,
-                                    },
-                                    "type": "icon-arrow-right",
-                                  },
-                                ],
                                 "props": {
-                                  "left": 4,
-                                  "position": "absolute",
-                                  "top": 2,
+                                  "height": 2,
                                 },
                                 "type": "block",
                               },
+                              {
+                                "props": {
+                                  "color": "#1d1d1b",
+                                  "height": 8,
+                                  "width": 8,
+                                },
+                                "type": "icon-arrow-right",
+                              },
                             ],
                             "props": {
+                              "alignItems": "center",
                               "flexGrow": 0,
+                              "flexWrap": "nowrap",
+                              "justifyContent": "flex-start",
                               "width": 16,
                             },
                             "type": "block",
@@ -1039,12 +1094,6 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                     },
                                     "type": "fragment",
                                   },
-                                  {
-                                    "props": {
-                                      "height": 3,
-                                    },
-                                    "type": "block",
-                                  },
                                 ],
                                 "props": {
                                   "color": "#1d1d1b",
@@ -1056,12 +1105,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             ],
                             "props": {
                               "flexGrow": 1,
+                              "flexWrap": "nowrap",
                             },
                             "type": "block",
                           },
                         ],
                         "props": {
                           "flexDirection": "row",
+                          "flexWrap": "nowrap",
                         },
                         "type": "block",
                       },
@@ -1070,26 +1121,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                           {
                             "children": [
                               {
-                                "children": [
-                                  {
-                                    "props": {
-                                      "color": "#1d1d1b",
-                                      "height": 8,
-                                      "width": 8,
-                                    },
-                                    "type": "icon-arrow-right",
-                                  },
-                                ],
                                 "props": {
-                                  "left": 4,
-                                  "position": "absolute",
-                                  "top": 2,
+                                  "height": 2,
                                 },
                                 "type": "block",
                               },
+                              {
+                                "props": {
+                                  "color": "#1d1d1b",
+                                  "height": 8,
+                                  "width": 8,
+                                },
+                                "type": "icon-arrow-right",
+                              },
                             ],
                             "props": {
+                              "alignItems": "center",
                               "flexGrow": 0,
+                              "flexWrap": "nowrap",
+                              "justifyContent": "flex-start",
                               "width": 16,
                             },
                             "type": "block",
@@ -1104,12 +1154,6 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                     },
                                     "type": "fragment",
                                   },
-                                  {
-                                    "props": {
-                                      "height": 3,
-                                    },
-                                    "type": "block",
-                                  },
                                 ],
                                 "props": {
                                   "color": "#1d1d1b",
@@ -1121,12 +1165,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             ],
                             "props": {
                               "flexGrow": 1,
+                              "flexWrap": "nowrap",
                             },
                             "type": "block",
                           },
                         ],
                         "props": {
                           "flexDirection": "row",
+                          "flexWrap": "nowrap",
                         },
                         "type": "block",
                       },
@@ -1150,26 +1196,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                           {
                             "children": [
                               {
-                                "children": [
-                                  {
-                                    "props": {
-                                      "color": "#1d1d1b",
-                                      "height": 8,
-                                      "width": 8,
-                                    },
-                                    "type": "icon-arrow-right",
-                                  },
-                                ],
                                 "props": {
-                                  "left": 4,
-                                  "position": "absolute",
-                                  "top": 2,
+                                  "height": 2,
                                 },
                                 "type": "block",
                               },
+                              {
+                                "props": {
+                                  "color": "#1d1d1b",
+                                  "height": 8,
+                                  "width": 8,
+                                },
+                                "type": "icon-arrow-right",
+                              },
                             ],
                             "props": {
+                              "alignItems": "center",
                               "flexGrow": 0,
+                              "flexWrap": "nowrap",
+                              "justifyContent": "flex-start",
                               "width": 16,
                             },
                             "type": "block",
@@ -1187,12 +1232,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             ],
                             "props": {
                               "flexGrow": 1,
+                              "flexWrap": "nowrap",
                             },
                             "type": "block",
                           },
                         ],
                         "props": {
                           "flexDirection": "row",
+                          "flexWrap": "nowrap",
                         },
                         "type": "block",
                       },
@@ -1211,18 +1258,34 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     ],
                     "props": {
                       "flexGrow": 1,
+                      "flexWrap": "nowrap",
+                    },
+                    "type": "block",
+                  },
+                  {
+                    "props": {
+                      "flexGrow": 0,
+                      "width": 10,
                     },
                     "type": "block",
                   },
                 ],
                 "props": {
                   "flexDirection": "row",
+                  "flexGrow": 1,
+                  "flexWrap": "nowrap",
                   "height": undefined,
                 },
                 "type": "block",
               },
             ],
             "props": {},
+            "type": "block",
+          },
+          {
+            "props": {
+              "height": 10,
+            },
             "type": "block",
           },
           {
@@ -1313,12 +1376,21 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
               {
+                "children": [
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 16,
+                      "width": 16,
+                    },
+                    "type": "icon-graduation",
+                  },
+                ],
                 "props": {
-                  "color": "#1d1d1b",
-                  "height": 16,
-                  "width": 16,
+                  "position": "relative",
+                  "top": -3,
                 },
-                "type": "icon-graduation",
+                "type": "block",
               },
               {
                 "props": {
@@ -1354,14 +1426,28 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
             "children": [
               {
                 "props": {
+                  "flexGrow": 0,
+                  "width": 10,
+                },
+                "type": "block",
+              },
+              {
+                "props": {
                   "color": "#6ab9c8",
                   "endSize": "grow",
                   "iconSize": 10,
                   "orientation": "column",
-                  "size": 40,
+                  "size": 20,
                   "startSize": 15,
                 },
                 "type": "rail",
+              },
+              {
+                "props": {
+                  "flexGrow": 0,
+                  "width": 10,
+                },
+                "type": "block",
               },
               {
                 "children": [
@@ -1418,26 +1504,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                           {
                             "children": [
                               {
-                                "children": [
-                                  {
-                                    "props": {
-                                      "color": "#1d1d1b",
-                                      "height": 8,
-                                      "width": 8,
-                                    },
-                                    "type": "icon-arrow-right",
-                                  },
-                                ],
                                 "props": {
-                                  "left": 4,
-                                  "position": "absolute",
-                                  "top": 2,
+                                  "height": 2,
                                 },
                                 "type": "block",
                               },
+                              {
+                                "props": {
+                                  "color": "#1d1d1b",
+                                  "height": 8,
+                                  "width": 8,
+                                },
+                                "type": "icon-arrow-right",
+                              },
                             ],
                             "props": {
+                              "alignItems": "center",
                               "flexGrow": 0,
+                              "flexWrap": "nowrap",
+                              "justifyContent": "flex-start",
                               "width": 16,
                             },
                             "type": "block",
@@ -1455,12 +1540,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             ],
                             "props": {
                               "flexGrow": 1,
+                              "flexWrap": "nowrap",
                             },
                             "type": "block",
                           },
                         ],
                         "props": {
                           "flexDirection": "row",
+                          "flexWrap": "nowrap",
                         },
                         "type": "block",
                       },
@@ -1477,12 +1564,22 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 ],
                 "props": {
                   "flexGrow": 1,
+                  "flexWrap": "nowrap",
+                },
+                "type": "block",
+              },
+              {
+                "props": {
+                  "flexGrow": 0,
+                  "width": 10,
                 },
                 "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexGrow": 1,
+              "flexWrap": "nowrap",
               "height": undefined,
             },
             "type": "block",
@@ -1491,14 +1588,28 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
             "children": [
               {
                 "props": {
+                  "flexGrow": 0,
+                  "width": 10,
+                },
+                "type": "block",
+              },
+              {
+                "props": {
                   "color": "#6ab9c8",
                   "endSize": 0,
                   "iconSize": 10,
                   "orientation": "column",
-                  "size": 40,
+                  "size": 20,
                   "startSize": 15,
                 },
                 "type": "rail",
+              },
+              {
+                "props": {
+                  "flexGrow": 0,
+                  "width": 10,
+                },
+                "type": "block",
               },
               {
                 "children": [
@@ -1555,26 +1666,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                           {
                             "children": [
                               {
-                                "children": [
-                                  {
-                                    "props": {
-                                      "color": "#1d1d1b",
-                                      "height": 8,
-                                      "width": 8,
-                                    },
-                                    "type": "icon-arrow-right",
-                                  },
-                                ],
                                 "props": {
-                                  "left": 4,
-                                  "position": "absolute",
-                                  "top": 2,
+                                  "height": 2,
                                 },
                                 "type": "block",
                               },
+                              {
+                                "props": {
+                                  "color": "#1d1d1b",
+                                  "height": 8,
+                                  "width": 8,
+                                },
+                                "type": "icon-arrow-right",
+                              },
                             ],
                             "props": {
+                              "alignItems": "center",
                               "flexGrow": 0,
+                              "flexWrap": "nowrap",
+                              "justifyContent": "flex-start",
                               "width": 16,
                             },
                             "type": "block",
@@ -1592,12 +1702,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             ],
                             "props": {
                               "flexGrow": 1,
+                              "flexWrap": "nowrap",
                             },
                             "type": "block",
                           },
                         ],
                         "props": {
                           "flexDirection": "row",
+                          "flexWrap": "nowrap",
                         },
                         "type": "block",
                       },
@@ -1621,26 +1733,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                           {
                             "children": [
                               {
-                                "children": [
-                                  {
-                                    "props": {
-                                      "color": "#1d1d1b",
-                                      "height": 8,
-                                      "width": 8,
-                                    },
-                                    "type": "icon-arrow-right",
-                                  },
-                                ],
                                 "props": {
-                                  "left": 4,
-                                  "position": "absolute",
-                                  "top": 2,
+                                  "height": 2,
                                 },
                                 "type": "block",
                               },
+                              {
+                                "props": {
+                                  "color": "#1d1d1b",
+                                  "height": 8,
+                                  "width": 8,
+                                },
+                                "type": "icon-arrow-right",
+                              },
                             ],
                             "props": {
+                              "alignItems": "center",
                               "flexGrow": 0,
+                              "flexWrap": "nowrap",
+                              "justifyContent": "flex-start",
                               "width": 16,
                             },
                             "type": "block",
@@ -1658,12 +1769,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             ],
                             "props": {
                               "flexGrow": 1,
+                              "flexWrap": "nowrap",
                             },
                             "type": "block",
                           },
                         ],
                         "props": {
                           "flexDirection": "row",
+                          "flexWrap": "nowrap",
                         },
                         "type": "block",
                       },
@@ -1680,12 +1793,22 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 ],
                 "props": {
                   "flexGrow": 1,
+                  "flexWrap": "nowrap",
+                },
+                "type": "block",
+              },
+              {
+                "props": {
+                  "flexGrow": 0,
+                  "width": 10,
                 },
                 "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexGrow": 0,
+              "flexWrap": "nowrap",
               "height": undefined,
             },
             "type": "block",
@@ -1705,12 +1828,21 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
               {
+                "children": [
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 16,
+                      "width": 16,
+                    },
+                    "type": "icon-flower",
+                  },
+                ],
                 "props": {
-                  "color": "#1d1d1b",
-                  "height": 16,
-                  "width": 16,
+                  "position": "relative",
+                  "top": -3,
                 },
-                "type": "icon-flower",
+                "type": "block",
               },
               {
                 "props": {
@@ -1753,26 +1885,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#1d1d1b",
-                          "height": 8,
-                          "width": 8,
-                        },
-                        "type": "icon-arrow-right",
-                      },
-                    ],
                     "props": {
-                      "left": 4,
-                      "position": "absolute",
-                      "top": 2,
+                      "height": 2,
                     },
                     "type": "block",
                   },
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 8,
+                      "width": 8,
+                    },
+                    "type": "icon-arrow-right",
+                  },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexGrow": 0,
+                  "flexWrap": "nowrap",
+                  "justifyContent": "flex-start",
                   "width": 16,
                 },
                 "type": "block",
@@ -1790,12 +1921,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 ],
                 "props": {
                   "flexGrow": 1,
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
@@ -1804,26 +1937,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#1d1d1b",
-                          "height": 8,
-                          "width": 8,
-                        },
-                        "type": "icon-arrow-right",
-                      },
-                    ],
                     "props": {
-                      "left": 4,
-                      "position": "absolute",
-                      "top": 2,
+                      "height": 2,
                     },
                     "type": "block",
                   },
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 8,
+                      "width": 8,
+                    },
+                    "type": "icon-arrow-right",
+                  },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexGrow": 0,
+                  "flexWrap": "nowrap",
+                  "justifyContent": "flex-start",
                   "width": 16,
                 },
                 "type": "block",
@@ -1841,12 +1973,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 ],
                 "props": {
                   "flexGrow": 1,
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
@@ -1855,26 +1989,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#1d1d1b",
-                          "height": 8,
-                          "width": 8,
-                        },
-                        "type": "icon-arrow-right",
-                      },
-                    ],
                     "props": {
-                      "left": 4,
-                      "position": "absolute",
-                      "top": 2,
+                      "height": 2,
                     },
                     "type": "block",
                   },
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 8,
+                      "width": 8,
+                    },
+                    "type": "icon-arrow-right",
+                  },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexGrow": 0,
+                  "flexWrap": "nowrap",
+                  "justifyContent": "flex-start",
                   "width": 16,
                 },
                 "type": "block",
@@ -1892,12 +2025,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 ],
                 "props": {
                   "flexGrow": 1,
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
@@ -1916,12 +2051,21 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
               {
+                "children": [
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 16,
+                      "width": 16,
+                    },
+                    "type": "icon-star",
+                  },
+                ],
                 "props": {
-                  "color": "#1d1d1b",
-                  "height": 16,
-                  "width": 16,
+                  "position": "relative",
+                  "top": -3,
                 },
-                "type": "icon-star",
+                "type": "block",
               },
               {
                 "props": {
@@ -1964,26 +2108,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#1d1d1b",
-                          "height": 8,
-                          "width": 8,
-                        },
-                        "type": "icon-arrow-right",
-                      },
-                    ],
                     "props": {
-                      "left": 4,
-                      "position": "absolute",
-                      "top": 2,
+                      "height": 2,
                     },
                     "type": "block",
                   },
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 8,
+                      "width": 8,
+                    },
+                    "type": "icon-arrow-right",
+                  },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexGrow": 0,
+                  "flexWrap": "nowrap",
+                  "justifyContent": "flex-start",
                   "width": 16,
                 },
                 "type": "block",
@@ -2032,12 +2175,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 ],
                 "props": {
                   "flexGrow": 1,
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
@@ -2046,26 +2191,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#1d1d1b",
-                          "height": 8,
-                          "width": 8,
-                        },
-                        "type": "icon-arrow-right",
-                      },
-                    ],
                     "props": {
-                      "left": 4,
-                      "position": "absolute",
-                      "top": 2,
+                      "height": 2,
                     },
                     "type": "block",
                   },
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 8,
+                      "width": 8,
+                    },
+                    "type": "icon-arrow-right",
+                  },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexGrow": 0,
+                  "flexWrap": "nowrap",
+                  "justifyContent": "flex-start",
                   "width": 16,
                 },
                 "type": "block",
@@ -2114,12 +2258,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 ],
                 "props": {
                   "flexGrow": 1,
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
@@ -2138,12 +2284,21 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
               {
+                "children": [
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 16,
+                      "width": 16,
+                    },
+                    "type": "icon-info",
+                  },
+                ],
                 "props": {
-                  "color": "#1d1d1b",
-                  "height": 16,
-                  "width": 16,
+                  "position": "relative",
+                  "top": -3,
                 },
-                "type": "icon-info",
+                "type": "block",
               },
               {
                 "props": {
@@ -2186,26 +2341,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#1d1d1b",
-                          "height": 8,
-                          "width": 8,
-                        },
-                        "type": "icon-arrow-right",
-                      },
-                    ],
                     "props": {
-                      "left": 4,
-                      "position": "absolute",
-                      "top": 2,
+                      "height": 2,
                     },
                     "type": "block",
                   },
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 8,
+                      "width": 8,
+                    },
+                    "type": "icon-arrow-right",
+                  },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexGrow": 0,
+                  "flexWrap": "nowrap",
+                  "justifyContent": "flex-start",
                   "width": 16,
                 },
                 "type": "block",
@@ -2229,12 +2383,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 ],
                 "props": {
                   "flexGrow": 1,
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
@@ -2243,26 +2399,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#1d1d1b",
-                          "height": 8,
-                          "width": 8,
-                        },
-                        "type": "icon-arrow-right",
-                      },
-                    ],
                     "props": {
-                      "left": 4,
-                      "position": "absolute",
-                      "top": 2,
+                      "height": 2,
                     },
                     "type": "block",
                   },
+                  {
+                    "props": {
+                      "color": "#1d1d1b",
+                      "height": 8,
+                      "width": 8,
+                    },
+                    "type": "icon-arrow-right",
+                  },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexGrow": 0,
+                  "flexWrap": "nowrap",
+                  "justifyContent": "flex-start",
                   "width": 16,
                 },
                 "type": "block",
@@ -2286,12 +2441,14 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 ],
                 "props": {
                   "flexGrow": 1,
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
