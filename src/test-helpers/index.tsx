@@ -1,9 +1,9 @@
-import { Document, Page } from "@react-pdf/renderer";
 import React from "react";
+import { Document, Page } from "@koeroesi86/react-pdf-components";
 
 // eslint-disable-next-line import/prefer-default-export,func-names
-export const Wrapper: React.FC = function ({ children }) {
+export function Wrapper({ children }: { children: React.ReactElement }) {
   return (
     <Document><Page>{children}</Page></Document>
   );
-};
+}

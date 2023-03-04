@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import React from "react";
 import path from "path";
 import ReactPDF, { Font } from "@react-pdf/renderer";
