@@ -7,8 +7,9 @@
     "build": "yarn install && rm -rf ./dist && webpack --progress",
     "lint": "eslint --cache --cache-location .cache/eslint/ --ext .ts,.tsx src",
     "test": "jest",
-    "start": "node dist/backend/node.js",
-    "dev": "yarn build && sh -c \"webpack --watch & yarn dev:server\"",
+    "start": "ts-node src/node.tsx",
+    "dev": "rm -rf ./dist && nodemon --watch src/**/* --exec yarn start",
+    "dev:legacy": "yarn build && sh -c \"webpack --watch & yarn dev:server\"",
     "dev:server": "nodemon --watch dist/backend/**/* dist/backend/node.js"
   },
   "dependencies": {

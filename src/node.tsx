@@ -15,6 +15,11 @@ import { SchemeNames } from "./theme/types";
 (async () => {
   try {
     console.log("started render");
+    const distPath = path.join(process.cwd(), './dist/');
+
+    if (!fs.existsSync(distPath)) {
+      fs.mkdirSync(distPath, { recursive: true });
+    }
 
     let cv: CV = exampleCV;
 
@@ -80,7 +85,7 @@ import { SchemeNames } from "./theme/types";
       <ReviverProvider components={components}>
         <ReviverLayout data={transformCv(cv, colours, pageSize)}/>
       </ReviverProvider>,
-      path.resolve(process.cwd(), `./dist/${cv.name.replace(/[ ]/, ".")}.pdf`),
+      path.resolve(distPath, `./${cv.name.replace(/[ ]/, ".")}.pdf`),
     );
 
     console.log("render completed.");
