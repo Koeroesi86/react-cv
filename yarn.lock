@@ -670,10 +670,10 @@
     "@jridgewell/resolve-uri" "3.1.0"
     "@jridgewell/sourcemap-codec" "1.4.14"
 
-"@koeroesi86/react-pdf-components@^23.3.4327228445-main":
-  version "23.3.4327228445-main"
-  resolved "https://registry.yarnpkg.com/@koeroesi86/react-pdf-components/-/react-pdf-components-23.3.4327228445-main.tgz#154db57870f742b51a0f04dd6f7fb374a7961119"
-  integrity sha512-soRVwgd7ukW34qh39YYFwN1zlPb0eurkal8ZwKBaQS32PucQ6hXxSRK06mnPidZgiaLcc5nIlqqyrPxDyDtcvg==
+"@koeroesi86/react-pdf-components@^23.3.4330880333-main":
+  version "23.3.4330880333-main"
+  resolved "https://registry.yarnpkg.com/@koeroesi86/react-pdf-components/-/react-pdf-components-23.3.4330880333-main.tgz#51f1eb63d517d39b5e828491ad63dba639328f3c"
+  integrity sha512-pNUsL7tlShROtrS1oAwBPpqtXjlilS1XKMWffT0zjt0GonW2yXAXMlmkgzlYtxU9Q0qyTK0A2qiWGiFd4EJZsA==
   dependencies:
     "@react-pdf/renderer" "^3.1.6"
 

@@ -1,3 +1,5 @@
+// TODO: Check for fix line breaks instead of \n newline
+
 /** @type import("src/types").CV */
 module.exports = {
   "name": "Krisztian Korosi",
@@ -274,7 +276,7 @@ module.exports = {
               "url": "https://ink.mullenlowegroup.com"
             },
             {
-              "text": "Holiday tracker (Angular1, Symfony2)",
+              "text": "\nHoliday tracker (Angular1, Symfony2)",
               "url": "https://www.mullenlowegroup.com"
             },
             {
@@ -282,14 +284,14 @@ module.exports = {
               "url": "https://kudos.mullenlowegroup.com"
             },
             {
-              "text": "Vote456 (Symfony)",
+              "text": "\nVote456 (Symfony)",
               "url": "https://www.mullenlowegroup.com"
             }
           ]
         }
       ],
       "achievements": [
-        "Skills earned: Docker, AWS, Typescript, ES 3-6, Node JS, Haproxy, Angular 1-2, Symfony 3, Nginx"
+        "Skills earned: Docker, AWS, Typescript, ES 3-6, Node JS, Haproxy,\nAngular 1-2, Symfony 3, Nginx"
       ]
     },
     {
@@ -388,7 +390,7 @@ module.exports = {
           "text": "Development of microsites, uniform brief, and online briefing system"
         },
         {
-          "text": "Projects done: Uniform brief for all European countries (VBA newsletter generator), Online briefing system"
+          "text": "Projects done: Uniform brief for all European countries (VBA newsletter generator),\nOnline briefing system"
         },
         {
           "text": "Campaigns: ",
@@ -524,9 +526,9 @@ module.exports = {
     }
   ],
   "information": [
-    "Coming from an agile background, I have around 11 years’ experience working with",
+    "Coming from an agile background, I have around 13 years’ experience working with",
     "Javascript. I have worked in TDD, BDD, Scrum and Kanban environments too",
-    "Although I have a full-stack background, I have been using React.js for four years (Deko too) and I am now looking to work in a collaborative environment to improve my React.js and NodeJS skills",
+    "Although I have a full-stack background, I have been using React.js for six years (Shares too) and I am now looking to work in a collaborative environment to improve my React.js and NodeJS skills",
     "Easily getting along well with people and have excellent communication skills, I’ve been a main point of contact in Hungary for ACD Systems, Cyberlink, Pinnaccle and AVID",
     "I have made digital newsletters for 200-300K readers",
     "I’ve translated most of the Deluge torrent client and some of Ubuntu to Hungarian.",

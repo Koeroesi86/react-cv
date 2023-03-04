@@ -39,7 +39,10 @@ const createPages = (cv: CV, colours: Colours, pageSize: PageSizes): RevivableCo
       children: [
         { type: "block", props: { height: 40 } },
         ...currentExperiences.map((experience, index): RevivableComponent => (
-          createExperienceBlock(experience, colours, index === currentExperiences.length - 1 && cv.experiences.length === 0, isExperienceOnly)
+          createExperienceBlock(
+            experience, colours,
+            cv.experiences.length === 0 && index === currentExperiences.length - 1,
+            isExperienceOnly)
         )),
         { type: "block", props: { flexGrow: 1 } },
         ...(hasStudiesRendered ? createStudies(cv, colours) : []),

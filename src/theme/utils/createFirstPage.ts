@@ -26,6 +26,7 @@ const createFirstPage = (cv: CV, pageSize: PageSizes, colours: Colours, fontFami
         createExperienceBlock(cv.experiences[0], colours),
       ]
     },
+    { type: "block", props: { height: 10 } },
     ...createPageNumber(1, colours),
   ] as RevivableComponent[],
 });

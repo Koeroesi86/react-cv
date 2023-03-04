@@ -12,7 +12,6 @@ const createResponsibilities = (responsibilities: CVResponsibility[], colours: C
         props: { text: "", color: colours.text, lineHeight: 1.2 },
         children: [
           { type: "fragment", props: { node: `${responsibility.text}` } },
-          { type: "block", props: { height: 3 } },
           ...(responsibility.links ? responsibility.links.map((link, index): RevivableComponent => ({
             type: "text",
             props: { text: "", color: colours.text, lineHeight: 1.2 },
