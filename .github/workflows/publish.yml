@@ -27,8 +27,8 @@ jobs:
         run: yarn lint
       - name: Test
         run: yarn test
-      - name: Package version
-        run: yarn generate-version
+      # - name: Package version
+      #   run: yarn generate-version
       - name: Generate PDF
         run: yarn start
       - name: PDF artifact
