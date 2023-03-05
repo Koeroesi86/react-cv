@@ -1,6 +1,6 @@
 // TODO: Check for fix line breaks instead of \n newline
 
-/** @type import("src/types").CV */
+/** @type import("./src/types").CV */ 
 module.exports = {
   "name": "Krisztian Korosi",
   "nick": "Krisz",

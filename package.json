@@ -4,13 +4,12 @@
   "main": "",
   "license": "MIT",
   "scripts": {
-    "build": "yarn install && rm -rf ./dist && webpack --progress",
+    "build": "yarn install --frozen-lockfile && rm -rf ./dist && webpack --progress",
     "lint": "eslint --cache --cache-location .cache/eslint/ --ext .ts,.tsx src",
     "test": "jest",
     "start": "ts-node src/node.tsx",
-    "dev": "rm -rf ./dist && nodemon --watch src/**/* --exec yarn start",
-    "dev:legacy": "yarn build && sh -c \"webpack --watch & yarn dev:server\"",
-    "dev:server": "nodemon --watch dist/backend/**/* dist/backend/node.js"
+    "generate-version": "ts-node scripts/version.ts",
+    "dev": "rm -rf ./dist && nodemon --watch src/**/* --exec yarn start"
   },
   "dependencies": {
     "@react-pdf/renderer": "^3.1.6",
@@ -25,6 +24,7 @@
     "@types/jest": "^29.4.0",
     "@types/react": "^18.0.28",
     "@types/uuid": "^9.0.1",
+    "@types/webpack": "^5.28.0",
     "@typescript-eslint/eslint-plugin": "^5.54.0",
     "@typescript-eslint/parser": "^5.54.0",
     "eslint": "^8.35.0",
