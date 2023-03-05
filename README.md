@@ -8,7 +8,7 @@
 ### Usage
 
 ```shell
-yarn build && yarn start
+yarn start
 ```
 
 Open `dist/<name>.pdf`

@@ -4,7 +4,7 @@
   "main": "",
   "license": "MIT",
   "scripts": {
-    "build": "yarn install && rm -rf ./dist && webpack --progress",
+    "build": "yarn install --frozen-lockfile && rm -rf ./dist && webpack --progress",
     "lint": "eslint --cache --cache-location .cache/eslint/ --ext .ts,.tsx src",
     "test": "jest",
     "start": "ts-node src/node.tsx",
