@@ -9,7 +9,7 @@ module.exports = {
     "github": "https://github.com/Koeroesi86",
     "website": "https://chris.koro.si"
   },
-  "desire": "My desire is to always improve myself and attain new skills, to keep up with the latest technologies and to one day become a well-accomplished software architect.",
+  "desire": "My desire is to always improve myself and attain new skills, to keep up with the latest technologies and to one day become a well-accomplished lead developer.",
   "skills": [
     {
       "title": "Main skills (3 or more years each)",
@@ -61,9 +61,38 @@ module.exports = {
   ],
   "experiences": [
     {
+      "title": "Fizz.hu",
+      "from": "2023 Jun.",
+      "to": "2024 Aug.",
+      "role": "Full stack software developer",
+      "details": {
+        "link": "https://fizz.hu",
+        "company": "Fizz",
+        "description": "is an ecommerce marketplace",
+      },
+      "responsibilities": [
+        {
+          "text": "Prepared site to go live and mentored/lead developer team",
+        },
+        {
+          "text": "Projects done: ",
+          "links": [
+            {
+              "text": "fizz.hu",
+              "url": "https://fizz.hu"
+            }
+          ]
+        },
+        {
+          "text": "React, Node, NestJS, NextJS, Docker, Postres, MongoDB, Github Actions",
+        }
+      ],
+      "achievements": ["Skills earned: NextJS, NestJS"],
+    },
+    {
       "title": "Shares S.A.S (remote)",
       "from": "2022 Jan.",
-      "to": "present",
+      "to": "2023 Jun.",
       "role": "Full stack software engineer",
       "details": {
         "link": "https://shares.io",
