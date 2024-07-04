@@ -84,7 +84,7 @@ module.exports = {
           ]
         },
         {
-          "text": "React, Node, NestJS, NextJS, Docker, Postres, MongoDB, Github Actions",
+          "text": "React, Node, NestJS, NextJS, Docker, Postgres, MongoDB, Github Actions",
         }
       ],
       "achievements": ["Skills earned: NextJS, NestJS"],
