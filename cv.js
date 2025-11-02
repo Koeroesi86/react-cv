@@ -61,6 +61,35 @@ module.exports = {
   ],
   "experiences": [
     {
+      "title": "Spreadmonitor",
+      "from": "2024 Sep.",
+      "to": "2025 Nov.",
+      "role": "Full stack software developer",
+      "details": {
+        "link": "https://spreadmonitor.com",
+        "company": "Spreadmonitor",
+        "description": "is an IT outsourcing company for energy providers",
+      },
+      "responsibilities": [
+        {
+          "text": "Made the project more typed and increased testability",
+        },
+        {
+          "text": "Projects done: ",
+          "links": [
+            {
+              "text": "Apocam",
+              "url": "https://app.apocam.io"
+            }
+          ]
+        },
+        {
+          "text": "Angular, Node, NestJS, Routing Controller, Docker, Postgres, Github Actions",
+        }
+      ],
+      "achievements": ["Skills earned: Routing controller"],
+    },
+    {
       "title": "Fizz.hu",
       "from": "2023 Jun.",
       "to": "2024 Aug.",
@@ -555,9 +584,8 @@ module.exports = {
     }
   ],
   "information": [
-    "Coming from an agile background, I have around 13 years’ experience working with",
-    "Javascript. I have worked in TDD, BDD, Scrum and Kanban environments too",
-    "Although I have a full-stack background, I have been using React.js for six years (Shares too) and I am now looking to work in a collaborative environment to improve my React.js and NodeJS skills",
+    "Coming from an agile background, I have around 13 years’ experience working with Javascript. I have worked in TDD, BDD, Scrum and Kanban environments too",
+    "Although I have a full-stack background, I have been using React.js for years and I am now looking to work in a collaborative environment to improve my React.js and NodeJS skills",
     "Easily getting along well with people and have excellent communication skills, I’ve been a main point of contact in Hungary for ACD Systems, Cyberlink, Pinnaccle and AVID",
     "I have made digital newsletters for 200-300K readers",
     "I’ve translated most of the Deluge torrent client and some of Ubuntu to Hungarian.",
