@@ -32,7 +32,7 @@ jobs:
       - name: Generate PDF
         run: yarn start
       - name: PDF artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: pdf-result
           path: dist/**/*.pdf
