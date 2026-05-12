@@ -61,6 +61,26 @@ module.exports = {
   ],
   "experiences": [
     {
+      "title": "Fizetésipont Kft. (Budapest H-1026)",
+      "from": "2026 Jan.",
+      "to": "now",
+      "role": "Senior backend developer",
+      "details": {
+        "link": "https://fizetesipont.hu",
+        "company": "Fizetésipont",
+        "description": "is a payment service provider company",
+      },
+      "responsibilities": [
+        {
+          "text": "Implementing and structuring greenfield payment system and its APIs",
+        },
+        {
+          "text": "NestJS, React, NextJS, Docker, Postgres, Github Actions",
+        }
+      ],
+      "achievements": ["Skills earned: Payment systems, AWS Cryptography, MQTT, HSM"],
+    },
+    {
       "title": "Spreadmonitor",
       "from": "2024 Sep.",
       "to": "2025 Nov.",
