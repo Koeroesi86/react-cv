@@ -1,5 +1,7 @@
 // TODO: Check for fix line breaks instead of \n newline
 
+const { env } = require("./env");
+
 /** @type import("./src/types").CV */ 
 module.exports = {
   "name": "Krisztian Korosi",
@@ -7,7 +9,8 @@ module.exports = {
   "role": "Full-stack developer",
   "links": {
     "github": "https://github.com/Koeroesi86",
-    "website": "https://chris.koro.si"
+    "website": "https://chris.koro.si",
+    "phone": env.PII_PHONE,
   },
   "desire": "My desire is to always improve myself and attain new skills, to keep up with the latest technologies and to one day become a well-accomplished lead developer.",
   "skills": [

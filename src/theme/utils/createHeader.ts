@@ -59,6 +59,18 @@ const createHeader = (cv: CV, colours: Colours): RevivableComponent[] => [
       ]),
       { type: "block", props: { height: 2 } },
       createComment(colours.highlight, [
+        { type: "text", props: { color: colours.highlight, text: "@links:", size: 12, lineHeight: 1.2 } },
+        { type: "block", props: { width: 6 } },
+        {
+          type: "link",
+          props: { src: `tel:${cv.links.phone}`, underline: false },
+          children: [
+            { type: "text", props: { text: `${cv.links.phone}`, color: colours.highlight, lineHeight: 1.2 } },
+          ],
+        },
+      ]),
+      { type: "block", props: { height: 2 } },
+      createComment(colours.highlight, [
         { type: "text", props: { color: colours.highlight, text: "@var", size: 12, lineHeight: 1.2 } },
         { type: "block", props: { width: 6 } },
         { type: "text", props: { color: colours.highlight, text: `{${cv.role}} ${cv.nick}`, size: 12, lineHeight: 1.2 } },

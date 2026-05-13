@@ -89,6 +89,7 @@ export interface CVFavorite {
 export interface CVLinks {
   github?: string;
   website?: string;
+  phone?: string;
 }
 
 export interface CV {
@@ -105,3 +106,6 @@ export interface CV {
   information: string[];
 }
 
+export interface Env {
+  PII_PHONE: string;
+}

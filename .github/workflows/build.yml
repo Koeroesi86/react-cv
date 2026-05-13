@@ -27,6 +27,8 @@ jobs:
       - name: Test
         run: yarn test
       - name: Generate PDF
+        env:
+          PII_PHONE: ${{ secrets.PII_PHONE }}
         run: yarn start
       - name: PDF artifact
         uses: actions/upload-artifact@v4
