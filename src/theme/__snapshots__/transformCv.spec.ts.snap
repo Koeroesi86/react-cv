@@ -208,6 +208,81 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       "color": "#6ab9c8",
                       "lineHeight": 1.2,
                       "size": 12,
+                      "text": "@links:",
+                    },
+                    "type": "text",
+                  },
+                  {
+                    "props": {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  {
+                    "children": [
+                      {
+                        "props": {
+                          "color": "#6ab9c8",
+                          "lineHeight": 1.2,
+                          "text": "undefined",
+                        },
+                        "type": "text",
+                      },
+                    ],
+                    "props": {
+                      "src": "tel:undefined",
+                      "underline": false,
+                    },
+                    "type": "link",
+                  },
+                  {
+                    "props": {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  {
+                    "props": {
+                      "color": "#6ab9c8",
+                      "lineHeight": 1.2,
+                      "text": "*/",
+                    },
+                    "type": "text",
+                  },
+                ],
+                "props": {
+                  "flexDirection": "row",
+                  "justifyContent": "flex-start",
+                },
+                "type": "block",
+              },
+              {
+                "props": {
+                  "height": 2,
+                },
+                "type": "block",
+              },
+              {
+                "children": [
+                  {
+                    "props": {
+                      "color": "#6ab9c8",
+                      "lineHeight": 1.2,
+                      "text": "/**",
+                    },
+                    "type": "text",
+                  },
+                  {
+                    "props": {
+                      "width": 6,
+                    },
+                    "type": "block",
+                  },
+                  {
+                    "props": {
+                      "color": "#6ab9c8",
+                      "lineHeight": 1.2,
+                      "size": 12,
                       "text": "@var",
                     },
                     "type": "text",
