@@ -23,7 +23,7 @@ const createResponsibilities = (responsibilities: CVResponsibility[], colours: C
                   { type: "fragment", props: { node: `${link.text}` } }
                 ]
               },
-              ...(index < responsibility.links.length - 1 ? [{ type: "fragment", props: { node: ", " } }] as RevivableComponent[] : [])
+              ...(responsibility.links && index < responsibility.links.length - 1 ? [{ type: "fragment", props: { node: ", " } }] as RevivableComponent[] : [])
             ]
           })) : []),
         ],

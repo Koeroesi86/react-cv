@@ -1,11 +1,11 @@
 {
   "compilerOptions": {
-    "baseUrl": "src",
+    "rootDir": ".",
     "outDir": "./dist/",
     "noImplicitAny": false,
-    "module": "commonjs",
-    "moduleResolution": "node",
-    "target": "ES5",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "target": "esnext",
     "jsx": "react",
     "allowJs": true,
     "resolveJsonModule": true,
@@ -13,10 +13,12 @@
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
     "esModuleInterop": true,
+    "isolatedModules": true,
     "sourceMap": true,
+    "types": ["node", "jest"],
     "paths": {
-      "@app-types": ["types/index.ts"],
-      "@test-helpers": ["test-helpers/index.tsx"]
+      "@app-types": ["./src/types/index.ts"],
+      "@test-helpers": ["./src/test-helpers/index.tsx"]
     }
   }
 }
