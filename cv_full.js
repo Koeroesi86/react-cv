@@ -12,46 +12,57 @@ module.exports = {
     "website": "https://chris.koro.si",
     "phone": env.PII_PHONE,
   },
-  "desire": "Experienced full-stack professional with 17+ years in JavaScript ecosystems. Seeking a Lead Developer role where I can leverage deep expertise in modern React/NextJS and Node.js/NestJS architecture to build scalable, high-performance applications. I thrive in collaborative environments that prioritize clean code, TDD/BDD practices, and continuous technical excellence.",
+  "desire": "My desire is to always improve myself and attain new skills, to keep up with the latest technologies and to one day become a well-accomplished lead developer.",
   "skills": [
     {
-      "title": "Core Technologies (main focus)",
+      "title": "Main skills (3 or more years each)",
       "list": [
+        "NodeJS",
         "ReactJS",
-        "NextJS",
-        "TypeScript",
-        "Node.js/NestJS",
-        "JavaScript (ES6+)",
-        "RESTful APIs",
-        "GraphQL",
-        "State Management (Redux, Context)",
-      ]
-    },
-    {
-      "title": "Backend & Database",
-      "list": [
-        "PostgreSQL (Prisma ORM)",
-        "MongoDB",
-        "OAuth/Authentication",
-        "WebSockets",
-        "Docker",
-        "AWS Services (EC2, S3, RDS, IAM, Lambda)",
-      ]
-    },
-    {
-      "title": "Tools & Methodologies",
-      "list": [
-        "CI/CD (Github Actions, Jenkins)",
-        "Testing (TDD, BDD)",
-        "SCSS/CSS Modules",
+        "JavaScript",
+        "Typescript",
+        "ECMA Script",
+        "IntelliJ",
+        "VS Code",
+        "SQL",
+        "XHTML1.0-HTML5",
+        "CSS2-3",
+        "SCSS",
+        "AngularJS",
+        "Photoshop",
+        "Illustrator",
+        "Linux",
+        "Windows",
+        "MacOS",
+        "Apache",
+        "PHP",
         "Git",
-        "AngularJS/Angular 2+", // Kept historical depth but categorized it
+        "AWS (ex. EC2, ECR, ECS, RDS, IAM, S3, CloudWatch)",
+        "Rest APIs",
+        "Docker",
+      ]
+    },
+    {
+      "title": "Also focused on (2 or more years each)",
+      "list": [
+        "NestJS",
+        "NextJS",
+        "Prisma",
+        "GraphQL",
+        "APIs (ex. Facebook, Twitter, Google)",
+        "InDesign",
+        "OAuth",
+        "WebSockets",
+        "Sublime",
+        "Jenkins",
+        "Github Actions",
+        "Nginx",
       ]
     }
   ],
   "experiences": [
     {
-      "title": "Fizetésipont Kft. (H-1026)",
+      "title": "Fizetésipont Kft. (Budapest H-1026)",
       "from": "2026 Jan.",
       "to": "now",
       "role": "Senior backend developer",
@@ -65,13 +76,13 @@ module.exports = {
           "text": "Implementing and structuring greenfield payment system and its APIs",
         },
         {
-          "text": "Claude AI, NestJS, React, NextJS, Docker, Postgres, Github Actions",
+          "text": "NestJS, React, NextJS, Docker, Postgres, Github Actions",
         }
       ],
-      "achievements": ["Skills earned: AI workflows and optimizations, Payment systems,\nAWS Cryptography, MQTT, HSM"],
+      "achievements": ["Skills earned: Payment systems, AWS Cryptography, MQTT, HSM"],
     },
     {
-      "title": "Spreadmonitor (H-1118)",
+      "title": "Spreadmonitor",
       "from": "2024 Sep.",
       "to": "2025 Nov.",
       "role": "Full stack software developer",
@@ -100,7 +111,7 @@ module.exports = {
       "achievements": ["Skills earned: Routing controller"],
     },
     {
-      "title": "Fizz.hu (H-1132)",
+      "title": "Fizz.hu",
       "from": "2023 Jun.",
       "to": "2024 Aug.",
       "role": "Full stack software developer",
@@ -281,8 +292,47 @@ module.exports = {
       "achievements": ["Skills earned: Electron, Java, Kotlin"]
     },
     {
+      "title": "Mobile 5 Media (London W1F 7SP)",
+      "from": "2017 Mar.",
+      "to": "2017 Jun.",
+      "role": "Senior Full-Stack developer",
+      "details": {
+        "link": "http://www.mobile-5.com/",
+        "company": "Mobile 5",
+        "description": "is a mid-sized software agency, formerly advertisement agency."
+      },
+      "responsibilities": [
+        {
+          "text": "Frontend and backend developement of client sites, and some Devops"
+        },
+        {
+          "text": "UI (HTML, JS, SCSS, ES, React) and backend (PHP, MySQL, Symfony)"
+        },
+        {
+          "text": "Projects done: ",
+          "links": [
+            {
+              "text": "Penhaligon’s profiler",
+              "url": "https://profiling.penhaligons.com/"
+            },
+            {
+              "text": "Alumnet",
+              "url": "https://alumnet.social"
+            },
+            {
+              "text": "Travelhero",
+              "url": "https://www.travelheroapp.com"
+            }
+          ]
+        }
+      ],
+      "achievements": [
+        "Skills earned: AWS API gateway, React JS, Redux, Documentation, Jenkins"
+      ]
+    },
+    {
       "title": "MullenLowe Group (London EC1Y 1AT)",
-      "from": "2017 Jun.",
+      "from": "2016 Jul.",
       "to": "2017 Mar.",
       "role": "Senior Full-Stack developer",
       "details": {
@@ -323,6 +373,171 @@ module.exports = {
         "Skills earned: Docker, AWS, Typescript, ES 3-6, Node JS, Haproxy,\nAngular 1-2, Symfony 3, Nginx"
       ]
     },
+    {
+      "title": "Apex IT Services (Budapest H-1056)",
+      "from": "2015 Aug.",
+      "to": "2016 Jun.",
+      "role": "Senior PHP developer",
+      "details": {
+        "link": "https://xmodels.ch",
+        "company": "Apex",
+        "description": "is the hungarian subsidiary of DNX Corporation, which is an adult-content company, running ex. xcams.com, and xmodels.ch"
+      },
+      "responsibilities": [
+        {
+          "text": "Developement of various sites of Xmodels"
+        },
+        {
+          "text": "UI (JS, SASS, HTML) and backend (PHP, MySQL, Symfony 2)"
+        },
+        {
+          "text": "Projects done: ",
+          "links": [
+            {
+              "text": "Xmodels",
+              "url": "https://www.xmodels.com/"
+            },
+            {
+              "text": "Xmodels wiki",
+              "url": "https://wiki.xmodels.com"
+            }
+          ]
+        }
+      ],
+      "achievements": ["Skills earned: Symfony 2, PHPStorm, Git"]
+    },
+    {
+      "title": "Hewlett-Packard (Budapest H-1031)",
+      "from": "2014 Nov.",
+      "to": "2015 Jun.",
+      "role": "Web developer",
+      "details": {
+        "link": "https://www8.hp.com",
+        "company": "Hewlett-Packard",
+        "description": "is one of the biggest IT manufacturers."
+      },
+      "responsibilities": [
+        {
+          "text": "Creating campaign pages and localizations"
+        },
+        {
+          "text": "UI (Frontend) developement (Javascript, HTML, CSS)"
+        },
+        {
+          "text": "Projects done: ",
+          "links": [
+            {
+              "text": "MEC",
+              "url": "https://www8.hp.com/au/en/campaigns/melbexpcentre/about.html"
+            },
+            {
+              "text": "Mobility",
+              "url": "https://www8.hp.com/us/en/solutions/business-solutions.html"
+            },
+            {
+              "text": "Tasso Zero",
+              "url": "https://ssl.www8.hp.com/it/it/campaigns/tassozero-designjet/overview.html"
+            },
+            {
+              "text": "Spectre x360",
+              "url": "https://www8.hp.com/emea_middle_east/en/campaigns/spectre-x360/overview.html"
+            },
+            {
+              "text": "Services",
+              "url": "https://www8.hp.com/us/en/services/consumer/services-overview.html"
+            }
+          ]
+        }
+      ],
+      "achievements": ["Skills earned: Laravel, Tridion"]
+    },
+    {
+      "title": "Systemax Business Services Kft. Budapest H-1082",
+      "from": "2013 Dec.",
+      "to": "2014 Nov.",
+      "role": "Web designer and Developer",
+      "details": {
+        "link": "https://www.systemax.com",
+        "company": "Systemax (or Misco)",
+        "description": "is a multinational company in over 10 countries."
+      },
+      "responsibilities": [
+        {
+          "text": "Designing newsletters, banners, landing pages and microsites"
+        },
+        {
+          "text": "Development of microsites, uniform brief, and online briefing system"
+        },
+        {
+          "text": "Projects done: Uniform brief for all European countries (VBA newsletter generator),\nOnline briefing system"
+        },
+        {
+          "text": "Campaigns: ",
+          "links": [
+            {
+              "text": "Misco Expo",
+              "url": "https://www.inmac-wstore.com/imagesportal/fr/localisation/200100/expo2015/index.html"
+            },
+            {
+              "text": "Enterprise Solutions",
+              "url": "https://web.archive.org/web/20160908204554/https://www.misco.co.uk/enterprise-solutions"
+            }
+          ]
+        }
+      ],
+      "achievements": ["Skills earned: VBA"]
+    },
+    {
+      "title": "Pentatrade Kft. Győr H-9028",
+      "from": "2012 Feb.",
+      "to": "2013 Oct.",
+      "role": "Software Developer",
+      "details": {
+        "link": "https://pentatrade.hu",
+        "company": "Pentatrade",
+        "description": "is a software development and financial advisor company."
+      },
+      "responsibilities": [
+        {
+          "text": "UI (frontend) development (JavaScript, HTML, CSS)"
+        },
+        {
+          "text": "Project done: ",
+          "links": [
+            {
+              "text": "Seneca Controlling Software",
+              "url": "https://www.saas.seneca-control.com/"
+            }
+          ]
+        }
+      ],
+      "achievements": [
+        "Skills earned: component developement, OOP, Scrum, .NET, MS SQL"
+      ]
+    },
+    {
+      "title": "Codra Kft. (Budapest H-1119)",
+      "from": "2009 Aug.",
+      "to": "2011 Dec.",
+      "role": "Webdesign, and Development",
+      "details": {
+        "link": "https://web.archive.org/web/20110227030706/http://codra.hu/webaruhaz/",
+        "company": "Codra",
+        "description": "was a distributor company for over 50 manufacturer (12 of them exclusively). For some time I’ve been a product manager too."
+      },
+      "responsibilities": [
+        {
+          "text": "Site maintenance, Editing newsletters"
+        },
+        {
+          "text": "Design (Photoshop, Illustrator), Development (PHP, MySQL, JavaScript, HTML, CSS)"
+        },
+        {
+          "text": "Project done: webshop (osCommerce), blog"
+        }
+      ],
+      "achievements": ["Making the whole company’s brand (web, and printed)"]
+    }
   ],
   "studies": [
     {
@@ -390,7 +605,7 @@ module.exports = {
     }
   ],
   "information": [
-    "Coming from an agile background, I have around 17 years’ experience working with Javascript. I have worked in TDD, BDD, Scrum and Kanban environments too",
+    "Coming from an agile background, I have around 13 years’ experience working with Javascript. I have worked in TDD, BDD, Scrum and Kanban environments too",
     "Although I have a full-stack background, I have been using React.js for years and I am now looking to work in a collaborative environment to improve my React.js and NodeJS skills",
     "Easily getting along well with people and have excellent communication skills, I’ve been a main point of contact in Hungary for ACD Systems, Cyberlink, Pinnaccle and AVID",
     "I have made digital newsletters for 200-300K readers",
