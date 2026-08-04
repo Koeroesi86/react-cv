@@ -11,6 +11,7 @@ import exampleCV from "./example/cv";
 import components from "./theme/components";
 import getColourScheme from "./theme/utils/getColourScheme";
 import { SchemeNames } from "./theme/types";
+import createFileName from "./theme/utils/createFileName";
 
 (async () => {
   try {
@@ -85,7 +86,7 @@ import { SchemeNames } from "./theme/types";
       <ReviverProvider components={components}>
         <ReviverLayout data={transformCv(cv, colours, pageSize)}/>
       </ReviverProvider>,
-      path.resolve(distPath, `./${cv.name.replace(/[ ]/, ".")}.pdf`),
+      path.resolve(distPath, `./${createFileName(cv.name)}.pdf`),
     );
 
     console.log("render completed.");

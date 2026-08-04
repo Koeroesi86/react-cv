@@ -11,14 +11,14 @@ const createBulletpoint = (icon: RevivableIcon, children?: RevivableComponent[])
         alignItems: "center",
         justifyContent: "flex-start",
         flexWrap: "nowrap",
-        width: (icon.props.width) * 2,
+        width: (icon.props?.width ?? 1) * 2,
       },
       children: [
-        { type: "block", props: { height: icon.props.height / 4 } },
+        { type: "block", props: { height: (icon.props?.height ?? 1) / 4 } },
         icon
       ],
     },
-    { type: "block", props: { flexGrow: 1, flexWrap: "nowrap" }, children },
+    { type: "block", props: { }, children },
   ]
 });
 
