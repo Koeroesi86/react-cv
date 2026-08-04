@@ -563,161 +563,17 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         "children": [
                           {
                             "props": {
-                              "node": "IntelliJ, ",
+                              "color": "#1d1d1b",
+                              "lineHeight": 1.2,
+                              "text": "IntelliJ, SQL, XHTML1.0-HTML5, CSS2-3, SCSS, JavaScript, AngularJS, jQuery, Photoshop, Illustrator, Linux, Windows, MacOS, Symfony, Laravel, Wordpress, Apache, PHP, Git, ECMA Script, NodeJS, ReactJS, AWS (ex. EC2, ECR, ECS, RDS, IAM, S3), Rest APIs, Docker",
                             },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "SQL, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "XHTML1.0-HTML5, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "CSS2-3, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "SCSS, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "JavaScript, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "AngularJS, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "jQuery, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Photoshop, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Illustrator, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Linux, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Windows, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "MacOS, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Symfony, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Laravel, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Wordpress, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Apache, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "PHP, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Git, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "ECMA Script, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "NodeJS, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "ReactJS, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "AWS (ex. EC2, ECR, ECS, RDS, IAM, S3), ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Rest APIs, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Docker",
-                            },
-                            "type": "fragment",
+                            "type": "text",
                           },
                         ],
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
-                          "text": "",
+                          "width": 500,
                         },
-                        "type": "text",
+                        "type": "block",
                       },
                       {
                         "props": {
@@ -785,77 +641,17 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         "children": [
                           {
                             "props": {
-                              "node": "ElasticSearch, ",
+                              "color": "#1d1d1b",
+                              "lineHeight": 1.2,
+                              "text": "ElasticSearch, Typescript, Nginx, APIs (ex. Facebook, Twitter, Google), InDesign, OAuth, WebSockets, Sublime, VisualStudio, Jenkins, Serverless",
                             },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Typescript, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Nginx, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "APIs (ex. Facebook, Twitter, Google), ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "InDesign, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "OAuth, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "WebSockets, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Sublime, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "VisualStudio, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Jenkins, ",
-                            },
-                            "type": "fragment",
-                          },
-                          {
-                            "props": {
-                              "node": "Serverless",
-                            },
-                            "type": "fragment",
+                            "type": "text",
                           },
                         ],
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
-                          "text": "",
+                          "width": 500,
                         },
-                        "type": "text",
+                        "type": "block",
                       },
                       {
                         "props": {

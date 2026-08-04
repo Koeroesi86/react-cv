@@ -12,14 +12,18 @@ const createSkills = (cv: CV, colours: Colours): RevivableComponent[] => [
       { type: "text", props: { text: `${skill.title}`, color: colours.text, weight: 700, lineHeight: 1.2 } },
       { type: "block", props: { height: 2 } },
       {
-        type: "text",
-        props: { text: "", color: colours.text, lineHeight: 1.2 },
-        children: skill.list.map((item, i): RevivableComponent => ({
-          type: "fragment",
-          props: {
-            node: `${item}${i < skill.list.length - 1 ? ", " : ""}`
-          }
-        })),
+        type: "block",
+        props: { width: 500 },
+        children: [
+          {
+            type: "text",
+            props: {
+              text: skill.list.join(", "),
+              color: colours.text,
+              lineHeight: 1.2
+            },
+          },
+        ],
       },
       { type: "block", props: { height: 6 } },
     ],

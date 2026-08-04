@@ -6,13 +6,13 @@ const { env } = require("./env");
 module.exports = {
   "name": "Krisztián Kőrösi",
   "nick": "Krisz",
-  "role": "Full-stack developer",
+  "role": "Lead Full-Stack Software Engineer",
   "links": {
     "github": "https://github.com/Koeroesi86",
     "website": "https://chris.koro.si",
     "phone": env.PII_PHONE,
   },
-  "desire": "Experienced full-stack professional with 17+ years in JavaScript ecosystems. Seeking a Lead Developer role where I can leverage deep expertise in modern React/NextJS and Node.js/NestJS architecture to build scalable, high-performance applications. I thrive in collaborative environments that prioritize clean code, TDD/BDD practices, and continuous technical excellence.",
+  "desire": "Lead / Senior Full-Stack Engineer with 17+ years of experience architecting, scaling, and delivering high-availability systems across FinTech, E-commerce, and Payment Processing. Expert in modern React/Next.js and Node.js/NestJS architectures, cloud infrastructure, and AI workflow integration. Proven track record of guiding cross-functional teams, driving clean code standards (TDD/BDD), and translating complex business requirements into high-performance software.",
   "skills": [
     {
       "title": "Core Technologies (main focus)",
@@ -45,7 +45,7 @@ module.exports = {
         "Testing (TDD, BDD)",
         "SCSS/CSS Modules",
         "Git",
-        "\nAngularJS/Angular 2+",
+        "AngularJS/Angular 2+",
       ]
     }
   ],
@@ -54,7 +54,7 @@ module.exports = {
       "title": "Fizetésipont Kft. (Hungary 1026)",
       "from": "2026 Jan.",
       "to": "now",
-      "role": "Senior backend developer",
+      "role": "Senior Backend Developer & Architect",
       "details": {
         // "link": "https://fizetesipont.hu",
         "company": "Fizetésipont",
@@ -62,22 +62,28 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Implementing and structuring greenfield payment system and its APIs",
+          "text": "Architecting a greenfield payment processing service and core RESTful APIs.",
         },
         {
-          "text": "Claude AI, NestJS, React, NextJS, Docker, Postgres, Github Actions",
+          "text": "Establishing security compliance (HSM, AWS Cryptography, MQTT) and building \nbackoffice management tools.",
+        },
+        {
+          "text": "Integrating advanced AI workflows (Claude AI) to optimize engineering development \nspeed and system reliability.",
+        },
+        {
+          "text": "Stack: NestJS, React, NextJS, Docker, PostgreSQL, GitHub Actions, AWS, MQTT, HSM",
         }
       ],
       "achievements": [
-        "Skills earned: AI workflows and optimizations, Payment systems,\nAWS Cryptography, MQTT, HSM",
-        "Implemented a secure greenfield payment processing service including backoffice\ndashboard, compliance, and transaction management.",
+        "Architected and deployed a highly secure greenfield payment engine with integrated transaction management and automated compliance controls.",
+        "Introduced AI-assisted development workflows to accelerate feature delivery and \ntest coverage."
       ],
     },
     {
       "title": "Spreadmonitor (Hungary 1118)",
       "from": "2024 Sep.",
       "to": "2025 Nov.",
-      "role": "Full stack software developer",
+      "role": "Full Stack Software Developer",
       "details": {
         // "link": "https://spreadmonitor.com",
         "company": "Spreadmonitor",
@@ -85,7 +91,7 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Made the project more typed and increased testability",
+          "text": "Refactored key platform components to strictly typed architectures to increase \nsystem stability and developer throughput.",
         },
         {
           "text": "Projects done: ",
@@ -97,18 +103,18 @@ module.exports = {
           ]
         },
         {
-          "text": "Angular, Node, NestJS, Routing Controller, Docker, Postgres, Github Actions",
+          "text": "Stack: Angular, NestJS, Routing Controller, Docker, PostgreSQL, GitHub Actions",
         }
       ],
       "achievements": [
-        "Skills earned: Routing controller",
-        "Implemented a more robust and type-safe platform for the existing energy \nmonitoring application, enhancing maintainability and scalability.",],
+        "Migrated core services to a strictly typed architecture, decreasing manual QA."
+      ],
     },
     {
       "title": "Fizz.hu (Hungary 1132)",
       "from": "2023 Jun.",
       "to": "2024 Aug.",
-      "role": "Full stack software developer",
+      "role": "Lead / Full Stack Software Developer",
       "details": {
         // "link": "https://fizz.hu",
         "company": "Fizz",
@@ -116,32 +122,25 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Prepared site to go live and mentored/lead developer team",
+          "text": "Mentored and led engineering team through full lifecycle development to bring \nthe e-commerce marketplace live.",
         },
+        // {
+        //   "text": "Projects done: fizz.hu",
+        // },
         {
-          "text": "Projects done: ",
-          "links": [
-            {
-              "text": "fizz.hu",
-              "url": "https://fizz.hu"
-            }
-          ]
-        },
-        {
-          "text": "React, Node, NestJS, NextJS, Docker, Postgres, MongoDB, Github Actions",
+          "text": "Stack: React, NestJS, Next.js, Docker, PostgreSQL, MongoDB, GitHub Actions",
         }
       ],
       "achievements": [
-        "Skills earned: NextJS, NestJS",
-        "Contributed to the full lifecycle development of an e-commerce marketplace, \nenhanced maintainability and scalability.",
-        "Imroved scalability from around 200 to over 4 million users."
+        "Scaled application architecture to support massive growth \nfrom ~200 users to over 4,000,000 users.",
+        "Established architectural patterns in Next.js and NestJS that improved release \nreliability and reduced production incidents."
       ],
     },
     {
       "title": "Shares S.A.S (remote)",
       "from": "2022 Jan.",
       "to": "2023 Jun.",
-      "role": "Full stack software engineer",
+      "role": "Full Stack Software Engineer",
       "details": {
         // "link": "https://shares.io",
         "company": "Shares",
@@ -149,15 +148,14 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Maintaining and improving backoffice web application",
+          "text": "Engineered and optimized core backoffice web applications \npowering critical internal operations.",
         },
         {
-          "text": "React, Node, Docker, Postres, Github Actions",
+          "text": "Stack: React, Node.js, Docker, PostgreSQL, GitHub Actions",
         }
       ],
       "achievements": [
-        "Re-engineered the backoffice web application using React and Node.js, improving \nload times by data fetching patterns and adopting component-driven architecture.",
-        "Migrated core services to a highly typed approach, reducing reliance \non extensive manual QA testing through improved code safety."
+        "Re-engineered the web application using React and Node.js, significantly reducing \nload times via optimized data fetching and component-driven architecture.",
       ],
     },
     {
@@ -172,19 +170,21 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Mentoring and helping team to organize",
+          "text": "Mentored engineers and assisted leadership in organizing sprint objectives and \nrelease schedules.",
         },
         {
-          "text": "React, SCSS, Docker, Jenkins",
+          "text": "Stack: React, SCSS, Docker, Jenkins",
         }
       ],
-      "achievements": ["Streamlined some of the client release processes"],
+      "achievements": [
+        "Streamlined client deployment processes by introducing automated \nCI/CD release controls."
+      ],
     },
     {
       "title": "Deko (London EC4A 3BF)",
       "from": "2020 Mar.",
-      "to": "2021 May.",
-      "role": "Senior Developer",
+      "to": "2021 May",
+      "role": "Senior / Lead Developer",
       "details": {
         // "link": "https://www.dekopay.com/",
         "company": "Deko",
@@ -192,23 +192,22 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Creating multi lender provider platform called Deko Plugin"
+          "text": "Architected multi-lender provider integration platform for retail partners."
         },
         {
-          "text": "Mentoring team and clarifying business expectations"
+          "text": "Mentored engineering team and aligned technical deliverables."
         },
         {
-          "text": "React, NodeJS, Docker, PostgreSQL, AWS, Jenkins, Datadog"
+          "text": "Stack: React, Node.js, Docker, PostgreSQL, AWS, Jenkins, Datadog"
         }
       ],
       "achievements": [
-        "Skills earned: Styled Components",
-        "Developed and maintained the complex multi-lender architecture using ReactJS,\nensuring modularity and independent deployment for different financial providers.",
+        "Designed complex multi-lender platform using modular ReactJS architecture, \nenabling independent deployments across diverse financial integration providers."
       ]
     },
     {
       "title": "Jefferies International (London EC2N 4JL)",
-      "from": "2019 May.",
+      "from": "2019 May",
       "to": "2019 Oct.",
       "role": "Consultant, Lead Developer",
       "details": {
@@ -218,18 +217,17 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Development of new and existing projects"
+          "text": "Led technical strategy and delivery for financial trading platforms."
         },
         {
-          "text": "Mentoring team and clarifying business expectations"
+          "text": "Guiding and mentoring developers."
         },
         {
-          "text": "React, React Hooks, CI/CD, Intellij TeamCity"
+          "text": "Stack: React, React Hooks, OpenFin, CI/CD, TeamCity"
         }
       ],
       "achievements": [
-        "Skills earned: OpenFin",
-        "Prototyped and implemented a new trading platforms using ReactJS and OpenFin, \nenhancing the user experience for financial traders.",
+        "Prototyped and delivered new high-frequency trading platform interfaces using \nReactJS and OpenFin, greatly enhancing workflow UX for financial traders."
       ]
     },
     {
@@ -244,10 +242,10 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Development of new customised product editor"
+          "text": "Developed customer-facing customized product editor."
         },
         {
-          "text": "HTML, JS, SCSS, ES, React, Redux, NodeJS, S3"
+          "text": "Stack: React, Redux, Node.js, GraphQL, AWS S3, SQS, SNS, Auth0, Serverless"
         },
         {
           "text": "Projects done: ",
@@ -260,8 +258,7 @@ module.exports = {
         }
       ],
       "achievements": [
-        "Skills earned: Serverless, SQS, SNS, GraphQL, Auth0",
-        "Implemented serverless workflows leveraging AWS S3 (storage) and SQS/SNS for asynchronous photobook processing and notifications after order placement."
+        "Architected serverless asynchronous workflows leveraging AWS S3, SQS, and SNS \nfor background photobook processing and automated notifications."
       ]
     },
     {
@@ -276,10 +273,10 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Frontend development of their existing products"
+          "text": "Engineered high-performance web UI components for financial exchanges."
         },
         {
-          "text": "HTML, JS, SCSS, ES, React, Electron"
+          "text": "Stack: React, Electron, JavaScript (ES6+), SCSS, Java, Kotlin"
         },
         {
           "text": "Projects done: ",
@@ -300,15 +297,14 @@ module.exports = {
         }
       ],
       "achievements": [
-        "Skills earned: Electron, Java, Kotlin",
-        "Successfully migrated/modernized client-facing financial applications, replacing \nolder technologies with modern ReactJS.",
+        "Modernized legacy financial client applications by successfully migrating core \nplatforms to modular ReactJS desktop and web apps."
       ]
     },
     {
       "title": "MullenLowe Group (London EC1Y 1AT)",
       "from": "2016 Jun.",
       "to": "2017 Mar.",
-      "role": "Senior Full-Stack developer",
+      "role": "Senior Full-Stack Developer",
       "details": {
         // "link": "https://www.mullenlowegroup.com",
         "company": "MLG",
@@ -316,10 +312,10 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Development of many sites of the company, and some Devops"
+          "text": "Led development of internal tools, web apps, and cloud migrations."
         },
         {
-          "text": "UI (HTML, JS, SCSS, TS, ES) and backend (Node JS, PHP, MySQL), AWS"
+          "text": "Stack: Node.js, TypeScript, Angular, PHP, Symfony, AWS, Docker, HAProxy, Nginx"
         },
         {
           "text": "Projects done: ",
@@ -329,23 +325,18 @@ module.exports = {
               "url": "https://ink.mullenlowegroup.com"
             },
             {
-              "text": "\nHoliday tracker (Angular1, Symfony2)",
+              "text": "Holiday tracker (Angular1, Symfony2)",
               "url": "https://www.mullenlowegroup.com"
             },
             {
-              "text": "Kudos (Angular2, Symfony3)",
+              "text": "\nKudos (Angular2, Symfony3)",
               "url": "https://kudos.mullenlowegroup.com"
-            },
-            // {
-            //   "text": "\nVote456 (Symfony)",
-            //   "url": "https://www.mullenlowegroup.com"
-            // }
+            }
           ]
         }
       ],
       "achievements": [
-        "Skills earned: Docker, AWS, Typescript, ES 3-6, Node JS, Haproxy,\nAngular 1-2, Symfony 3, Nginx",
-        "Successfully led the development and deployment of multiple internal tools and \nweb applications, migration to cloud.",
+        "Led successful creation and AWS cloud migration of multiple agency-wide platforms."
       ]
     },
     {
@@ -355,14 +346,14 @@ module.exports = {
       "details": {
         "link": "https://www.linkedin.com/in/krisztiankorosi/",
         "company": "LinkedIn",
-        "description": " contains all prior experiences, including: Apex IT Services, Hewlett-Packard,\nSystemax Business Services, Pentatrade, Codra"
+        "description": " contains all prior experiences, including: Apex IT Services, Hewlett-Packard, \nSystemax Business Services, Pentatrade, Codra"
       },
       "responsibilities": [
         {
-          "text": "Frontend and backend development, DevOps, mentoring"
+          "text": "Full-stack web engineering, DevOps, and developer mentoring across various digital platforms."
         },
         {
-          "text": "HTML, JS, SCSS, ES, PHP, MySQL"
+          "text": "Stack: JavaScript, PHP, MySQL, SCSS, HTML5"
         }
       ],
       "achievements": []
@@ -370,36 +361,36 @@ module.exports = {
   ],
   "studies": [
     {
-      "title": "Kalmár László IT secondary School (Budapest H-1027)",
+      "title": "Kalmár László IT Secondary School (Budapest H-1027)",
       "from": "",
       "to": "2007",
       "details": [
         {
           "title": "Matura",
-          "points": ["Professional programmer degree"]
+          "points": ["Professional Programmer Degree"]
         }
       ]
     },
     {
-      "title": "SZIE – Ybl Miklós Faculty of Building (Budapest H-1146)",
+      "title": "SZIE – Ybl Miklós Faculty of Architecture (Budapest H-1146)",
       "from": "2007",
       "to": "2011",
       "details": [
         {
-          "title": "Bsc education",
-          "points": ["Architect engineer"]
+          "title": "BSc Education",
+          "points": ["Architect Engineer"]
         },
         {
           "title": "Achievements",
-          "points": ["Additional skills earned: AutoCAD, ArchiCAD"]
+          "points": ["Additional technical skills: AutoCAD, ArchiCAD"]
         }
       ]
     }
   ],
   "interests": [
     "Photography",
-    "Arts (drawing, statuary, architecture)",
-    "Music (even playing on guitar, harp, drums)"
+    "Arts (drawing, sculpture, architecture)",
+    "Music (guitar, harp, drums)"
   ],
   "favorites": [
     {
@@ -415,12 +406,12 @@ module.exports = {
     {
       "url": "https://www.caplin.com/solutions/post-trade",
       "name": "FXCorporate",
-      "description": "(ReactJS FX settlement app with websockets)"
+      "description": "(ReactJS FX settlement app with WebSockets)"
     },
     {
       "url": "https://xcams-models.com/",
       "name": "xcams-models.com",
-      "description": "(Symfony site with 100000+ users)"
+      "description": "(Symfony site with 100,000+ active users)"
     },
     {
       "url": "https://kudos.mullenlowegroup.com/",
@@ -432,6 +423,6 @@ module.exports = {
     "Over 17 years of experience building scalable, mission-critical systems across payment processing, e-commerce, and financial services using modern JavaScript stacks (React/NextJS + Node/NestJS).",
     "A seasoned mentor and lead developer who excels at transforming raw requirements into robust technical designs. Experienced in leading cross-functional teams and streamlining complex release processes.",
     "Expertise in adopting best practices (TDD, BDD) within Agile environments to enhance system resilience and maintainability throughout the application lifecycle.",
-    "Easily getting along well with people and have excellent communication skills, I’ve been a main point of contact in Hungary for ACD Systems, Cyberlink, Pinnaccle and AVID",
+    "Excellent communication and stakeholder management skills; acted as key technical liaison in Hungary for ACD Systems, CyberLink, Pinnacle, and AVID."
   ]
 };
