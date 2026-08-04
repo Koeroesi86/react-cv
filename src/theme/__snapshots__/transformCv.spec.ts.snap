@@ -726,10 +726,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         "type": "block",
                       },
                     ],
-                    "props": {
-                      "flexGrow": 1,
-                      "flexWrap": "nowrap",
-                    },
+                    "props": {},
                     "type": "block",
                   },
                 ],
@@ -867,10 +864,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         "type": "block",
                       },
                     ],
-                    "props": {
-                      "flexGrow": 1,
-                      "flexWrap": "nowrap",
-                    },
+                    "props": {},
                     "type": "block",
                   },
                 ],
@@ -1007,7 +1001,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "height": 3,
+                          "height": 1,
                         },
                         "type": "block",
                       },
@@ -1021,7 +1015,54 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "height": 6,
+                          "height": 3,
+                        },
+                        "type": "block",
+                      },
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "props": {
+                                      "node": "Codra",
+                                    },
+                                    "type": "fragment",
+                                  },
+                                ],
+                                "props": {
+                                  "color": "#6ab9c8",
+                                  "src": "https://web.archive.org/web/20110227030706/https://codra.hu/webaruhaz/",
+                                },
+                                "type": "link",
+                              },
+                              {
+                                "props": {
+                                  "color": "#1d1d1b",
+                                  "lineHeight": 1.2,
+                                  "text": "was a distributor company for over 50 manufacturer (12 of them exclusively). For some time I’ve been a product manager too.",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": {
+                              "color": "#1d1d1b",
+                              "lineHeight": 1.2,
+                              "text": "",
+                            },
+                            "type": "text",
+                          },
+                        ],
+                        "props": {
+                          "flexDirection": "row",
+                        },
+                        "type": "block",
+                      },
+                      {
+                        "props": {
+                          "height": 3,
                         },
                         "type": "block",
                       },
@@ -1058,7 +1099,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "height": 6,
+                          "height": 3,
                         },
                         "type": "block",
                       },
@@ -1118,10 +1159,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                 "type": "text",
                               },
                             ],
-                            "props": {
-                              "flexGrow": 1,
-                              "flexWrap": "nowrap",
-                            },
+                            "props": {},
                             "type": "block",
                           },
                         ],
@@ -1178,10 +1216,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                 "type": "text",
                               },
                             ],
-                            "props": {
-                              "flexGrow": 1,
-                              "flexWrap": "nowrap",
-                            },
+                            "props": {},
                             "type": "block",
                           },
                         ],
@@ -1238,10 +1273,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                 "type": "text",
                               },
                             ],
-                            "props": {
-                              "flexGrow": 1,
-                              "flexWrap": "nowrap",
-                            },
+                            "props": {},
                             "type": "block",
                           },
                         ],
@@ -1253,7 +1285,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "height": 6,
+                          "height": 3,
                         },
                         "type": "block",
                       },
@@ -1305,10 +1337,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                 "type": "text",
                               },
                             ],
-                            "props": {
-                              "flexGrow": 1,
-                              "flexWrap": "nowrap",
-                            },
+                            "props": {},
                             "type": "block",
                           },
                         ],
@@ -1613,10 +1642,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                 "type": "text",
                               },
                             ],
-                            "props": {
-                              "flexGrow": 1,
-                              "flexWrap": "nowrap",
-                            },
+                            "props": {},
                             "type": "block",
                           },
                         ],
@@ -1775,10 +1801,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                 "type": "text",
                               },
                             ],
-                            "props": {
-                              "flexGrow": 1,
-                              "flexWrap": "nowrap",
-                            },
+                            "props": {},
                             "type": "block",
                           },
                         ],
@@ -1842,10 +1865,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                 "type": "text",
                               },
                             ],
-                            "props": {
-                              "flexGrow": 1,
-                              "flexWrap": "nowrap",
-                            },
+                            "props": {},
                             "type": "block",
                           },
                         ],
@@ -1994,10 +2014,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "text",
                   },
                 ],
-                "props": {
-                  "flexGrow": 1,
-                  "flexWrap": "nowrap",
-                },
+                "props": {},
                 "type": "block",
               },
             ],
@@ -2046,10 +2063,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "text",
                   },
                 ],
-                "props": {
-                  "flexGrow": 1,
-                  "flexWrap": "nowrap",
-                },
+                "props": {},
                 "type": "block",
               },
             ],
@@ -2098,10 +2112,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "text",
                   },
                 ],
-                "props": {
-                  "flexGrow": 1,
-                  "flexWrap": "nowrap",
-                },
+                "props": {},
                 "type": "block",
               },
             ],
@@ -2223,7 +2234,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         ],
                         "props": {
                           "color": "#6ab9c8",
-                          "src": "magyartop.hu",
+                          "src": "http://magyartop.hu/",
                         },
                         "type": "link",
                       },
@@ -2248,10 +2259,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                 ],
-                "props": {
-                  "flexGrow": 1,
-                  "flexWrap": "nowrap",
-                },
+                "props": {},
                 "type": "block",
               },
             ],
@@ -2306,7 +2314,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         ],
                         "props": {
                           "color": "#6ab9c8",
-                          "src": "chris.koro.si",
+                          "src": "https://chris.koro.si/",
                         },
                         "type": "link",
                       },
@@ -2331,10 +2339,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                 ],
-                "props": {
-                  "flexGrow": 1,
-                  "flexWrap": "nowrap",
-                },
+                "props": {},
                 "type": "block",
               },
             ],
@@ -2456,10 +2461,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                 ],
-                "props": {
-                  "flexGrow": 1,
-                  "flexWrap": "nowrap",
-                },
+                "props": {},
                 "type": "block",
               },
             ],
@@ -2514,10 +2516,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                 ],
-                "props": {
-                  "flexGrow": 1,
-                  "flexWrap": "nowrap",
-                },
+                "props": {},
                 "type": "block",
               },
             ],
