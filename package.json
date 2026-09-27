@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "",
   "license": "MIT",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
   "scripts": {
     "build": "yarn install --frozen-lockfile && rm -rf ./dist && webpack --progress",
     "lint": "eslint src --cache --cache-location .cache/eslint/ --ext .js,.jsx,.ts,.tsx",
@@ -30,7 +33,6 @@
     "@typescript-eslint/eslint-plugin": "^8.59.3",
     "@typescript-eslint/parser": "^8.59.3",
     "eslint": "^10.3.0",
-    "eslint-config-airbnb": "^19.0.4",
     "eslint-config-prettier": "^10.1.8",
     "eslint-import-resolver-typescript": "^4.4.4",
     "eslint-plugin-import": "^2.32.0",
