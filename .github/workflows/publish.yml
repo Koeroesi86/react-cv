@@ -9,14 +9,13 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
         with:
           node-version: '22'
           cache: 'yarn'
-          registry-url: 'https://registry.npmjs.org'
       - name: Persist cache
-        uses: actions/cache@v3
+        uses: actions/cache@v6
         id: local-dot-cache
         with:
           path: .cache
@@ -34,7 +33,7 @@ jobs:
           PII_PHONE: ${{ secrets.PII_PHONE }}
         run: yarn start
       - name: PDF artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: pdf-result
           path: dist/**/*.pdf
