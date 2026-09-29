@@ -5,7 +5,7 @@ import ReactPDF, { Font } from "@react-pdf/renderer";
 import { ReviverProvider, ReviverLayout } from "@koeroesi86/react-reviver";
 import { CV } from "@app-types";
 import fs from "fs";
-import { PageSizes } from "@koeroesi86/react-pdf-components";
+import { PageSizes } from "@pdf-components";
 import transformCv from "./theme/transformCv";
 import exampleCV from "./example/cv";
 import components from "./theme/components";

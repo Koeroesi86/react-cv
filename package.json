@@ -10,7 +10,7 @@
     "build": "yarn install --frozen-lockfile && rm -rf ./dist && webpack --progress",
     "lint": "eslint src --cache --cache-location .cache/eslint/ --ext .js,.jsx,.ts,.tsx",
     "test": "jest",
-    "start": "ts-node src/node.tsx",
+    "start": "ts-node -r tsconfig-paths/register src/node.tsx",
     "generate-version": "ts-node scripts/version.ts",
     "dev": "rm -rf ./dist && nodemon --watch src/**/* --exec yarn start"
   },
@@ -23,7 +23,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@koeroesi86/react-pdf-components": "^23.3.4330880333-main",
     "@koeroesi86/react-reviver": "^23.3.4329683321-main",
     "@types/jest": "^30.0.0",
     "@types/node": "^25.7.0",
@@ -44,6 +43,7 @@
     "prop-types": "^15.8.1",
     "ts-loader": "^9.5.7",
     "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
     "tsconfig-paths-webpack-plugin": "^4.2.0",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.59.3",

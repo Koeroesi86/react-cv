@@ -1,4 +1,4 @@
-import { PageSizes } from "@koeroesi86/react-pdf-components";
+import { PageSizes } from "@pdf-components";
 import { CV, RevivableComponent } from "@app-types";
 import createHeader from "./createHeader";
 import createBlockTitle from "../elements/createBlockTitle";

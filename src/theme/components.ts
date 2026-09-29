@@ -18,7 +18,7 @@ import {
   Page,
   Rail,
   Text
-} from "@koeroesi86/react-pdf-components";
+} from "@pdf-components";
 
 const components: ComponentRegistry = {
   "rail": Rail,

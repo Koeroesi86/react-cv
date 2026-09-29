@@ -7,7 +7,7 @@ import {
   TextComponentProps,
   IconProps,
   RailComponentProps
-} from "@koeroesi86/react-pdf-components";
+} from "@pdf-components";
 import { RevivableComponentType } from "@koeroesi86/react-reviver";
 
 export type IconAlias =

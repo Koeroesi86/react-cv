@@ -1,5 +1,6 @@
 import { Configuration } from "webpack";
 import path from "path";
+import TsconfigPathsPlugin from "tsconfig-paths-webpack-plugin";
 
 const mode = "development";
 
@@ -28,6 +29,7 @@ const config: Configuration = {
   },
   resolve: {
     extensions: [".ts", ".tsx", ".js", ".jsx"],
+    plugins: [new TsconfigPathsPlugin()],
   },
   externals: ["iconv-lite"],
   module: {

@@ -1,5 +1,5 @@
 import { CV, RevivableComponent } from "@app-types";
-import { PageSizes } from "@koeroesi86/react-pdf-components";
+import { PageSizes } from "@pdf-components";
 import { Colours } from "./types";
 import createPages from "./utils/createPages";
 

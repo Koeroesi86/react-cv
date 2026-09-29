@@ -18,6 +18,7 @@
     "types": ["node", "jest"],
     "paths": {
       "@app-types": ["./src/types/index.ts"],
+      "@pdf-components": ["./src/pdf-components/index.tsx"],
       "@test-helpers": ["./src/test-helpers/index.tsx"]
     }
   }
