@@ -1,6 +1,6 @@
 import { JestConfigWithTsJest, pathsToModuleNameMapper } from "ts-jest";
 import path from "path";
-import { compilerOptions } from "./tsconfig.json";
+const { compilerOptions } = require('./tsconfig.json');
 
 const config: JestConfigWithTsJest  = {
   rootDir: "src",
@@ -8,7 +8,7 @@ const config: JestConfigWithTsJest  = {
   testEnvironment: "node",
   setupFilesAfterEnv: ["<rootDir>/setupTests.ts"],
   cacheDirectory: path.resolve(__dirname, ".cache/jest/"),
-  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths , { prefix: '<rootDir>/' }),
+  moduleNameMapper: pathsToModuleNameMapper(compilerOptions.paths),
 };
 
 export default config;

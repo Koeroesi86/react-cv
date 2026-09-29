@@ -32,7 +32,6 @@ import createFileName from "./theme/utils/createFileName";
       cv = JSON.parse(fs.readFileSync(jsonPath, "utf8"));
     } else if (fs.existsSync(jsPath)) {
       console.log('found js cv', jsPath);
-      // eslint-disable-next-line global-require,import/no-dynamic-require,no-eval
       cv = eval(`require('${jsPath}');`);
     } else {
       console.warn('no custom cv found');
