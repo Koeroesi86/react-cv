@@ -195,18 +195,12 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
                     "children": [
                       {
                         "props": {
-                          "color": "#333333",
-                          "height": 16,
-                          "width": 16,
+                          "color": "#6ab9c8",
+                          "height": 12,
+                          "width": 12,
                         },
                         "type": "icon-flame",
                       },
@@ -224,26 +218,51 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                   {
+                    "children": [
+                      {
+                        "props": {
+                          "color": "#333333",
+                          "lineHeight": 1.2,
+                          "size": 14,
+                          "text": "Summary",
+                          "weight": 600,
+                        },
+                        "type": "text",
+                      },
+                    ],
                     "props": {
-                      "color": "#333333",
-                      "lineHeight": 1.6,
-                      "size": 18,
-                      "text": "Summary",
-                      "weight": 600,
+                      "position": "relative",
+                      "top": -1.54,
                     },
-                    "type": "text",
+                    "type": "block",
+                  },
+                  {
+                    "props": {
+                      "width": 8,
+                    },
+                    "type": "block",
+                  },
+                  {
+                    "props": {
+                      "backgroundColor": "#6ab9c8",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "height": 1,
+                    },
+                    "type": "block",
                   },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexDirection": "row",
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
               {
                 "props": {
-                  "backgroundColor": "#6ab9c8",
-                  "height": 3,
-                  "width": 160,
+                  "flexShrink": 1,
+                  "height": 4,
                 },
                 "type": "block",
               },
@@ -285,7 +304,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
             ],
-            "props": {},
+            "props": {
+              "flexWrap": "nowrap",
+            },
             "type": "block",
           },
           {
@@ -299,18 +320,12 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
                     "children": [
                       {
                         "props": {
-                          "color": "#333333",
-                          "height": 16,
-                          "width": 16,
+                          "color": "#6ab9c8",
+                          "height": 12,
+                          "width": 12,
                         },
                         "type": "icon-check",
                       },
@@ -328,26 +343,51 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                   {
+                    "children": [
+                      {
+                        "props": {
+                          "color": "#333333",
+                          "lineHeight": 1.2,
+                          "size": 14,
+                          "text": "Skills",
+                          "weight": 600,
+                        },
+                        "type": "text",
+                      },
+                    ],
                     "props": {
-                      "color": "#333333",
-                      "lineHeight": 1.6,
-                      "size": 18,
-                      "text": "Skills",
-                      "weight": 600,
+                      "position": "relative",
+                      "top": -1.54,
                     },
-                    "type": "text",
+                    "type": "block",
+                  },
+                  {
+                    "props": {
+                      "width": 8,
+                    },
+                    "type": "block",
+                  },
+                  {
+                    "props": {
+                      "backgroundColor": "#6ab9c8",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "height": 1,
+                    },
+                    "type": "block",
                   },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexDirection": "row",
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
               {
                 "props": {
-                  "backgroundColor": "#6ab9c8",
-                  "height": 3,
-                  "width": 160,
+                  "flexShrink": 1,
+                  "height": 4,
                 },
                 "type": "block",
               },
@@ -467,7 +507,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
             ],
-            "props": {},
+            "props": {
+              "flexWrap": "nowrap",
+            },
             "type": "block",
           },
           {
@@ -481,18 +523,12 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
                     "children": [
                       {
                         "props": {
-                          "color": "#333333",
-                          "height": 16,
-                          "width": 16,
+                          "color": "#6ab9c8",
+                          "height": 12,
+                          "width": 12,
                         },
                         "type": "icon-bag",
                       },
@@ -510,26 +546,51 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                   {
+                    "children": [
+                      {
+                        "props": {
+                          "color": "#333333",
+                          "lineHeight": 1.2,
+                          "size": 14,
+                          "text": "Experience",
+                          "weight": 600,
+                        },
+                        "type": "text",
+                      },
+                    ],
                     "props": {
-                      "color": "#333333",
-                      "lineHeight": 1.6,
-                      "size": 18,
-                      "text": "Experience",
-                      "weight": 600,
+                      "position": "relative",
+                      "top": -1.54,
                     },
-                    "type": "text",
+                    "type": "block",
+                  },
+                  {
+                    "props": {
+                      "width": 8,
+                    },
+                    "type": "block",
+                  },
+                  {
+                    "props": {
+                      "backgroundColor": "#6ab9c8",
+                      "flexBasis": 0,
+                      "flexGrow": 1,
+                      "height": 1,
+                    },
+                    "type": "block",
                   },
                 ],
                 "props": {
+                  "alignItems": "center",
                   "flexDirection": "row",
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
               },
               {
                 "props": {
-                  "backgroundColor": "#6ab9c8",
-                  "height": 3,
-                  "width": 160,
+                  "flexShrink": 1,
+                  "height": 4,
                 },
                 "type": "block",
               },
@@ -1017,7 +1078,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
             ],
-            "props": {},
+            "props": {
+              "flexWrap": "nowrap",
+            },
             "type": "block",
           },
           {
@@ -1078,18 +1141,12 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
           {
             "children": [
               {
-                "props": {
-                  "width": 6,
-                },
-                "type": "block",
-              },
-              {
                 "children": [
                   {
                     "props": {
-                      "color": "#333333",
-                      "height": 16,
-                      "width": 16,
+                      "color": "#6ab9c8",
+                      "height": 12,
+                      "width": 12,
                     },
                     "type": "icon-graduation",
                   },
@@ -1107,26 +1164,51 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
               {
+                "children": [
+                  {
+                    "props": {
+                      "color": "#333333",
+                      "lineHeight": 1.2,
+                      "size": 14,
+                      "text": "Education",
+                      "weight": 600,
+                    },
+                    "type": "text",
+                  },
+                ],
                 "props": {
-                  "color": "#333333",
-                  "lineHeight": 1.6,
-                  "size": 18,
-                  "text": "Education",
-                  "weight": 600,
+                  "position": "relative",
+                  "top": -1.54,
                 },
-                "type": "text",
+                "type": "block",
+              },
+              {
+                "props": {
+                  "width": 8,
+                },
+                "type": "block",
+              },
+              {
+                "props": {
+                  "backgroundColor": "#6ab9c8",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "height": 1,
+                },
+                "type": "block",
               },
             ],
             "props": {
+              "alignItems": "center",
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
           {
             "props": {
-              "backgroundColor": "#6ab9c8",
-              "height": 3,
-              "width": 160,
+              "flexShrink": 1,
+              "height": 4,
             },
             "type": "block",
           },
@@ -1534,18 +1616,12 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
           {
             "children": [
               {
-                "props": {
-                  "width": 6,
-                },
-                "type": "block",
-              },
-              {
                 "children": [
                   {
                     "props": {
-                      "color": "#333333",
-                      "height": 16,
-                      "width": 16,
+                      "color": "#6ab9c8",
+                      "height": 12,
+                      "width": 12,
                     },
                     "type": "icon-flower",
                   },
@@ -1563,26 +1639,51 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
               {
+                "children": [
+                  {
+                    "props": {
+                      "color": "#333333",
+                      "lineHeight": 1.2,
+                      "size": 14,
+                      "text": "Interests",
+                      "weight": 600,
+                    },
+                    "type": "text",
+                  },
+                ],
                 "props": {
-                  "color": "#333333",
-                  "lineHeight": 1.6,
-                  "size": 18,
-                  "text": "Interests",
-                  "weight": 600,
+                  "position": "relative",
+                  "top": -1.54,
                 },
-                "type": "text",
+                "type": "block",
+              },
+              {
+                "props": {
+                  "width": 8,
+                },
+                "type": "block",
+              },
+              {
+                "props": {
+                  "backgroundColor": "#6ab9c8",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "height": 1,
+                },
+                "type": "block",
               },
             ],
             "props": {
+              "alignItems": "center",
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
           {
             "props": {
-              "backgroundColor": "#6ab9c8",
-              "height": 3,
-              "width": 160,
+              "flexShrink": 1,
+              "height": 4,
             },
             "type": "block",
           },
@@ -1772,18 +1873,12 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
           {
             "children": [
               {
-                "props": {
-                  "width": 6,
-                },
-                "type": "block",
-              },
-              {
                 "children": [
                   {
                     "props": {
-                      "color": "#333333",
-                      "height": 16,
-                      "width": 16,
+                      "color": "#6ab9c8",
+                      "height": 12,
+                      "width": 12,
                     },
                     "type": "icon-star",
                   },
@@ -1801,26 +1896,51 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
               {
+                "children": [
+                  {
+                    "props": {
+                      "color": "#333333",
+                      "lineHeight": 1.2,
+                      "size": 14,
+                      "text": "Projects",
+                      "weight": 600,
+                    },
+                    "type": "text",
+                  },
+                ],
                 "props": {
-                  "color": "#333333",
-                  "lineHeight": 1.6,
-                  "size": 18,
-                  "text": "Projects",
-                  "weight": 600,
+                  "position": "relative",
+                  "top": -1.54,
                 },
-                "type": "text",
+                "type": "block",
+              },
+              {
+                "props": {
+                  "width": 8,
+                },
+                "type": "block",
+              },
+              {
+                "props": {
+                  "backgroundColor": "#6ab9c8",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "height": 1,
+                },
+                "type": "block",
               },
             ],
             "props": {
+              "alignItems": "center",
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
           {
             "props": {
-              "backgroundColor": "#6ab9c8",
-              "height": 3,
-              "width": 160,
+              "flexShrink": 1,
+              "height": 4,
             },
             "type": "block",
           },
@@ -2017,18 +2137,12 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
           {
             "children": [
               {
-                "props": {
-                  "width": 6,
-                },
-                "type": "block",
-              },
-              {
                 "children": [
                   {
                     "props": {
-                      "color": "#333333",
-                      "height": 16,
-                      "width": 16,
+                      "color": "#6ab9c8",
+                      "height": 12,
+                      "width": 12,
                     },
                     "type": "icon-info",
                   },
@@ -2046,26 +2160,51 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
               {
+                "children": [
+                  {
+                    "props": {
+                      "color": "#333333",
+                      "lineHeight": 1.2,
+                      "size": 14,
+                      "text": "Additional information",
+                      "weight": 600,
+                    },
+                    "type": "text",
+                  },
+                ],
                 "props": {
-                  "color": "#333333",
-                  "lineHeight": 1.6,
-                  "size": 18,
-                  "text": "Additional information",
-                  "weight": 600,
+                  "position": "relative",
+                  "top": -1.54,
                 },
-                "type": "text",
+                "type": "block",
+              },
+              {
+                "props": {
+                  "width": 8,
+                },
+                "type": "block",
+              },
+              {
+                "props": {
+                  "backgroundColor": "#6ab9c8",
+                  "flexBasis": 0,
+                  "flexGrow": 1,
+                  "height": 1,
+                },
+                "type": "block",
               },
             ],
             "props": {
+              "alignItems": "center",
               "flexDirection": "row",
+              "flexWrap": "nowrap",
             },
             "type": "block",
           },
           {
             "props": {
-              "backgroundColor": "#6ab9c8",
-              "height": 3,
-              "width": 160,
+              "flexShrink": 1,
+              "height": 4,
             },
             "type": "block",
           },

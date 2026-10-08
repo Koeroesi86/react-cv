@@ -14,13 +14,13 @@ const createFirstPage = (cv: CV, pageSize: PageSizes, colours: Colours, fontFami
   children: [
     ...createHeader(cv, colours),
     { type: "block", props: { flexGrow: 1 } },
-    { type: "block", props: {}, children: createDesires(cv, colours) },
+    { type: "block", props: { flexWrap: "nowrap" }, children: createDesires(cv, colours) },
     { type: "block", props: { flexGrow: 1 } },
-    { type: "block", props: {}, children: createSkills(cv, colours) },
+    { type: "block", props: { flexWrap: "nowrap" }, children: createSkills(cv, colours) },
     { type: "block", props: { flexGrow: 1 } },
     {
       type: "block",
-      props: {},
+      props: { flexWrap: "nowrap" },
       children: [
         ...createBlockTitle("Experience", colours, "icon-bag"),
         createExperienceBlock(cv.experiences[0], colours),
