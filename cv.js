@@ -10,7 +10,9 @@ module.exports = {
     "github": "https://github.com/Koeroesi86",
     "website": "https://chris.koro.si",
     "phone": env.PII_PHONE,
+    "email": env.PII_EMAIL,
   },
+  "location": env.PII_LOCATION,
   "desire": "Lead / Senior Full-Stack Engineer with 17+ years of experience architecting, scaling, and delivering high-availability systems across FinTech, E-commerce, and Payment Processing. Expert in modern React/Next.js and Node.js/NestJS architectures, cloud infrastructure, and AI workflow integration. Proven track record of guiding cross-functional teams, driving clean code standards (TDD/BDD), and translating complex business requirements into high-performance software.",
   "skills": [
     {
@@ -339,7 +341,7 @@ module.exports = {
       ]
     },
     {
-      "title": "Further experiences",
+      "title": "Earlier experience",
       "from": "2009 Aug.",
       "to": "2016 Jun.",
       "details": {

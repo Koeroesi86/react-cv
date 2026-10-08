@@ -5,6 +5,8 @@ import createAchievements from "./createAchievements";
 import createRailBlock from "../elements/createRailBlock";
 import createSpacer from "../elements/createSpacer";
 import createEntryHeader from "../elements/createEntryHeader";
+import formatPeriod from "./formatPeriod";
+import { getLinkHost } from "./getLinkHost";
 import { body, small } from "../typography";
 
 const stackPattern = /^stack:\s*/i;
@@ -19,7 +21,7 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
   return createRailBlock(
     colours.highlight,
     [
-      ...createEntryHeader(experience.title, `${experience.from} - ${experience.to}`, colours, experience.role),
+      ...createEntryHeader(experience.title, formatPeriod(experience.from, experience.to), colours, experience.role),
       ...(experience.details.link ? [
         createSpacer(3),
         {
@@ -37,6 +39,9 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
                     { type: "fragment", props: { node: `${experience.details.company}` } }
                   ]
                 },
+                ...(experience.details.link ? [
+                  { type: "text", props: { text: ` (${getLinkHost(experience.details.link, true)})`, color: colours.muted, ...small } },
+                ] satisfies RevivableComponent[] : []),
                 { type: "text", props: { text: experience.details.description, color: colours.text, ...body } }
               ]
             }

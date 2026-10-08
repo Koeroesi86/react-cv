@@ -17,6 +17,9 @@ export { default as IconStar } from "./icon-star";
 export { default as IconInfo } from "./icon-info";
 export { default as IconFolder } from "./icon-folder";
 export { default as IconGithub } from "./icon-github";
+export { default as IconMail } from "./icon-mail";
+export { default as IconMapPin } from "./icon-map-pin";
+export { default as IconPhone } from "./icon-phone";
 export { default as Rail } from "./rail";
 
 

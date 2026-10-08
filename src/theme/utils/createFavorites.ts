@@ -3,7 +3,8 @@ import { Colours } from "../types";
 import createBlockTitle from "../elements/createBlockTitle";
 import createBulletpoint from "../elements/createBulletpoint";
 import createSpacer from "../elements/createSpacer";
-import { body } from "../typography";
+import { body, small } from "../typography";
+import { getLinkHost, isHostVisible } from "./getLinkHost";
 
 const createFavorites = (cv: CV, colours: Colours): RevivableComponent[] => [
   ...createBlockTitle("Projects", colours, "icon-star"),
@@ -21,6 +22,9 @@ const createFavorites = (cv: CV, colours: Colours): RevivableComponent[] => [
             children: [{ type: "fragment", props: { node: favorite.name } }],
           },
           { type: "fragment", props: { node: ` ${favorite.description}` } },
+          ...(isHostVisible(favorite.name, getLinkHost(favorite.url))
+            ? []
+            : [{ type: "text", props: { text: ` ·\u00a0${getLinkHost(favorite.url)}`, color: colours.muted, ...small } }] satisfies RevivableComponent[]),
         ],
       },
       createSpacer(3),

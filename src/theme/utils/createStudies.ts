@@ -4,6 +4,7 @@ import createBlockTitle from "../elements/createBlockTitle";
 import createBulletpoint from "../elements/createBulletpoint";
 import createRailBlock from "../elements/createRailBlock";
 import createEntryHeader from "../elements/createEntryHeader";
+import formatPeriod from "./formatPeriod";
 import { body } from "../typography";
 
 const createStudies = (cv: CV, colours: Colours): RevivableComponent[] => [
@@ -11,7 +12,7 @@ const createStudies = (cv: CV, colours: Colours): RevivableComponent[] => [
   ...cv.studies.map((study, index): RevivableComponent => createRailBlock(
     colours.highlight,
     [
-      ...createEntryHeader(study.title, `${study.from ? `${study.from} - ` : ''}${study.to}`, colours),
+      ...createEntryHeader(study.title, formatPeriod(study.from, study.to), colours),
       { type: "block", props: { height: 3 } },
       ...study.details.map((detail, detailIndex): RevivableComponent => ({
         type: "block",

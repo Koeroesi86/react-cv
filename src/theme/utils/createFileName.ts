@@ -1,6 +1,6 @@
-const createFileName = (name: string): string => name
-  .normalize('NFD')
+const createFileName = (name: string): string => `${name
+  .normalize("NFD")
   .replace(/[\u0300-\u036f]/g, "")
-  .replace(/[ ]/, ".");
+  .replace(/\s+/g, "-")}-CV`;
 
 export default createFileName;

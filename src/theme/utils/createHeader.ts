@@ -5,39 +5,56 @@ import createSpacer from "../elements/createSpacer";
 
 const stripProtocol = (url: string) => url.replace(/^https?:\/\//, "");
 
-const createContact = (
-  colours: Colours,
-  src: string,
-  label: string,
-  icon?: IconAlias,
-): RevivableComponent => ({
-  type: "link",
-  props: { src, color: colours.link, underline: false },
+const createContent = (colours: Colours, label: string, icon: IconAlias, textColor: string): RevivableComponent => ({
+  type: "block",
+  props: { flexDirection: "row", flexWrap: "nowrap" },
   children: [
     {
       type: "block",
-      props: { flexDirection: "row", flexWrap: "nowrap" },
-      children: [
-        ...(icon ? [
-          {
-            type: "block",
-            props: { position: "relative", top: -2 },
-            children: [{ type: icon, props: { width: 11, height: 11, color: colours.link } }],
-          },
-          { type: "block", props: { width: 4 } },
-        ] satisfies RevivableComponent[] : []),
-        { type: "text", props: { text: label, color: colours.link, ...body } },
-      ],
+      props: { position: "relative", top: -2 },
+      children: [{ type: icon, props: { width: 11, height: 11, color: colours.link } }],
     },
+    { type: "block", props: { width: 4 } },
+    { type: "text", props: { text: label, color: textColor, ...body } },
   ],
 });
 
+const createContact = (colours: Colours, label: string, icon: IconAlias, src?: string): RevivableComponent => (
+  src
+    ? {
+      type: "link",
+      props: { src, color: colours.link, underline: false },
+      children: [createContent(colours, label, icon, colours.link)],
+    }
+    : createContent(colours, label, icon, colours.text)
+);
+
+const createContactRow = (contacts: RevivableComponent[], colours: Colours): RevivableComponent => ({
+  type: "block",
+  props: { flexDirection: "row", flexWrap: "nowrap" },
+  children: contacts.flatMap((contact, index): RevivableComponent[] => [
+    ...(index > 0 ? [
+      { type: "block", props: { width: 8 } },
+      { type: "text", props: { text: "·", color: colours.muted, ...body } },
+      { type: "block", props: { width: 8 } },
+    ] satisfies RevivableComponent[] : []),
+    contact,
+  ]),
+});
+
+const isDefined = (contact: RevivableComponent | undefined): contact is RevivableComponent => Boolean(contact);
+
 const createHeader = (cv: CV, colours: Colours): RevivableComponent[] => {
-  const contacts = [
-    cv.links.github && createContact(colours, cv.links.github, stripProtocol(cv.links.github), "icon-github"),
-    cv.links.website && createContact(colours, cv.links.website, stripProtocol(cv.links.website), "icon-folder"),
-    cv.links.phone && createContact(colours, `tel:${cv.links.phone}`, cv.links.phone),
-  ].filter((contact): contact is RevivableComponent => Boolean(contact));
+  const { github, website, email, phone } = cv.links;
+  const personal = [
+    cv.location ? createContact(colours, cv.location, "icon-map-pin") : undefined,
+    email ? createContact(colours, email, "icon-mail", `mailto:${email}`) : undefined,
+    phone ? createContact(colours, phone, "icon-phone", `tel:${phone}`) : undefined,
+  ].filter(isDefined);
+  const online = [
+    github ? createContact(colours, stripProtocol(github), "icon-github", github) : undefined,
+    website ? createContact(colours, stripProtocol(website), "icon-folder", website) : undefined,
+  ].filter(isDefined);
 
   return [
     {
@@ -49,18 +66,12 @@ const createHeader = (cv: CV, colours: Colours): RevivableComponent[] => {
         createSpacer(3),
         { type: "text", props: { color: colours.muted, text: cv.role, size: 13, lineHeight: 1.35 } },
         createSpacer(6),
-        {
-          type: "block",
-          props: { flexDirection: "row", flexWrap: "nowrap" },
-          children: contacts.flatMap((contact, index): RevivableComponent[] => [
-            ...(index > 0 ? [
-              { type: "block", props: { width: 8 } },
-              { type: "text", props: { text: "·", color: colours.muted, ...body } },
-              { type: "block", props: { width: 8 } },
-            ] satisfies RevivableComponent[] : []),
-            contact,
+        ...[personal, online]
+          .filter((contacts) => contacts.length > 0)
+          .flatMap((contacts, index): RevivableComponent[] => [
+            ...(index > 0 ? [createSpacer(2)] : []),
+            createContactRow(contacts, colours),
           ]),
-        },
       ],
     },
   ];

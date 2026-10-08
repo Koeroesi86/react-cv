@@ -13,7 +13,7 @@ const createPageNumber = (
     type: "block",
     props: { flexDirection: "row", justifyContent: "flex-end", flexWrap: "nowrap", paddingRight: 10 },
     children: [
-      { type: "text", props: { text: `${page} / ${total} page`, color: colors.muted, ...small } },
+      { type: "text", props: { text: `Page ${page} of ${total}`, color: colors.muted, ...small } },
     ]
   },
   createSpacer(8),
