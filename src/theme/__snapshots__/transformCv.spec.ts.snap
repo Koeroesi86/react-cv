@@ -399,110 +399,54 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "type": "block",
               },
               {
-                "children": [
-                  {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#333333",
-                          "lineHeight": 1.35,
-                          "size": 10.5,
-                          "text": "Main skills (3 or more years each)",
-                          "weight": 600,
-                        },
-                        "type": "text",
-                      },
-                    ],
-                    "props": {
-                      "flexWrap": "nowrap",
-                      "width": 172,
-                    },
-                    "type": "block",
-                  },
-                  {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#333333",
-                          "lineHeight": 1.35,
-                          "size": 10.5,
-                          "text": "IntelliJ · SQL · XHTML1.0-HTML5 · CSS2-3 · SCSS · JavaScript · AngularJS · jQuery · Photoshop · Illustrator · Linux · Windows · MacOS · Symfony · Laravel · Wordpress · Apache · PHP · Git · ECMA Script · NodeJS · ReactJS · AWS (ex. EC2, ECR, ECS, RDS, IAM, S3) · Rest APIs · Docker",
-                        },
-                        "type": "text",
-                      },
-                      {
-                        "props": {
-                          "flexShrink": 1,
-                          "height": 6,
-                        },
-                        "type": "block",
-                      },
-                    ],
-                    "props": {
-                      "flexBasis": 0,
-                      "flexGrow": 1,
-                      "flexWrap": "nowrap",
-                    },
-                    "type": "block",
-                  },
-                ],
                 "props": {
-                  "flexDirection": "row",
-                  "flexWrap": "nowrap",
+                  "color": "#333333",
+                  "lineHeight": 1.35,
+                  "size": 10.5,
+                  "text": "Main skills (3 or more years each)",
+                  "weight": 600,
+                },
+                "type": "text",
+              },
+              {
+                "props": {
+                  "color": "#333333",
+                  "lineHeight": 1.35,
+                  "size": 10.5,
+                  "text": "IntelliJ · SQL · XHTML1.0-HTML5 · CSS2-3 · SCSS · JavaScript · AngularJS · jQuery · Photoshop · Illustrator · Linux · Windows · MacOS · Symfony · Laravel · Wordpress · Apache · PHP · Git · ECMA Script · NodeJS · ReactJS · AWS (ex. EC2, ECR, ECS, RDS, IAM, S3) · Rest APIs · Docker",
+                },
+                "type": "text",
+              },
+              {
+                "props": {
+                  "flexShrink": 1,
+                  "height": 6,
                 },
                 "type": "block",
               },
               {
-                "children": [
-                  {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#333333",
-                          "lineHeight": 1.35,
-                          "size": 10.5,
-                          "text": "Also focused on (2 or more years each)",
-                          "weight": 600,
-                        },
-                        "type": "text",
-                      },
-                    ],
-                    "props": {
-                      "flexWrap": "nowrap",
-                      "width": 172,
-                    },
-                    "type": "block",
-                  },
-                  {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#333333",
-                          "lineHeight": 1.35,
-                          "size": 10.5,
-                          "text": "ElasticSearch · Typescript · Nginx · APIs (ex. Facebook, Twitter, Google) · InDesign · OAuth · WebSockets · Sublime · VisualStudio · Jenkins · Serverless",
-                        },
-                        "type": "text",
-                      },
-                      {
-                        "props": {
-                          "flexShrink": 1,
-                          "height": 6,
-                        },
-                        "type": "block",
-                      },
-                    ],
-                    "props": {
-                      "flexBasis": 0,
-                      "flexGrow": 1,
-                      "flexWrap": "nowrap",
-                    },
-                    "type": "block",
-                  },
-                ],
                 "props": {
-                  "flexDirection": "row",
-                  "flexWrap": "nowrap",
+                  "color": "#333333",
+                  "lineHeight": 1.35,
+                  "size": 10.5,
+                  "text": "Also focused on (2 or more years each)",
+                  "weight": 600,
+                },
+                "type": "text",
+              },
+              {
+                "props": {
+                  "color": "#333333",
+                  "lineHeight": 1.35,
+                  "size": 10.5,
+                  "text": "ElasticSearch · Typescript · Nginx · APIs (ex. Facebook, Twitter, Google) · InDesign · OAuth · WebSockets · Sublime · VisualStudio · Jenkins · Serverless",
+                },
+                "type": "text",
+              },
+              {
+                "props": {
+                  "flexShrink": 1,
+                  "height": 6,
                 },
                 "type": "block",
               },
