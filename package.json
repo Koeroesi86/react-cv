@@ -7,12 +7,12 @@
     "node": "^20.19.0 || ^22.13.0 || >=24"
   },
   "scripts": {
-    "build": "yarn install --frozen-lockfile && rm -rf ./dist && webpack --progress",
+    "build": "npm ci && rm -rf ./dist && webpack --progress",
     "lint": "eslint src --cache --cache-location .cache/eslint/ --ext .js,.jsx,.ts,.tsx",
     "test": "jest",
     "start": "ts-node -r tsconfig-paths/register src/node.tsx",
     "generate-version": "ts-node scripts/version.ts",
-    "dev": "rm -rf ./dist && nodemon --watch src/**/* --exec yarn start"
+    "dev": "rm -rf ./dist && nodemon --watch src/**/* --exec npm start"
   },
   "dependencies": {
     "@react-pdf/renderer": "^4.5.1",
