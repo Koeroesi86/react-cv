@@ -3,12 +3,12 @@
 
 ### Dependencies
 * [NodeJS](https://nodejs.org/en/)
-* [Yarn](https://yarnpkg.com/en/)
+* [npm](https://www.npmjs.com/) (bundled with NodeJS)
 
 ### Usage
 
 ```shell
-yarn build && yarn start
+npm run build && npm start
 ```
 
 Open `dist/<name>.pdf`
@@ -16,7 +16,7 @@ Open `dist/<name>.pdf`
 ### Running locally
 
 ```shell
-yarn dev
+npm run dev
 ```
 
 Open `dist/<name>.pdf`
