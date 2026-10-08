@@ -2,7 +2,7 @@ import { CV, RevivableComponent } from "@app-types";
 import createBlockTitle from "../elements/createBlockTitle";
 import createSpacer from "../elements/createSpacer";
 import { Colours } from "../types";
-import { body } from "../typography";
+import { body, labelColumnWidth } from "../typography";
 
 const createSkills = (cv: CV, colours: Colours): RevivableComponent[] => [
   ...createBlockTitle("Skills", colours, "icon-check"),
@@ -13,7 +13,7 @@ const createSkills = (cv: CV, colours: Colours): RevivableComponent[] => [
     children: [
       {
         type: "block",
-        props: { width: 172, flexWrap: "nowrap" },
+        props: { width: labelColumnWidth, flexWrap: "nowrap" },
         children: [
           { type: "text", props: { text: skill.title, color: colours.text, weight: 600, ...body } },
         ],

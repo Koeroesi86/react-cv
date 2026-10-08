@@ -1949,6 +1949,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
           },
           {
             "props": {
+              "flexShrink": 1,
               "height": 10,
             },
             "type": "block",
@@ -1958,71 +1959,46 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
+                    "children": [
+                      {
+                        "props": {
+                          "color": "#1f7a8c",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
+                          "text": "magyartop.hu",
+                          "weight": 600,
+                        },
+                        "type": "text",
+                      },
+                    ],
                     "props": {
-                      "height": 2,
+                      "color": "#1f7a8c",
+                      "src": "http://magyartop.hu/",
                     },
-                    "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#333333",
-                      "height": 8,
-                      "width": 8,
-                    },
-                    "type": "icon-arrow-right",
+                    "type": "link",
                   },
                 ],
                 "props": {
-                  "alignItems": "center",
                   "flexWrap": "nowrap",
-                  "justifyContent": "flex-start",
-                  "left": 0,
-                  "position": "absolute",
-                  "top": 0,
-                  "width": 16,
+                  "width": 172,
                 },
                 "type": "block",
               },
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "children": [
-                          {
-                            "props": {
-                              "color": "#1f7a8c",
-                              "lineHeight": 1.35,
-                              "size": 10.5,
-                              "text": "magyartop.hu",
-                            },
-                            "type": "text",
-                          },
-                        ],
-                        "props": {
-                          "color": "#1f7a8c",
-                          "src": "http://magyartop.hu/",
-                        },
-                        "type": "link",
-                      },
-                      {
-                        "props": {
-                          "width": 6,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
-                          "color": "#333333",
-                          "lineHeight": 1.35,
-                          "size": 10.5,
-                          "text": "(Own toplist for Hungarian websites)",
-                        },
-                        "type": "text",
-                      },
-                    ],
                     "props": {
-                      "flexDirection": "row",
+                      "color": "#333333",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
+                      "text": "Own toplist for Hungarian websites",
+                    },
+                    "type": "text",
+                  },
+                  {
+                    "props": {
+                      "flexShrink": 1,
+                      "height": 4,
                     },
                     "type": "block",
                   },
@@ -2038,7 +2014,6 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
             "props": {
               "flexDirection": "row",
               "flexWrap": "nowrap",
-              "paddingLeft": 16,
             },
             "type": "block",
           },
@@ -2047,71 +2022,46 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               {
                 "children": [
                   {
+                    "children": [
+                      {
+                        "props": {
+                          "color": "#1f7a8c",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
+                          "text": "chris.koro.si",
+                          "weight": 600,
+                        },
+                        "type": "text",
+                      },
+                    ],
                     "props": {
-                      "height": 2,
+                      "color": "#1f7a8c",
+                      "src": "https://chris.koro.si/",
                     },
-                    "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#333333",
-                      "height": 8,
-                      "width": 8,
-                    },
-                    "type": "icon-arrow-right",
+                    "type": "link",
                   },
                 ],
                 "props": {
-                  "alignItems": "center",
                   "flexWrap": "nowrap",
-                  "justifyContent": "flex-start",
-                  "left": 0,
-                  "position": "absolute",
-                  "top": 0,
-                  "width": 16,
+                  "width": 172,
                 },
                 "type": "block",
               },
               {
                 "children": [
                   {
-                    "children": [
-                      {
-                        "children": [
-                          {
-                            "props": {
-                              "color": "#1f7a8c",
-                              "lineHeight": 1.35,
-                              "size": 10.5,
-                              "text": "chris.koro.si",
-                            },
-                            "type": "text",
-                          },
-                        ],
-                        "props": {
-                          "color": "#1f7a8c",
-                          "src": "https://chris.koro.si/",
-                        },
-                        "type": "link",
-                      },
-                      {
-                        "props": {
-                          "width": 6,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
-                          "color": "#333333",
-                          "lineHeight": 1.35,
-                          "size": 10.5,
-                          "text": "(Personal website)",
-                        },
-                        "type": "text",
-                      },
-                    ],
                     "props": {
-                      "flexDirection": "row",
+                      "color": "#333333",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
+                      "text": "Personal website",
+                    },
+                    "type": "text",
+                  },
+                  {
+                    "props": {
+                      "flexShrink": 1,
+                      "height": 4,
                     },
                     "type": "block",
                   },
@@ -2127,7 +2077,6 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
             "props": {
               "flexDirection": "row",
               "flexWrap": "nowrap",
-              "paddingLeft": 16,
             },
             "type": "block",
           },
