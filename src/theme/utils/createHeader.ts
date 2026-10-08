@@ -11,7 +11,7 @@ const createContent = (colours: Colours, label: string, icon: IconAlias, textCol
   children: [
     {
       type: "block",
-      props: { position: "relative", top: -2 },
+      props: { position: "relative", top: -0.6 },
       children: [{ type: icon, props: { width: 11, height: 11, color: colours.link } }],
     },
     { type: "block", props: { width: 4 } },

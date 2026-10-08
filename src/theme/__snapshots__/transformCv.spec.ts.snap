@@ -67,7 +67,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             ],
                             "props": {
                               "position": "relative",
-                              "top": -2,
+                              "top": -0.6,
                             },
                             "type": "block",
                           },
@@ -139,7 +139,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             ],
                             "props": {
                               "position": "relative",
-                              "top": -2,
+                              "top": -0.6,
                             },
                             "type": "block",
                           },
