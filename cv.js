@@ -52,7 +52,7 @@ module.exports = {
     {
       "title": "Fizetésipont Kft. (Budapest, HU)",
       "from": "2026 Jan.",
-      "to": "now",
+      "to": "2026 Oct.",
       "role": "Senior Backend Developer & Architect",
       "details": {
         // "link": "https://fizetesipont.hu",
