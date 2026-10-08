@@ -569,43 +569,67 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         "type": "block",
                       },
                       {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "children": [
+                                  {
+                                    "props": {
+                                      "color": "#666666",
+                                      "lineHeight": 1.35,
+                                      "size": 10.5,
+                                      "text": " · Budapest, HU",
+                                    },
+                                    "type": "text",
+                                  },
+                                ],
+                                "props": {
+                                  "color": "#333333",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
+                                  "text": "Codra Kft.",
+                                  "weight": 600,
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": {
+                              "flexBasis": 0,
+                              "flexGrow": 1,
+                              "flexWrap": "nowrap",
+                            },
+                            "type": "block",
+                          },
+                          {
+                            "props": {
+                              "width": 8,
+                            },
+                            "type": "block",
+                          },
+                          {
+                            "props": {
+                              "color": "#666666",
+                              "lineHeight": 1.35,
+                              "size": 10.5,
+                              "text": "2009 Aug. - 2011 Dec.",
+                            },
+                            "type": "text",
+                          },
+                        ],
                         "props": {
-                          "color": "#333333",
+                          "flexDirection": "row",
+                          "flexWrap": "nowrap",
+                        },
+                        "type": "block",
+                      },
+                      {
+                        "props": {
+                          "color": "#1f7a8c",
                           "lineHeight": 1.35,
                           "size": 10.5,
-                          "text": "Codra Kft. (Budapest, HU)",
+                          "text": "Webdesign, and Development",
                           "weight": 600,
-                        },
-                        "type": "text",
-                      },
-                      {
-                        "props": {
-                          "flexShrink": 1,
-                          "height": 3,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
-                          "backgroundColor": "#d3d3d3",
-                          "height": 1,
-                          "width": 400,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
-                          "flexShrink": 1,
-                          "height": 1,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
-                          "color": "#666666",
-                          "lineHeight": 1.35,
-                          "size": 10.5,
-                          "text": "2009 Aug. - 2011 Dec.",
                         },
                         "type": "text",
                       },
@@ -651,48 +675,6 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                               "lineHeight": 1.35,
                               "size": 10.5,
                               "text": "",
-                            },
-                            "type": "text",
-                          },
-                        ],
-                        "props": {
-                          "flexDirection": "row",
-                          "flexWrap": "nowrap",
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
-                          "flexShrink": 1,
-                          "height": 3,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "children": [
-                          {
-                            "props": {
-                              "color": "#333333",
-                              "lineHeight": 1.35,
-                              "size": 10.5,
-                              "text": "Role:",
-                              "weight": 600,
-                            },
-                            "type": "text",
-                          },
-                          {
-                            "props": {
-                              "width": 6,
-                            },
-                            "type": "block",
-                          },
-                          {
-                            "props": {
-                              "color": "#333333",
-                              "flexShrink": 1,
-                              "lineHeight": 1.35,
-                              "size": 10.5,
-                              "text": "Webdesign, and Development",
                             },
                             "type": "text",
                           },
@@ -1188,31 +1170,59 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                   {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "props": {
+                                  "color": "#666666",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
+                                  "text": " · Budapest, HU",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": {
+                              "color": "#333333",
+                              "lineHeight": 1.35,
+                              "size": 10.5,
+                              "text": "Kalmár László IT secondary School",
+                              "weight": 600,
+                            },
+                            "type": "text",
+                          },
+                        ],
+                        "props": {
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexWrap": "nowrap",
+                        },
+                        "type": "block",
+                      },
+                      {
+                        "props": {
+                          "width": 8,
+                        },
+                        "type": "block",
+                      },
+                      {
+                        "props": {
+                          "color": "#666666",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
+                          "text": "2007",
+                        },
+                        "type": "text",
+                      },
+                    ],
                     "props": {
-                      "color": "#333333",
-                      "lineHeight": 1.35,
-                      "size": 10.5,
-                      "text": "Kalmár László IT secondary School (Budapest, HU)",
-                      "weight": 600,
-                    },
-                    "type": "text",
-                  },
-                  {
-                    "props": {
-                      "backgroundColor": "#d3d3d3",
-                      "height": 1,
-                      "width": 400,
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
                     },
                     "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#666666",
-                      "lineHeight": 1.35,
-                      "size": 10.5,
-                      "text": "2007",
-                    },
-                    "type": "text",
                   },
                   {
                     "props": {
@@ -1224,7 +1234,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#333333",
+                          "color": "#1f7a8c",
                           "lineHeight": 1.35,
                           "size": 10.5,
                           "text": "Matura",
@@ -1350,31 +1360,59 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "type": "block",
                   },
                   {
+                    "children": [
+                      {
+                        "children": [
+                          {
+                            "children": [
+                              {
+                                "props": {
+                                  "color": "#666666",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
+                                  "text": " · Budapest, HU",
+                                },
+                                "type": "text",
+                              },
+                            ],
+                            "props": {
+                              "color": "#333333",
+                              "lineHeight": 1.35,
+                              "size": 10.5,
+                              "text": "SZIE – Ybl Miklós Faculty of Building",
+                              "weight": 600,
+                            },
+                            "type": "text",
+                          },
+                        ],
+                        "props": {
+                          "flexBasis": 0,
+                          "flexGrow": 1,
+                          "flexWrap": "nowrap",
+                        },
+                        "type": "block",
+                      },
+                      {
+                        "props": {
+                          "width": 8,
+                        },
+                        "type": "block",
+                      },
+                      {
+                        "props": {
+                          "color": "#666666",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
+                          "text": "2007 - 2011",
+                        },
+                        "type": "text",
+                      },
+                    ],
                     "props": {
-                      "color": "#333333",
-                      "lineHeight": 1.35,
-                      "size": 10.5,
-                      "text": "SZIE – Ybl Miklós Faculty of Building (Budapest, HU)",
-                      "weight": 600,
-                    },
-                    "type": "text",
-                  },
-                  {
-                    "props": {
-                      "backgroundColor": "#d3d3d3",
-                      "height": 1,
-                      "width": 400,
+                      "flexDirection": "row",
+                      "flexWrap": "nowrap",
                     },
                     "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#666666",
-                      "lineHeight": 1.35,
-                      "size": 10.5,
-                      "text": "2007 - 2011",
-                    },
-                    "type": "text",
                   },
                   {
                     "props": {
@@ -1386,7 +1424,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#333333",
+                          "color": "#1f7a8c",
                           "lineHeight": 1.35,
                           "size": 10.5,
                           "text": "Bsc education",

@@ -23,7 +23,7 @@ const createFirstPage = (cv: CV, pageSize: PageSizes, colours: Colours, fontFami
       props: { flexWrap: "nowrap" },
       children: [
         ...createBlockTitle("Experience", colours, "icon-bag"),
-        createExperienceBlock(cv.experiences[0], colours, false, false, true),
+        createExperienceBlock(cv.experiences[0], colours, false, true),
       ]
     },
     { type: "block", props: { height: 10 } },

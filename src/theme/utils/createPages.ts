@@ -53,8 +53,7 @@ const createPages = (cv: CV, colours: Colours, pageSize: PageSizes): RevivableCo
     const experienceBlocks = currentExperiences.map((experience, index): RevivableComponent => (
       createExperienceBlock(
         experience, colours,
-        cv.experiences.length === 0 && index === currentExperiences.length - 1,
-        isExperienceOnly)
+        cv.experiences.length === 0 && index === currentExperiences.length - 1)
     ));
 
     pages.push((total) => ({
