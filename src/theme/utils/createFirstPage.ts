@@ -8,7 +8,7 @@ import createSkills from "./createSkills";
 import createDesires from "./createDesires";
 import createExperienceBlock from "./createExperienceBlock";
 
-const createFirstPage = (cv: CV, pageSize: PageSizes, colours: Colours, fontFamily: string): RevivableComponent => ({
+const createFirstPage = (cv: CV, pageSize: PageSizes, colours: Colours, fontFamily: string, total: number): RevivableComponent => ({
   type: "page",
   props: { size: pageSize, fontFamily },
   children: [
@@ -22,12 +22,12 @@ const createFirstPage = (cv: CV, pageSize: PageSizes, colours: Colours, fontFami
       type: "block",
       props: {},
       children: [
-        ...createBlockTitle("Experiences", colours, "icon-bag"),
+        ...createBlockTitle("Experience", colours, "icon-bag"),
         createExperienceBlock(cv.experiences[0], colours),
       ]
     },
     { type: "block", props: { height: 10 } },
-    ...createPageNumber(1, colours),
+    ...createPageNumber(1, total, colours),
   ] as RevivableComponent[],
 });
 

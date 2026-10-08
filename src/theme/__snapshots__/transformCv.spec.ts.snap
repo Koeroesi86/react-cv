@@ -10,71 +10,78 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
             "children": [
               {
                 "props": {
+                  "flexShrink": 1,
                   "height": 20,
+                },
+                "type": "block",
+              },
+              {
+                "props": {
+                  "color": "#333333",
+                  "lineHeight": 1.2,
+                  "size": 26,
+                  "text": "Krisztian Korosi",
+                  "weight": 600,
+                },
+                "type": "text",
+              },
+              {
+                "props": {
+                  "flexShrink": 1,
+                  "height": 3,
+                },
+                "type": "block",
+              },
+              {
+                "props": {
+                  "color": "#666666",
+                  "lineHeight": 1.35,
+                  "size": 13,
+                  "text": "Full-stack developer",
+                },
+                "type": "text",
+              },
+              {
+                "props": {
+                  "flexShrink": 1,
+                  "height": 6,
                 },
                 "type": "block",
               },
               {
                 "children": [
                   {
-                    "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "text": "/**",
-                    },
-                    "type": "text",
-                  },
-                  {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
                     "children": [
                       {
                         "children": [
                           {
-                            "props": {
-                              "color": "#6ab9c8",
-                              "lineHeight": 1.2,
-                              "text": "@links:",
-                            },
-                            "type": "text",
-                          },
-                          {
-                            "props": {
-                              "width": 6,
-                            },
-                            "type": "block",
-                          },
-                          {
                             "children": [
                               {
                                 "props": {
-                                  "color": "#6ab9c8",
-                                  "height": 12,
-                                  "width": 12,
+                                  "color": "#1f7a8c",
+                                  "height": 11,
+                                  "width": 11,
                                 },
                                 "type": "icon-github",
                               },
                             ],
                             "props": {
                               "position": "relative",
-                              "top": -3,
+                              "top": -2,
                             },
                             "type": "block",
                           },
                           {
                             "props": {
-                              "width": 3,
+                              "width": 4,
                             },
                             "type": "block",
                           },
                           {
                             "props": {
-                              "color": "#6ab9c8",
-                              "lineHeight": 1.2,
+                              "color": "#1f7a8c",
+                              "lineHeight": 1.35,
+                              "size": 10.5,
                               "text": "github.com/Koeroesi86",
                             },
                             "type": "text",
@@ -82,11 +89,13 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         ],
                         "props": {
                           "flexDirection": "row",
+                          "flexWrap": "nowrap",
                         },
                         "type": "block",
                       },
                     ],
                     "props": {
+                      "color": "#1f7a8c",
                       "src": "https://github.com/Koeroesi86",
                       "underline": false,
                     },
@@ -94,21 +103,22 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "width": 6,
+                      "width": 8,
                     },
                     "type": "block",
                   },
                   {
                     "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "text": "||",
+                      "color": "#666666",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
+                      "text": "·",
                     },
                     "type": "text",
                   },
                   {
                     "props": {
-                      "width": 6,
+                      "width": 8,
                     },
                     "type": "block",
                   },
@@ -120,29 +130,30 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             "children": [
                               {
                                 "props": {
-                                  "color": "#6ab9c8",
-                                  "height": 12,
-                                  "width": 12,
+                                  "color": "#1f7a8c",
+                                  "height": 11,
+                                  "width": 11,
                                 },
                                 "type": "icon-folder",
                               },
                             ],
                             "props": {
                               "position": "relative",
-                              "top": -3,
+                              "top": -2,
                             },
                             "type": "block",
                           },
                           {
                             "props": {
-                              "width": 3,
+                              "width": 4,
                             },
                             "type": "block",
                           },
                           {
                             "props": {
-                              "color": "#6ab9c8",
-                              "lineHeight": 1.2,
+                              "color": "#1f7a8c",
+                              "lineHeight": 1.35,
+                              "size": 10.5,
                               "text": "chris.koro.si",
                             },
                             "type": "text",
@@ -150,193 +161,24 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         ],
                         "props": {
                           "flexDirection": "row",
+                          "flexWrap": "nowrap",
                         },
                         "type": "block",
                       },
                     ],
                     "props": {
+                      "color": "#1f7a8c",
                       "src": "https://chris.koro.si",
                       "underline": false,
                     },
                     "type": "link",
                   },
-                  {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "text": "*/",
-                    },
-                    "type": "text",
-                  },
                 ],
                 "props": {
                   "flexDirection": "row",
-                  "justifyContent": "flex-start",
+                  "flexWrap": "nowrap",
                 },
                 "type": "block",
-              },
-              {
-                "props": {
-                  "height": 2,
-                },
-                "type": "block",
-              },
-              {
-                "children": [
-                  {
-                    "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "text": "/**",
-                    },
-                    "type": "text",
-                  },
-                  {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "size": 12,
-                      "text": "@links:",
-                    },
-                    "type": "text",
-                  },
-                  {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
-                    "children": [
-                      {
-                        "props": {
-                          "color": "#6ab9c8",
-                          "lineHeight": 1.2,
-                          "text": "undefined",
-                        },
-                        "type": "text",
-                      },
-                    ],
-                    "props": {
-                      "src": "tel:undefined",
-                      "underline": false,
-                    },
-                    "type": "link",
-                  },
-                  {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "text": "*/",
-                    },
-                    "type": "text",
-                  },
-                ],
-                "props": {
-                  "flexDirection": "row",
-                  "justifyContent": "flex-start",
-                },
-                "type": "block",
-              },
-              {
-                "props": {
-                  "height": 2,
-                },
-                "type": "block",
-              },
-              {
-                "children": [
-                  {
-                    "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "text": "/**",
-                    },
-                    "type": "text",
-                  },
-                  {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "size": 12,
-                      "text": "@var",
-                    },
-                    "type": "text",
-                  },
-                  {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "size": 12,
-                      "text": "{Full-stack developer} Krisz",
-                    },
-                    "type": "text",
-                  },
-                  {
-                    "props": {
-                      "width": 6,
-                    },
-                    "type": "block",
-                  },
-                  {
-                    "props": {
-                      "color": "#6ab9c8",
-                      "lineHeight": 1.2,
-                      "text": "*/",
-                    },
-                    "type": "text",
-                  },
-                ],
-                "props": {
-                  "flexDirection": "row",
-                  "justifyContent": "flex-start",
-                },
-                "type": "block",
-              },
-              {
-                "props": {
-                  "height": 6,
-                },
-                "type": "block",
-              },
-              {
-                "props": {
-                  "color": "#1d1d1b",
-                  "lineHeight": 1.2,
-                  "size": 24,
-                  "text": "Krisztian Korosi",
-                },
-                "type": "text",
               },
             ],
             "props": {},
@@ -362,7 +204,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#1d1d1b",
+                          "color": "#333333",
                           "height": 16,
                           "width": 16,
                         },
@@ -383,10 +225,10 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "lineHeight": 1.6,
                       "size": 18,
-                      "text": "Desire",
+                      "text": "Summary",
                       "weight": 600,
                     },
                     "type": "text",
@@ -423,8 +265,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
                           "text": "My desire is to always improve myself and attain new skills, to keep up with the latest technologies.",
                         },
                         "type": "text",
@@ -465,7 +308,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#1d1d1b",
+                          "color": "#333333",
                           "height": 16,
                           "width": 16,
                         },
@@ -486,7 +329,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "lineHeight": 1.6,
                       "size": 18,
                       "text": "Skills",
@@ -510,6 +353,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               },
               {
                 "props": {
+                  "flexShrink": 1,
                   "height": 10,
                 },
                 "type": "block",
@@ -520,27 +364,18 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "height": 2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
+                          "text": "Main skills (3 or more years each)",
+                          "weight": 600,
                         },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
-                          "color": "#1d1d1b",
-                          "height": 8,
-                          "width": 8,
-                        },
-                        "type": "icon-arrow-right",
+                        "type": "text",
                       },
                     ],
                     "props": {
-                      "alignItems": "center",
                       "flexWrap": "nowrap",
-                      "justifyContent": "flex-start",
-                      "left": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "width": 16,
+                      "width": 172,
                     },
                     "type": "block",
                   },
@@ -548,37 +383,16 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
-                          "text": "Main skills (3 or more years each)",
-                          "weight": 700,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
+                          "text": "IntelliJ · SQL · XHTML1.0-HTML5 · CSS2-3 · SCSS · JavaScript · AngularJS · jQuery · Photoshop · Illustrator · Linux · Windows · MacOS · Symfony · Laravel · Wordpress · Apache · PHP · Git · ECMA Script · NodeJS · ReactJS · AWS (ex. EC2, ECR, ECS, RDS, IAM, S3) · Rest APIs · Docker",
                         },
                         "type": "text",
                       },
                       {
                         "props": {
-                          "height": 2,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "children": [
-                          {
-                            "props": {
-                              "color": "#1d1d1b",
-                              "lineHeight": 1.2,
-                              "text": "IntelliJ, SQL, XHTML1.0-HTML5, CSS2-3, SCSS, JavaScript, AngularJS, jQuery, Photoshop, Illustrator, Linux, Windows, MacOS, Symfony, Laravel, Wordpress, Apache, PHP, Git, ECMA Script, NodeJS, ReactJS, AWS (ex. EC2, ECR, ECS, RDS, IAM, S3), Rest APIs, Docker",
-                            },
-                            "type": "text",
-                          },
-                        ],
-                        "props": {
-                          "width": 500,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
+                          "flexShrink": 1,
                           "height": 6,
                         },
                         "type": "block",
@@ -595,7 +409,6 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "props": {
                   "flexDirection": "row",
                   "flexWrap": "nowrap",
-                  "paddingLeft": 16,
                 },
                 "type": "block",
               },
@@ -605,27 +418,18 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "height": 2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
+                          "text": "Also focused on (2 or more years each)",
+                          "weight": 600,
                         },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
-                          "color": "#1d1d1b",
-                          "height": 8,
-                          "width": 8,
-                        },
-                        "type": "icon-arrow-right",
+                        "type": "text",
                       },
                     ],
                     "props": {
-                      "alignItems": "center",
                       "flexWrap": "nowrap",
-                      "justifyContent": "flex-start",
-                      "left": 0,
-                      "position": "absolute",
-                      "top": 0,
-                      "width": 16,
+                      "width": 172,
                     },
                     "type": "block",
                   },
@@ -633,37 +437,16 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
-                          "text": "Also focused on (2 or more years each)",
-                          "weight": 700,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
+                          "text": "ElasticSearch · Typescript · Nginx · APIs (ex. Facebook, Twitter, Google) · InDesign · OAuth · WebSockets · Sublime · VisualStudio · Jenkins · Serverless",
                         },
                         "type": "text",
                       },
                       {
                         "props": {
-                          "height": 2,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "children": [
-                          {
-                            "props": {
-                              "color": "#1d1d1b",
-                              "lineHeight": 1.2,
-                              "text": "ElasticSearch, Typescript, Nginx, APIs (ex. Facebook, Twitter, Google), InDesign, OAuth, WebSockets, Sublime, VisualStudio, Jenkins, Serverless",
-                            },
-                            "type": "text",
-                          },
-                        ],
-                        "props": {
-                          "width": 500,
-                        },
-                        "type": "block",
-                      },
-                      {
-                        "props": {
+                          "flexShrink": 1,
                           "height": 6,
                         },
                         "type": "block",
@@ -680,7 +463,6 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "props": {
                   "flexDirection": "row",
                   "flexWrap": "nowrap",
-                  "paddingLeft": 16,
                 },
                 "type": "block",
               },
@@ -708,7 +490,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#1d1d1b",
+                          "color": "#333333",
                           "height": 16,
                           "width": 16,
                         },
@@ -729,10 +511,10 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "lineHeight": 1.6,
                       "size": 18,
-                      "text": "Experiences",
+                      "text": "Experience",
                       "weight": 600,
                     },
                     "type": "text",
@@ -782,10 +564,11 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
-                          "text": "Codra Kft. (Budapest H-1119)",
-                          "weight": 700,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
+                          "text": "Codra Kft. (Budapest, HU)",
+                          "weight": 600,
                         },
                         "type": "text",
                       },
@@ -813,8 +596,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
+                          "color": "#666666",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
                           "text": "2009 Aug. - 2011 Dec.",
                         },
                         "type": "text",
@@ -840,24 +624,26 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                   },
                                 ],
                                 "props": {
-                                  "color": "#6ab9c8",
+                                  "color": "#1f7a8c",
                                   "src": "https://web.archive.org/web/20110227030706/https://codra.hu/webaruhaz/",
                                 },
                                 "type": "link",
                               },
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
-                                  "lineHeight": 1.2,
+                                  "color": "#333333",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
                                   "text": "was a distributor company for over 50 manufacturer (12 of them exclusively). For some time I’ve been a product manager too.",
                                 },
                                 "type": "text",
                               },
                             ],
                             "props": {
-                              "color": "#1d1d1b",
+                              "color": "#333333",
                               "flexShrink": 1,
-                              "lineHeight": 1.2,
+                              "lineHeight": 1.35,
+                              "size": 10.5,
                               "text": "",
                             },
                             "type": "text",
@@ -880,10 +666,11 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         "children": [
                           {
                             "props": {
-                              "color": "#1d1d1b",
-                              "lineHeight": 1.2,
+                              "color": "#333333",
+                              "lineHeight": 1.35,
+                              "size": 10.5,
                               "text": "Role:",
-                              "weight": 700,
+                              "weight": 600,
                             },
                             "type": "text",
                           },
@@ -895,9 +682,10 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                           },
                           {
                             "props": {
-                              "color": "#1d1d1b",
+                              "color": "#333333",
                               "flexShrink": 1,
-                              "lineHeight": 1.2,
+                              "lineHeight": 1.35,
+                              "size": 10.5,
                               "text": "Webdesign, and Development",
                             },
                             "type": "text",
@@ -918,10 +706,11 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
                           "text": "Responsibilities",
-                          "weight": 700,
+                          "weight": 600,
                         },
                         "type": "text",
                       },
@@ -937,7 +726,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                               },
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
+                                  "color": "#333333",
                                   "height": 8,
                                   "width": 8,
                                 },
@@ -967,8 +756,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                   },
                                 ],
                                 "props": {
-                                  "color": "#1d1d1b",
-                                  "lineHeight": 1.2,
+                                  "color": "#333333",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
                                   "text": "",
                                 },
                                 "type": "text",
@@ -1001,7 +791,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                               },
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
+                                  "color": "#333333",
                                   "height": 8,
                                   "width": 8,
                                 },
@@ -1031,8 +821,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                   },
                                 ],
                                 "props": {
-                                  "color": "#1d1d1b",
-                                  "lineHeight": 1.2,
+                                  "color": "#333333",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
                                   "text": "",
                                 },
                                 "type": "text",
@@ -1065,7 +856,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                               },
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
+                                  "color": "#333333",
                                   "height": 8,
                                   "width": 8,
                                 },
@@ -1095,8 +886,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                                   },
                                 ],
                                 "props": {
-                                  "color": "#1d1d1b",
-                                  "lineHeight": 1.2,
+                                  "color": "#333333",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
                                   "text": "",
                                 },
                                 "type": "text",
@@ -1126,10 +918,11 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
                           "text": "Achievements",
-                          "weight": 700,
+                          "weight": 600,
                         },
                         "type": "text",
                       },
@@ -1145,7 +938,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                               },
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
+                                  "color": "#333333",
                                   "height": 8,
                                   "width": 8,
                                 },
@@ -1167,8 +960,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             "children": [
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
-                                  "lineHeight": 1.2,
+                                  "color": "#333333",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
                                   "text": "Making the whole company’s brand (web, and printed)",
                                 },
                                 "type": "text",
@@ -1234,6 +1028,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
           },
           {
             "props": {
+              "flexShrink": 1,
               "height": 6,
             },
             "type": "block",
@@ -1242,56 +1037,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
             "children": [
               {
                 "props": {
-                  "color": "#1d1d1b",
-                  "lineHeight": 1.2,
-                  "text": "1",
-                  "weight": 600,
+                  "color": "#666666",
+                  "lineHeight": 1.35,
+                  "size": 9.5,
+                  "text": "1 / 2 page",
                 },
                 "type": "text",
-              },
-              {
-                "props": {
-                  "width": 3,
-                },
-                "type": "block",
-              },
-              {
-                "props": {
-                  "color": "#1d1d1b",
-                  "lineHeight": 1.2,
-                  "text": "|",
-                },
-                "type": "text",
-              },
-              {
-                "props": {
-                  "width": 3,
-                },
-                "type": "block",
-              },
-              {
-                "props": {
-                  "color": "#1d1d1b",
-                  "lineHeight": 1.2,
-                  "text": "Page",
-                },
-                "type": "text",
-              },
-              {
-                "props": {
-                  "width": 20,
-                },
-                "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexWrap": "nowrap",
               "justifyContent": "flex-end",
+              "paddingRight": 10,
             },
             "type": "block",
           },
           {
             "props": {
+              "flexShrink": 1,
               "height": 8,
             },
             "type": "block",
@@ -1323,7 +1087,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 16,
                       "width": 16,
                     },
@@ -1344,10 +1108,10 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               },
               {
                 "props": {
-                  "color": "#1d1d1b",
+                  "color": "#333333",
                   "lineHeight": 1.6,
                   "size": 18,
-                  "text": "Studies",
+                  "text": "Education",
                   "weight": 600,
                 },
                 "type": "text",
@@ -1397,9 +1161,10 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
-                      "lineHeight": 1.2,
-                      "text": "Kalmár László IT secondary School (Budapest H-1027)",
+                      "color": "#333333",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
+                      "text": "Kalmár László IT secondary School (Budapest, HU)",
                       "weight": 600,
                     },
                     "type": "text",
@@ -1414,8 +1179,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
-                      "lineHeight": 1.2,
+                      "color": "#666666",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
                       "text": "2007",
                     },
                     "type": "text",
@@ -1430,8 +1196,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
                           "text": "Matura",
                           "weight": 600,
                         },
@@ -1449,7 +1216,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                               },
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
+                                  "color": "#333333",
                                   "height": 8,
                                   "width": 8,
                                 },
@@ -1471,8 +1238,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             "children": [
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
-                                  "lineHeight": 1.2,
+                                  "color": "#333333",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
                                   "text": "Professional programmer degree",
                                 },
                                 "type": "text",
@@ -1554,9 +1322,10 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
-                      "lineHeight": 1.2,
-                      "text": "SZIE – Ybl Miklós Faculty of Building (Budapest H-1146)",
+                      "color": "#333333",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
+                      "text": "SZIE – Ybl Miklós Faculty of Building (Budapest, HU)",
                       "weight": 600,
                     },
                     "type": "text",
@@ -1571,8 +1340,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
-                      "lineHeight": 1.2,
+                      "color": "#666666",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
                       "text": "2007 - 2011",
                     },
                     "type": "text",
@@ -1587,8 +1357,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
                           "text": "Bsc education",
                           "weight": 600,
                         },
@@ -1606,7 +1377,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                               },
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
+                                  "color": "#333333",
                                   "height": 8,
                                   "width": 8,
                                 },
@@ -1628,8 +1399,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             "children": [
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
-                                  "lineHeight": 1.2,
+                                  "color": "#333333",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
                                   "text": "Architect engineer",
                                 },
                                 "type": "text",
@@ -1658,8 +1430,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                     "children": [
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
                           "text": "Achievements",
                           "weight": 600,
                         },
@@ -1677,7 +1450,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                               },
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
+                                  "color": "#333333",
                                   "height": 8,
                                   "width": 8,
                                 },
@@ -1699,8 +1472,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                             "children": [
                               {
                                 "props": {
-                                  "color": "#1d1d1b",
-                                  "lineHeight": 1.2,
+                                  "color": "#333333",
+                                  "lineHeight": 1.35,
+                                  "size": 10.5,
                                   "text": "Additional skills earned: AutoCAD, ArchiCAD",
                                 },
                                 "type": "text",
@@ -1769,7 +1543,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 16,
                       "width": 16,
                     },
@@ -1790,7 +1564,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               },
               {
                 "props": {
-                  "color": "#1d1d1b",
+                  "color": "#333333",
                   "lineHeight": 1.6,
                   "size": 18,
                   "text": "Interests",
@@ -1830,7 +1604,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 8,
                       "width": 8,
                     },
@@ -1852,8 +1626,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
-                      "color": "#1d1d1b",
-                      "lineHeight": 1.2,
+                      "color": "#333333",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
                       "text": "Photography",
                     },
                     "type": "text",
@@ -1886,7 +1661,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 8,
                       "width": 8,
                     },
@@ -1908,8 +1683,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
-                      "color": "#1d1d1b",
-                      "lineHeight": 1.2,
+                      "color": "#333333",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
                       "text": "Arts (drawing, statuary, architecture)",
                     },
                     "type": "text",
@@ -1942,7 +1718,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 8,
                       "width": 8,
                     },
@@ -1964,8 +1740,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
-                      "color": "#1d1d1b",
-                      "lineHeight": 1.2,
+                      "color": "#333333",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
                       "text": "Music (even playing on guitar, harp, drums)",
                     },
                     "type": "text",
@@ -2004,7 +1781,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 16,
                       "width": 16,
                     },
@@ -2025,10 +1802,10 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               },
               {
                 "props": {
-                  "color": "#1d1d1b",
+                  "color": "#333333",
                   "lineHeight": 1.6,
                   "size": 18,
-                  "text": "Favorites",
+                  "text": "Projects",
                   "weight": 600,
                 },
                 "type": "text",
@@ -2065,7 +1842,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 8,
                       "width": 8,
                     },
@@ -2091,15 +1868,16 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         "children": [
                           {
                             "props": {
-                              "color": "#6ab9c8",
-                              "lineHeight": 1.2,
+                              "color": "#1f7a8c",
+                              "lineHeight": 1.35,
+                              "size": 10.5,
                               "text": "magyartop.hu",
                             },
                             "type": "text",
                           },
                         ],
                         "props": {
-                          "color": "#6ab9c8",
+                          "color": "#1f7a8c",
                           "src": "http://magyartop.hu/",
                         },
                         "type": "link",
@@ -2112,8 +1890,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
                           "text": "(Own toplist for Hungarian websites)",
                         },
                         "type": "text",
@@ -2152,7 +1931,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 8,
                       "width": 8,
                     },
@@ -2178,15 +1957,16 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                         "children": [
                           {
                             "props": {
-                              "color": "#6ab9c8",
-                              "lineHeight": 1.2,
+                              "color": "#1f7a8c",
+                              "lineHeight": 1.35,
+                              "size": 10.5,
                               "text": "chris.koro.si",
                             },
                             "type": "text",
                           },
                         ],
                         "props": {
-                          "color": "#6ab9c8",
+                          "color": "#1f7a8c",
                           "src": "https://chris.koro.si/",
                         },
                         "type": "link",
@@ -2199,8 +1979,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                       },
                       {
                         "props": {
-                          "color": "#1d1d1b",
-                          "lineHeight": 1.2,
+                          "color": "#333333",
+                          "lineHeight": 1.35,
+                          "size": 10.5,
                           "text": "(Personal website)",
                         },
                         "type": "text",
@@ -2245,7 +2026,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 16,
                       "width": 16,
                     },
@@ -2266,10 +2047,10 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
               },
               {
                 "props": {
-                  "color": "#1d1d1b",
+                  "color": "#333333",
                   "lineHeight": 1.6,
                   "size": 18,
-                  "text": "Plus info",
+                  "text": "Additional information",
                   "weight": 600,
                 },
                 "type": "text",
@@ -2306,7 +2087,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 8,
                       "width": 8,
                     },
@@ -2328,8 +2109,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
-                      "color": "#1d1d1b",
-                      "lineHeight": 1.2,
+                      "color": "#333333",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
                       "text": "Coming from an agile background, I have around 11 years’ experience working with",
                     },
                     "type": "text",
@@ -2368,7 +2150,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                   },
                   {
                     "props": {
-                      "color": "#1d1d1b",
+                      "color": "#333333",
                       "height": 8,
                       "width": 8,
                     },
@@ -2390,8 +2172,9 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
                 "children": [
                   {
                     "props": {
-                      "color": "#1d1d1b",
-                      "lineHeight": 1.2,
+                      "color": "#333333",
+                      "lineHeight": 1.35,
+                      "size": 10.5,
                       "text": "Javascript. I have worked in TDD, BDD, Scrum and Kanban environments too",
                     },
                     "type": "text",
@@ -2426,6 +2209,7 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
           },
           {
             "props": {
+              "flexShrink": 1,
               "height": 6,
             },
             "type": "block",
@@ -2434,56 +2218,25 @@ exports[`transformCv should transform cv with lightblue scheme 1`] = `
             "children": [
               {
                 "props": {
-                  "color": "#1d1d1b",
-                  "lineHeight": 1.2,
-                  "text": "2",
-                  "weight": 600,
+                  "color": "#666666",
+                  "lineHeight": 1.35,
+                  "size": 9.5,
+                  "text": "2 / 2 page",
                 },
                 "type": "text",
-              },
-              {
-                "props": {
-                  "width": 3,
-                },
-                "type": "block",
-              },
-              {
-                "props": {
-                  "color": "#1d1d1b",
-                  "lineHeight": 1.2,
-                  "text": "|",
-                },
-                "type": "text",
-              },
-              {
-                "props": {
-                  "width": 3,
-                },
-                "type": "block",
-              },
-              {
-                "props": {
-                  "color": "#1d1d1b",
-                  "lineHeight": 1.2,
-                  "text": "Page",
-                },
-                "type": "text",
-              },
-              {
-                "props": {
-                  "width": 20,
-                },
-                "type": "block",
               },
             ],
             "props": {
               "flexDirection": "row",
+              "flexWrap": "nowrap",
               "justifyContent": "flex-end",
+              "paddingRight": 10,
             },
             "type": "block",
           },
           {
             "props": {
+              "flexShrink": 1,
               "height": 8,
             },
             "type": "block",

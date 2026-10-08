@@ -61,7 +61,7 @@ module.exports = {
   ],
   "experiences": [
     {
-      "title": "Fizetésipont Kft. (Budapest H-1026)",
+      "title": "Fizetésipont Kft. (Budapest, HU)",
       "from": "2026 Jan.",
       "to": "now",
       "role": "Senior backend developer",
@@ -139,7 +139,7 @@ module.exports = {
       "achievements": ["Skills earned: NextJS, NestJS"],
     },
     {
-      "title": "Shares S.A.S (remote)",
+      "title": "Shares S.A.S (Remote)",
       "from": "2022 Jan.",
       "to": "2023 Jun.",
       "role": "Full stack software engineer",
@@ -159,7 +159,7 @@ module.exports = {
       "achievements": ["Implemented more data driven and better typed approach for less need of testing"],
     },
     {
-      "title": "EPAM (H-1083)",
+      "title": "EPAM (Budapest, HU)",
       "from": "2021 Jun.",
       "to": "2022 Jan.",
       "role": "Senior Software Engineer",
@@ -179,7 +179,7 @@ module.exports = {
       "achievements": ["Streamlined some of the client release processes"],
     },
     {
-      "title": "Deko (London EC4A 3BF)",
+      "title": "Deko (London, UK)",
       "from": "2020 Mar.",
       "to": "2021 May.",
       "role": "Senior Developer",
@@ -202,7 +202,7 @@ module.exports = {
       "achievements": ["Skills earned: Styled Components"]
     },
     {
-      "title": "Jefferies International (London EC2N 4JL)",
+      "title": "Jefferies International (London, UK)",
       "from": "2019 May.",
       "to": "2019 Oct.",
       "role": "Consultant, Lead Developer",
@@ -225,7 +225,7 @@ module.exports = {
       "achievements": ["Skills earned: OpenFin"]
     },
     {
-      "title": "Photobox (London EC1R 5EN)",
+      "title": "Photobox (London, UK)",
       "from": "2018 Jul.",
       "to": "2019 Apr.",
       "role": "Full Stack Developer",
@@ -254,7 +254,7 @@ module.exports = {
       "achievements": ["Skills earned: Serverless, SQS, SNS, GraphQL, Auth0"]
     },
     {
-      "title": "Caplin Systems (London EC3A 7BR)",
+      "title": "Caplin Systems (London, UK)",
       "from": "2017 Jun.",
       "to": "2018 Jul.",
       "role": "Software Engineer",
@@ -291,7 +291,7 @@ module.exports = {
       "achievements": ["Skills earned: Electron, Java, Kotlin"]
     },
     {
-      "title": "Mobile 5 Media (London W1F 7SP)",
+      "title": "Mobile 5 Media (London, UK)",
       "from": "2017 Mar.",
       "to": "2017 Jun.",
       "role": "Senior Full-Stack developer",
@@ -330,7 +330,7 @@ module.exports = {
       ]
     },
     {
-      "title": "MullenLowe Group (London EC1Y 1AT)",
+      "title": "MullenLowe Group (London, UK)",
       "from": "2016 Jul.",
       "to": "2017 Mar.",
       "role": "Senior Full-Stack developer",
@@ -373,7 +373,7 @@ module.exports = {
       ]
     },
     {
-      "title": "Apex IT Services (Budapest H-1056)",
+      "title": "Apex IT Services (Budapest, HU)",
       "from": "2015 Aug.",
       "to": "2016 Jun.",
       "role": "Senior PHP developer",
@@ -406,7 +406,7 @@ module.exports = {
       "achievements": ["Skills earned: Symfony 2, PHPStorm, Git"]
     },
     {
-      "title": "Hewlett-Packard (Budapest H-1031)",
+      "title": "Hewlett-Packard (Budapest, HU)",
       "from": "2014 Nov.",
       "to": "2015 Jun.",
       "role": "Web developer",
@@ -451,7 +451,7 @@ module.exports = {
       "achievements": ["Skills earned: Laravel, Tridion"]
     },
     {
-      "title": "Systemax Business Services Kft. Budapest H-1082",
+      "title": "Systemax Business Services Kft. (Budapest, HU)",
       "from": "2013 Dec.",
       "to": "2014 Nov.",
       "role": "Web designer and Developer",
@@ -515,7 +515,7 @@ module.exports = {
       ]
     },
     {
-      "title": "Codra Kft. (Budapest H-1119)",
+      "title": "Codra Kft. (Budapest, HU)",
       "from": "2009 Aug.",
       "to": "2011 Dec.",
       "role": "Webdesign, and Development",
@@ -540,7 +540,7 @@ module.exports = {
   ],
   "studies": [
     {
-      "title": "Kalmár László IT secondary School (Budapest H-1027)",
+      "title": "Kalmár László IT secondary School (Budapest, HU)",
       "from": "",
       "to": "2007",
       "details": [
@@ -551,7 +551,7 @@ module.exports = {
       ]
     },
     {
-      "title": "SZIE – Ybl Miklós Faculty of Building (Budapest H-1146)",
+      "title": "SZIE – Ybl Miklós Faculty of Building (Budapest, HU)",
       "from": "2007",
       "to": "2011",
       "details": [

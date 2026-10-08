@@ -3,7 +3,9 @@ import { Colours, SchemeNames, Schemes } from "../types";
 const schemes: Schemes = {
   lightblue: {
     highlight: "#6ab9c8",
-    text: "#1d1d1b",
+    link: "#1f7a8c",
+    text: "#333333",
+    muted: "#666666",
     secondaryDivider: "#d3d3d3",
   },
 };

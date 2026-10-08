@@ -50,7 +50,7 @@ module.exports = {
   ],
   "experiences": [
     {
-      "title": "Fizetésipont Kft. (Hungary 1026)",
+      "title": "Fizetésipont Kft. (Budapest, HU)",
       "from": "2026 Jan.",
       "to": "now",
       "role": "Senior Backend Developer & Architect",
@@ -79,7 +79,7 @@ module.exports = {
       ],
     },
     {
-      "title": "Spreadmonitor (Hungary 1118)",
+      "title": "Spreadmonitor (Budapest, HU)",
       "from": "2024 Sep.",
       "to": "2025 Nov.",
       "role": "Full Stack Software Developer",
@@ -110,7 +110,7 @@ module.exports = {
       ],
     },
     {
-      "title": "Fizz.hu (Hungary 1132)",
+      "title": "Fizz.hu (Budapest, HU)",
       "from": "2023 Jun.",
       "to": "2024 Aug.",
       "role": "Lead / Full Stack Software Developer",
@@ -136,7 +136,7 @@ module.exports = {
       ],
     },
     {
-      "title": "Shares S.A.S (remote)",
+      "title": "Shares S.A.S (Remote)",
       "from": "2022 Jan.",
       "to": "2023 Jun.",
       "role": "Full Stack Software Engineer",
@@ -158,7 +158,7 @@ module.exports = {
       ],
     },
     {
-      "title": "EPAM (Hungary 1083)",
+      "title": "EPAM (Budapest, HU)",
       "from": "2021 Jun.",
       "to": "2022 Jan.",
       "role": "Senior Software Engineer",
@@ -180,7 +180,7 @@ module.exports = {
       ],
     },
     {
-      "title": "Deko (London EC4A 3BF)",
+      "title": "Deko (London, UK)",
       "from": "2020 Mar.",
       "to": "2021 May",
       "role": "Senior / Lead Developer",
@@ -205,7 +205,7 @@ module.exports = {
       ]
     },
     {
-      "title": "Jefferies International (London EC2N 4JL)",
+      "title": "Jefferies International (London, UK)",
       "from": "2019 May",
       "to": "2019 Oct.",
       "role": "Consultant, Lead Developer",
@@ -230,7 +230,7 @@ module.exports = {
       ]
     },
     {
-      "title": "Photobox (London EC1R 5EN)",
+      "title": "Photobox (London, UK)",
       "from": "2018 Jul.",
       "to": "2019 Apr.",
       "role": "Full Stack Developer",
@@ -261,7 +261,7 @@ module.exports = {
       ]
     },
     {
-      "title": "Caplin Systems (London EC3A 7BR)",
+      "title": "Caplin Systems (London, UK)",
       "from": "2017 Jun.",
       "to": "2018 Jul.",
       "role": "Software Engineer",
@@ -300,7 +300,7 @@ module.exports = {
       ]
     },
     {
-      "title": "MullenLowe Group (London EC1Y 1AT)",
+      "title": "MullenLowe Group (London, UK)",
       "from": "2016 Jun.",
       "to": "2017 Mar.",
       "role": "Senior Full-Stack Developer",
@@ -360,7 +360,7 @@ module.exports = {
   ],
   "studies": [
     {
-      "title": "Kalmár László IT Secondary School (Budapest H-1027)",
+      "title": "Kalmár László IT Secondary School (Budapest, HU)",
       "from": "",
       "to": "2007",
       "details": [
@@ -371,7 +371,7 @@ module.exports = {
       ]
     },
     {
-      "title": "SZIE – Ybl Miklós Faculty of Architecture (Budapest H-1146)",
+      "title": "SZIE – Ybl Miklós Faculty of Architecture (Budapest, HU)",
       "from": "2007",
       "to": "2011",
       "details": [

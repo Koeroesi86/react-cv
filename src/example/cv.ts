@@ -60,7 +60,7 @@ const cv: CV = {
   ],
   experiences: [
     {
-      title: "Codra Kft. (Budapest H-1119)",
+      title: "Codra Kft. (Budapest, HU)",
       from: "2009 Aug.",
       to: "2011 Dec.",
       role: "Webdesign, and Development",
@@ -84,7 +84,7 @@ const cv: CV = {
   ],
   studies: [
     {
-      title: "Kalmár László IT secondary School (Budapest H-1027)",
+      title: "Kalmár László IT secondary School (Budapest, HU)",
       from: "",
       to: "2007",
       details: [
@@ -95,7 +95,7 @@ const cv: CV = {
       ],
     },
     {
-      title: "SZIE – Ybl Miklós Faculty of Building (Budapest H-1146)",
+      title: "SZIE – Ybl Miklós Faculty of Building (Budapest, HU)",
       from: "2007",
       to: "2011",
       details: [

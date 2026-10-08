@@ -2,9 +2,10 @@ import { CV, RevivableComponent } from "@app-types";
 import { Colours } from "../types";
 import createBlockTitle from "../elements/createBlockTitle";
 import createBulletpoint from "../elements/createBulletpoint";
+import { body } from "../typography";
 
 const createFavorites = (cv: CV, colours: Colours): RevivableComponent[] => [
-  ...createBlockTitle("Favorites", colours, "icon-star"),
+  ...createBlockTitle("Projects", colours, "icon-star"),
   { type: "block", props: { height: 10 } },
   ...cv.favorites.map((favorite) => createBulletpoint(
     { type: "icon-arrow-right", props: { width: 8, height: 8, color: colours.text } },
@@ -15,11 +16,11 @@ const createFavorites = (cv: CV, colours: Colours): RevivableComponent[] => [
         children: [
           {
             type: "link",
-            props: { src: `${favorite.url}`, color: colours.highlight },
-            children: [{ type: "text", props: { text: `${favorite.name}`, color: colours.highlight, lineHeight: 1.2 }}]
+            props: { src: `${favorite.url}`, color: colours.link },
+            children: [{ type: "text", props: { text: `${favorite.name}`, color: colours.link, ...body }}]
           },
           { type: "block", props: { width: 6 }},
-          { type: "text", props: { text: `${favorite.description}`, color: colours.text, lineHeight: 1.2 }},
+          { type: "text", props: { text: `${favorite.description}`, color: colours.text, ...body }},
         ]
       },
     ],

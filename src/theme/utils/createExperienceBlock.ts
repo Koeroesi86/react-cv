@@ -4,14 +4,23 @@ import createResponsibilities from "./createResponsibilities";
 import createAchievements from "./createAchievements";
 import createRailBlock from "../elements/createRailBlock";
 import createSpacer from "../elements/createSpacer";
+import { body, small } from "../typography";
 
-const createExperienceBlock = (experience: CVExperience, colours: Colours, isLast: boolean = false, isExperienceOnly: boolean = false) =>
-  createRailBlock(
+const stackPattern = /^stack:\s*/i;
+
+const createExperienceBlock = (experience: CVExperience, colours: Colours, isLast: boolean = false, isExperienceOnly: boolean = false) => {
+  const responsibilities = experience.responsibilities.filter(({ text }) => !stackPattern.test(text));
+  const stack = experience.responsibilities
+    .filter(({ text }) => stackPattern.test(text))
+    .flatMap(({ text }) => text.replace(stackPattern, "").split(/,\s*/))
+    .filter(Boolean);
+
+  return createRailBlock(
     colours.highlight,
     [
       {
         type: "text",
-        props: { color: colours.text, text: experience.title, weight: 700, lineHeight: 1.2 }
+        props: { color: colours.text, text: experience.title, weight: 600, ...body }
       },
       createSpacer(3),
       {
@@ -26,9 +35,9 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
       {
         type: "text",
         props: {
-          color: colours.text,
+          color: colours.muted,
           text: `${experience.from} - ${experience.to}`,
-          lineHeight: 1.2
+          ...body
         }
       },
       ...(experience.details.link ? [
@@ -39,16 +48,16 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
           children: [
             {
               type: "text",
-              props: { text: "", color: colours.text, lineHeight: 1.2, flexShrink: 1 },
+              props: { text: "", color: colours.text, ...body, flexShrink: 1 },
               children: [
                 {
                   type: "link",
-                  props: { src: experience.details.link, color: colours.highlight },
+                  props: { src: experience.details.link, color: colours.link },
                   children: [
                     { type: "fragment", props: { node: `${experience.details.company}` } }
                   ]
                 },
-                { type: "text", props: { text: experience.details.description, color: colours.text, lineHeight: 1.2 } }
+                { type: "text", props: { text: experience.details.description, color: colours.text, ...body } }
               ]
             }
           ]
@@ -62,25 +71,30 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
           children: [
             {
               type: "text",
-              props: { text: "Role:", color: colours.text, weight: 700, lineHeight: 1.2 }
+              props: { text: "Role:", color: colours.text, weight: 600, ...body }
             },
             { type: "block", props: { width: 6 } },
-            { type: "text", props: { text: experience.role, color: colours.text, lineHeight: 1.2, flexShrink: 1 } }
+            { type: "text", props: { text: experience.role, color: colours.text, ...body, flexShrink: 1 } }
           ]
         },
       ] satisfies RevivableComponent[] : []),
-      ...(experience.responsibilities.length > 0 ? [
+      ...(responsibilities.length > 0 ? [
         createSpacer(3),
-        ...createResponsibilities(experience.responsibilities, colours),
+        ...createResponsibilities(responsibilities, colours),
       ] satisfies RevivableComponent[] : []),
       ...(experience.achievements.length > 0 ? [
         createSpacer(3),
         ...createAchievements(experience.achievements, colours),
+      ] satisfies RevivableComponent[] : []),
+      ...(stack.length > 0 ? [
+        createSpacer(3),
+        { type: "text", props: { text: `Stack: ${stack.join(" · ")}`, color: colours.muted, ...small } },
       ] satisfies RevivableComponent[] : []),
       createSpacer(20)
     ],
     isLast,
     isExperienceOnly ? 190 : undefined
   );
+};
 
 export default createExperienceBlock;
