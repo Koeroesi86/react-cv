@@ -2,12 +2,14 @@ import { RevivableComponent, RevivableIcon } from "@app-types";
 
 const createBulletpoint = (icon: RevivableIcon, children?: RevivableComponent[]): RevivableComponent => ({
   type: "block",
-  props: { flexDirection: "row", flexWrap: "nowrap" },
+  props: { flexDirection: "row", flexWrap: "nowrap", paddingLeft: (icon.props?.width ?? 0) * 2 },
   children: [
     {
       type: "block",
       props: {
-        flexGrow: 0,
+        position: "absolute",
+        top: 0,
+        left: 0,
         alignItems: "center",
         justifyContent: "flex-start",
         flexWrap: "nowrap",
@@ -18,7 +20,7 @@ const createBulletpoint = (icon: RevivableIcon, children?: RevivableComponent[])
         icon
       ],
     },
-    { type: "block", props: { }, children },
+    { type: "block", props: { flexGrow: 1, flexBasis: 0, flexWrap: "nowrap" }, children },
   ]
 });
 

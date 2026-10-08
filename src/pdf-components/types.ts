@@ -1,5 +1,9 @@
 import PropTypes, { ValidationMap } from "prop-types";
 
+// react-pdf maps `flexShrink: 0` to 1 (`value || 1`), so "never shrink" needs a negligible positive factor.
+export const NO_SHRINK = 0.0001;
+export const resolveFlexShrink = (value: number) => (value === 0 ? NO_SHRINK : value);
+
 export interface IconProps {
   width: number;
   height: number;

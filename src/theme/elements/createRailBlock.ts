@@ -1,15 +1,17 @@
 import { RevivableComponent } from "@app-types";
+import createSpacer from "./createSpacer";
 
 const createRailBlock = (railColor: string, children?: RevivableComponent[], isEnd?: boolean, height?: number): RevivableComponent => ({
   type: "block",
   props: {
     flexDirection: "row",
     flexWrap: "nowrap",
+    paddingLeft: 10,
+    paddingRight: 10,
     height,
     flexGrow: isEnd ? 0 : 1,
   },
   children: [
-    { type: "block", props: { flexGrow: 0, width: 10 } },
     {
       type: "rail",
       props: {
@@ -24,14 +26,13 @@ const createRailBlock = (railColor: string, children?: RevivableComponent[], isE
     { type: "block", props: { flexGrow: 0, width: 10 } },
     {
       type: "block",
-      props: { flexGrow: 1 , flexWrap: "nowrap" },
+      props: { flexGrow: 1, flexBasis: 0, flexWrap: "nowrap" },
       children: [
-        { type: "block", props: { height: 10 } },
+        createSpacer(10),
         ...(children || []),
-        { type: "block", props: { height: 10 } },
+        createSpacer(10),
       ]
     },
-    { type: "block", props: { flexGrow: 0, width: 10 } },
   ],
 });
 

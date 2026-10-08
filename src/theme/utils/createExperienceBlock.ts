@@ -3,6 +3,7 @@ import { Colours } from "../types";
 import createResponsibilities from "./createResponsibilities";
 import createAchievements from "./createAchievements";
 import createRailBlock from "../elements/createRailBlock";
+import createSpacer from "../elements/createSpacer";
 
 const createExperienceBlock = (experience: CVExperience, colours: Colours, isLast: boolean = false, isExperienceOnly: boolean = false) =>
   createRailBlock(
@@ -12,7 +13,7 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
         type: "text",
         props: { color: colours.text, text: experience.title, weight: 700, lineHeight: 1.2 }
       },
-      { type: "block", props: { height: 3 } },
+      createSpacer(3),
       {
         type: "block",
         props: {
@@ -21,7 +22,7 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
           width: 400
         }
       },
-      { type: "block", props: { height: 1 } },
+      createSpacer(1),
       {
         type: "text",
         props: {
@@ -31,14 +32,14 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
         }
       },
       ...(experience.details.link ? [
-        { type: "block", props: { height: 3 } },
+        createSpacer(3),
         {
           type: "block",
-          props: { flexDirection: "row" },
+          props: { flexDirection: "row", flexWrap: "nowrap" },
           children: [
             {
               type: "text",
-              props: { text: "", color: colours.text, lineHeight: 1.2 },
+              props: { text: "", color: colours.text, lineHeight: 1.2, flexShrink: 1 },
               children: [
                 {
                   type: "link",
@@ -54,29 +55,29 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
         }
       ] satisfies RevivableComponent[] : []),
       ...(experience.role ? [
-        { type: "block", props: { height: 3 } },
+        createSpacer(3),
         {
           type: "block",
-          props: { flexDirection: "row" },
+          props: { flexDirection: "row", flexWrap: "nowrap" },
           children: [
             {
               type: "text",
               props: { text: "Role:", color: colours.text, weight: 700, lineHeight: 1.2 }
             },
             { type: "block", props: { width: 6 } },
-            { type: "text", props: { text: experience.role, color: colours.text, lineHeight: 1.2 } }
+            { type: "text", props: { text: experience.role, color: colours.text, lineHeight: 1.2, flexShrink: 1 } }
           ]
         },
       ] satisfies RevivableComponent[] : []),
       ...(experience.responsibilities.length > 0 ? [
-        { type: "block", props: { height: 3 } },
+        createSpacer(3),
         ...createResponsibilities(experience.responsibilities, colours),
       ] satisfies RevivableComponent[] : []),
       ...(experience.achievements.length > 0 ? [
-        { type: "block", props: { height: 3 } },
+        createSpacer(3),
         ...createAchievements(experience.achievements, colours),
       ] satisfies RevivableComponent[] : []),
-      { type: "block", props: { height: 20 } }
+      createSpacer(20)
     ],
     isLast,
     isExperienceOnly ? 190 : undefined
