@@ -12,6 +12,9 @@ import {
   IconGithub,
   IconGraduation,
   IconInfo,
+  IconMail,
+  IconMapPin,
+  IconPhone,
   IconRing,
   IconStar,
   Link,
@@ -38,7 +41,10 @@ const components: ComponentRegistry = {
   "icon-star": IconStar,
   "icon-info": IconInfo,
   "icon-folder": IconFolder,
-  "icon-github": IconGithub
+  "icon-github": IconGithub,
+  "icon-mail": IconMail,
+  "icon-map-pin": IconMapPin,
+  "icon-phone": IconPhone,
 };
 
 export default components;

@@ -57,7 +57,7 @@ Block.propTypes = {
   id: PropTypes.string,
   backgroundColor: PropTypes.string,
   flexGrow: PropTypes.oneOf(flexGrow),
-  flexShrink: PropTypes.oneOf(flexGrow),
+  flexShrink: PropTypes.number,
   flexBasis: PropTypes.number,
   flexDirection: PropTypes.oneOf(flexDirection),
   flexWrap: PropTypes.oneOf(flexWrap),

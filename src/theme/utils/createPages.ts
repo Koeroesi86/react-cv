@@ -10,9 +10,13 @@ import createPlusInfo from "./createPlusInfo";
 import createExperienceBlock from "./createExperienceBlock";
 
 const createPages = (cv: CV, colours: Colours, pageSize: PageSizes): RevivableComponent[] => {
-  const pages: RevivableComponent[] = [];
+  // Pages are built lazily so the footer can show the total page count.
+  const pages: ((total: number) => RevivableComponent)[] = [];
 
-  pages.push(createFirstPage(cv, pageSize, colours, "Open-Sans"));
+  // snapshot: the first experience is spliced off below, before the pages are built
+  const firstPageCv: CV = { ...cv, experiences: [...cv.experiences] };
+
+  pages.push((total) => createFirstPage(firstPageCv, pageSize, colours, "Open-Sans", total));
 
   cv.experiences.splice(0, 1);
 
@@ -41,31 +45,39 @@ const createPages = (cv: CV, colours: Colours, pageSize: PageSizes): RevivableCo
       hasFavoritesRendered = true;
     }
 
-    pages.push({
+    const pageNumber = pages.length + 1;
+    const renderStudies = hasStudiesRendered;
+    const renderInterests = hasInterestsRendered;
+    const renderFavorites = hasFavoritesRendered;
+    // built eagerly: they depend on how many experiences are left at this point
+    const experienceBlocks = currentExperiences.map((experience, index): RevivableComponent => (
+      createExperienceBlock(
+        experience, colours,
+        cv.experiences.length === 0 && index === currentExperiences.length - 1)
+    ));
+
+    pages.push((total) => ({
       type: "page",
       props: { size: pageSize, fontFamily: "Open-Sans" },
       children: [
         { type: "block", props: { height: 40 } },
-        ...currentExperiences.map((experience, index): RevivableComponent => (
-          createExperienceBlock(
-            experience, colours,
-            cv.experiences.length === 0 && index === currentExperiences.length - 1,
-            isExperienceOnly)
-        )),
+        ...experienceBlocks,
         { type: "block", props: { flexGrow: 1 } },
-        ...(hasStudiesRendered ? createStudies(cv, colours) : []),
+        ...(renderStudies ? createStudies(cv, colours) : []),
         { type: "block", props: { flexGrow: 1 } },
-        ...(hasInterestsRendered ? createInterests(cv, colours) : []),
+        ...(renderInterests ? createInterests(cv, colours) : []),
         { type: "block", props: { flexGrow: 1 } },
-        ...(hasFavoritesRendered ? createFavorites(cv, colours) : []),
+        ...(renderFavorites ? createFavorites(cv, colours) : []),
         { type: "block", props: { height: 10 } },
-        ...createPageNumber(pages.length + 1, colours),
+        ...createPageNumber(pageNumber, total, colours),
       ],
-    });
+    }));
   }
 
   if (!hasStudiesRendered || !hasInterestsRendered || !hasFavoritesRendered) {
-    pages.push({
+    const pageNumber = pages.length + 1;
+
+    pages.push((total) => ({
       type: "page",
       props: { size: pageSize, justifyContent: "flex-start", fontFamily: "Open-Sans" },
       children: [
@@ -84,12 +96,12 @@ const createPages = (cv: CV, colours: Colours, pageSize: PageSizes): RevivableCo
         ] as RevivableComponent[] : []),
         ...(!hasPlusInfoRendered ? createPlusInfo(cv, colours) : []),
         { type: "block", props: { flexGrow: 1 } },
-        ...createPageNumber(pages.length + 1, colours),
+        ...createPageNumber(pageNumber, total, colours),
       ]
-    });
+    }));
   }
 
-  return pages;
+  return pages.map((createPage) => createPage(pages.length));
 };
 
 export default createPages;

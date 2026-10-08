@@ -31,6 +31,8 @@ jobs:
       - name: Generate PDF
         env:
           PII_PHONE: ${{ secrets.PII_PHONE }}
+          PII_EMAIL: ${{ secrets.PII_EMAIL }}
+          PII_LOCATION: ${{ secrets.PII_LOCATION }}
         run: npm run start
       - name: PDF artifact
         uses: actions/upload-artifact@v7

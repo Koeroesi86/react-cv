@@ -1,24 +1,22 @@
 import { RevivableComponent } from "@app-types";
 import { Colours } from "../types";
+import { small } from "../typography";
+import createSpacer from "./createSpacer";
 
 const createPageNumber = (
   page: number,
+  total: number,
   colors: Colours
 ): RevivableComponent[] => [
-  { type: "block", props: { height: 6 } },
+  createSpacer(6),
   {
     type: "block",
-    props: { flexDirection: "row", justifyContent: "flex-end" },
+    props: { flexDirection: "row", justifyContent: "flex-end", flexWrap: "nowrap", paddingRight: 10 },
     children: [
-      { type: "text", props: { text: `${page}`, color: colors.text, weight: 600, lineHeight: 1.2 } },
-      { type: "block", props: { width: 3 } },
-      { type: "text", props: { text: "|", color: colors.text, lineHeight: 1.2 }, },
-      { type: "block", props: { width: 3 } },
-      { type: "text", props: { text: "Page", color: colors.text, lineHeight: 1.2 }, },
-      { type: "block", props: { width: 20 } },
+      { type: "text", props: { text: `Page ${page} of ${total}`, color: colors.muted, ...small } },
     ]
   },
-  { type: "block", props: { height: 8 } },
+  createSpacer(8),
 ];
 
 export default createPageNumber;

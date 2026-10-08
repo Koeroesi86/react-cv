@@ -21,7 +21,10 @@ export type IconAlias =
   | "icon-star"
   | "icon-info"
   | "icon-folder"
-  | "icon-github";
+  | "icon-github"
+  | "icon-mail"
+  | "icon-map-pin"
+  | "icon-phone";
 
 export type RevivableIcon = RevivableComponentType<IconAlias, IconProps, RevivableComponent>;
 
@@ -90,12 +93,14 @@ export interface CVLinks {
   github?: string;
   website?: string;
   phone?: string;
+  email?: string;
 }
 
 export interface CV {
   name: string;
   nick: string;
   role: string;
+  location?: string;
   links: CVLinks;
   desire: string;
   skills: CVSkill[];
@@ -108,4 +113,6 @@ export interface CV {
 
 export interface Env {
   PII_PHONE: string;
+  PII_EMAIL: string;
+  PII_LOCATION: string;
 }
