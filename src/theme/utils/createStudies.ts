@@ -29,6 +29,8 @@ const createStudies = (cv: CV, colours: Colours): RevivableComponent[] => [
       }))
     ],
     index === cv.studies.length - 1,
+    undefined,
+    index === 0,
   )),
 ];
 

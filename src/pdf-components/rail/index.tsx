@@ -10,6 +10,7 @@ export interface RailComponentProps {
   size?: number;
   iconSize?: number;
   color?: string;
+  startColor?: string;
   startSize?: Size;
   endSize?: Size;
   orientation?: "row" | "column";
@@ -23,7 +24,7 @@ const getSizes = (size: Size, orientation: Orientation) =>
     : { height: 2, ...parseSize(size, "width") };
 
 function Rail({
-  size, iconSize, color, startSize = 40, endSize = "grow", orientation = "column",
+  size, iconSize, color, startColor = color, startSize = 40, endSize = "grow", orientation = "column",
 }: RailComponentProps) {
   return (
     <Block
@@ -31,7 +32,7 @@ function Rail({
       alignItems="center"
       {...(orientation === "column" ? { width: size } : { height: size })}
     >
-      <Block backgroundColor={color} {...getSizes(startSize, orientation)} />
+      <Block backgroundColor={startColor} {...getSizes(startSize, orientation)} />
       <Block>
         <IconRing width={iconSize} height={iconSize} color={color} />
       </Block>
@@ -44,6 +45,7 @@ Rail.propTypes = {
   size: PropTypes.number,
   iconSize: PropTypes.number,
   color: PropTypes.string,
+  startColor: PropTypes.string,
   startSize: PropTypes.oneOfType([
     PropTypes.number,
     PropTypes.oneOf<"grow">(["grow"]),

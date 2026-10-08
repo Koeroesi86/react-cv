@@ -4,11 +4,11 @@ import createResponsibilities from "./createResponsibilities";
 import createAchievements from "./createAchievements";
 import createRailBlock from "../elements/createRailBlock";
 import createSpacer from "../elements/createSpacer";
-import { body, small } from "../typography";
+import { body } from "../typography";
 
 const stackPattern = /^stack:\s*/i;
 
-const createExperienceBlock = (experience: CVExperience, colours: Colours, isLast: boolean = false, isExperienceOnly: boolean = false) => {
+const createExperienceBlock = (experience: CVExperience, colours: Colours, isLast: boolean = false, isExperienceOnly: boolean = false, isFirst: boolean = false) => {
   const responsibilities = experience.responsibilities.filter(({ text }) => !stackPattern.test(text));
   const stack = experience.responsibilities
     .filter(({ text }) => stackPattern.test(text))
@@ -78,6 +78,18 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
           ]
         },
       ] satisfies RevivableComponent[] : []),
+      ...(stack.length > 0 ? [
+        createSpacer(3),
+        {
+          type: "block",
+          props: { flexDirection: "row", flexWrap: "nowrap" },
+          children: [
+            { type: "text", props: { text: "Stack:", color: colours.text, weight: 600, ...body } },
+            { type: "block", props: { width: 6 } },
+            { type: "text", props: { text: stack.join("\u00a0· "), color: colours.text, ...body, flexShrink: 1 } },
+          ]
+        },
+      ] satisfies RevivableComponent[] : []),
       ...(responsibilities.length > 0 ? [
         createSpacer(3),
         ...createResponsibilities(responsibilities, colours),
@@ -86,14 +98,11 @@ const createExperienceBlock = (experience: CVExperience, colours: Colours, isLas
         createSpacer(3),
         ...createAchievements(experience.achievements, colours),
       ] satisfies RevivableComponent[] : []),
-      ...(stack.length > 0 ? [
-        createSpacer(3),
-        { type: "text", props: { text: `Stack: ${stack.join(" · ")}`, color: colours.muted, ...small } },
-      ] satisfies RevivableComponent[] : []),
-      createSpacer(20)
+      createSpacer(20, 10)
     ],
     isLast,
-    isExperienceOnly ? 190 : undefined
+    isExperienceOnly ? 190 : undefined,
+    isFirst,
   );
 };
 

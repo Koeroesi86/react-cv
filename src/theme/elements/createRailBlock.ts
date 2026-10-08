@@ -1,7 +1,7 @@
 import { RevivableComponent } from "@app-types";
 import createSpacer from "./createSpacer";
 
-const createRailBlock = (railColor: string, children?: RevivableComponent[], isEnd?: boolean, height?: number): RevivableComponent => ({
+const createRailBlock = (railColor: string, children?: RevivableComponent[], isEnd?: boolean, height?: number, isStart?: boolean): RevivableComponent => ({
   type: "block",
   props: {
     flexDirection: "row",
@@ -17,6 +17,8 @@ const createRailBlock = (railColor: string, children?: RevivableComponent[], isE
       props: {
         size: 20,
         color: railColor,
+        // the first block of a section has no line above its dot, keep the height so the dot stays level with the title
+        startColor: isStart ? "transparent" : railColor,
         orientation: "column",
         startSize: 15,
         iconSize: 10,
