@@ -1,4 +1,3 @@
-// TODO: Check for fix line breaks instead of \n newline
 
 const { env } = require("./env");
 
@@ -65,10 +64,10 @@ module.exports = {
           "text": "Architecting a greenfield payment processing service and core RESTful APIs.",
         },
         {
-          "text": "Establishing security compliance (HSM, AWS Cryptography, MQTT) and building \nbackoffice management tools.",
+          "text": "Establishing security compliance (HSM, AWS Cryptography, MQTT) and building backoffice management tools.",
         },
         {
-          "text": "Integrating advanced AI workflows (Claude AI) to optimize engineering development \nspeed and system reliability.",
+          "text": "Integrating advanced AI workflows (Claude AI) to optimize engineering development speed and system reliability.",
         },
         {
           "text": "Stack: NestJS, React, NextJS, Docker, PostgreSQL, GitHub Actions, AWS, MQTT, HSM",
@@ -76,7 +75,7 @@ module.exports = {
       ],
       "achievements": [
         "Architected and deployed a highly secure greenfield payment engine with integrated transaction management and automated compliance controls.",
-        "Introduced AI-assisted development workflows to accelerate feature delivery and \ntest coverage."
+        "Introduced AI-assisted development workflows to accelerate feature delivery and test coverage."
       ],
     },
     {
@@ -91,7 +90,7 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Refactored key platform components to strictly typed architectures to increase \nsystem stability and developer throughput.",
+          "text": "Refactored key platform components to strictly typed architectures to increase system stability and developer throughput.",
         },
         {
           "text": "Projects done: ",
@@ -122,7 +121,7 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Mentored and led engineering team through full lifecycle development to bring \nthe e-commerce marketplace live.",
+          "text": "Mentored and led engineering team through full lifecycle development to bring the e-commerce marketplace live.",
         },
         // {
         //   "text": "Projects done: fizz.hu",
@@ -132,8 +131,8 @@ module.exports = {
         }
       ],
       "achievements": [
-        "Scaled application architecture to support massive growth \nfrom ~200 users to over 4,000,000 users.",
-        "Established architectural patterns in Next.js and NestJS that improved release \nreliability and reduced production incidents."
+        "Scaled application architecture to support massive growth from ~200 users to over 4,000,000 users.",
+        "Established architectural patterns in Next.js and NestJS that improved release reliability and reduced production incidents."
       ],
     },
     {
@@ -148,14 +147,14 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Engineered and optimized core backoffice web applications \npowering critical internal operations.",
+          "text": "Engineered and optimized core backoffice web applications powering critical internal operations.",
         },
         {
           "text": "Stack: React, Node.js, Docker, PostgreSQL, GitHub Actions",
         }
       ],
       "achievements": [
-        "Re-engineered the web application using React and Node.js, significantly reducing \nload times via optimized data fetching and component-driven architecture.",
+        "Re-engineered the web application using React and Node.js, significantly reducing load times via optimized data fetching and component-driven architecture.",
       ],
     },
     {
@@ -170,14 +169,14 @@ module.exports = {
       },
       "responsibilities": [
         {
-          "text": "Mentored engineers and assisted leadership in organizing sprint objectives and \nrelease schedules.",
+          "text": "Mentored engineers and assisted leadership in organizing sprint objectives and release schedules.",
         },
         {
           "text": "Stack: React, SCSS, Docker, Jenkins",
         }
       ],
       "achievements": [
-        "Streamlined client deployment processes by introducing automated \nCI/CD release controls."
+        "Streamlined client deployment processes by introducing automated CI/CD release controls."
       ],
     },
     {
@@ -202,7 +201,7 @@ module.exports = {
         }
       ],
       "achievements": [
-        "Designed complex multi-lender platform using modular ReactJS architecture, \nenabling independent deployments across diverse financial integration providers."
+        "Designed complex multi-lender platform using modular ReactJS architecture, enabling independent deployments across diverse financial integration providers."
       ]
     },
     {
@@ -227,7 +226,7 @@ module.exports = {
         }
       ],
       "achievements": [
-        "Prototyped and delivered new high-frequency trading platform interfaces using \nReactJS and OpenFin, greatly enhancing workflow UX for financial traders."
+        "Prototyped and delivered new high-frequency trading platform interfaces using ReactJS and OpenFin, greatly enhancing workflow UX for financial traders."
       ]
     },
     {
@@ -258,7 +257,7 @@ module.exports = {
         }
       ],
       "achievements": [
-        "Architected serverless asynchronous workflows leveraging AWS S3, SQS, and SNS \nfor background photobook processing and automated notifications."
+        "Architected serverless asynchronous workflows leveraging AWS S3, SQS, and SNS for background photobook processing and automated notifications."
       ]
     },
     {
@@ -297,7 +296,7 @@ module.exports = {
         }
       ],
       "achievements": [
-        "Modernized legacy financial client applications by successfully migrating core \nplatforms to modular ReactJS desktop and web apps."
+        "Modernized legacy financial client applications by successfully migrating core platforms to modular ReactJS desktop and web apps."
       ]
     },
     {
@@ -329,7 +328,7 @@ module.exports = {
               "url": "https://www.mullenlowegroup.com"
             },
             {
-              "text": "\nKudos (Angular2, Symfony3)",
+              "text": "Kudos (Angular2, Symfony3)",
               "url": "https://kudos.mullenlowegroup.com"
             }
           ]
@@ -346,7 +345,7 @@ module.exports = {
       "details": {
         "link": "https://www.linkedin.com/in/krisztiankorosi/",
         "company": "LinkedIn",
-        "description": " contains all prior experiences, including: Apex IT Services, Hewlett-Packard, \nSystemax Business Services, Pentatrade, Codra"
+        "description": " contains all prior experiences, including: Apex IT Services, Hewlett-Packard, Systemax Business Services, Pentatrade, Codra"
       },
       "responsibilities": [
         {

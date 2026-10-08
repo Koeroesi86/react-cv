@@ -1,4 +1,3 @@
-// TODO: Check for fix line breaks instead of \n newline
 
 const { env } = require("./env");
 
@@ -355,7 +354,7 @@ module.exports = {
               "url": "https://ink.mullenlowegroup.com"
             },
             {
-              "text": "\nHoliday tracker (Angular1, Symfony2)",
+              "text": "Holiday tracker (Angular1, Symfony2)",
               "url": "https://www.mullenlowegroup.com"
             },
             {
@@ -363,14 +362,14 @@ module.exports = {
               "url": "https://kudos.mullenlowegroup.com"
             },
             {
-              "text": "\nVote456 (Symfony)",
+              "text": "Vote456 (Symfony)",
               "url": "https://www.mullenlowegroup.com"
             }
           ]
         }
       ],
       "achievements": [
-        "Skills earned: Docker, AWS, Typescript, ES 3-6, Node JS, Haproxy,\nAngular 1-2, Symfony 3, Nginx"
+        "Skills earned: Docker, AWS, Typescript, ES 3-6, Node JS, Haproxy, Angular 1-2, Symfony 3, Nginx"
       ]
     },
     {
@@ -469,7 +468,7 @@ module.exports = {
           "text": "Development of microsites, uniform brief, and online briefing system"
         },
         {
-          "text": "Projects done: Uniform brief for all European countries (VBA newsletter generator),\nOnline briefing system"
+          "text": "Projects done: Uniform brief for all European countries (VBA newsletter generator), Online briefing system"
         },
         {
           "text": "Campaigns: ",

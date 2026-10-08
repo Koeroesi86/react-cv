@@ -1,6 +1,7 @@
 import React from "react";
 import { Text as ReactPDFText } from "@react-pdf/renderer";
 import PropTypes from "prop-types";
+import { resolveFlexShrink } from "../types";
 
 export interface TextComponentProps {
   text: string;
@@ -9,16 +10,18 @@ export interface TextComponentProps {
   weight?: number;
   lineHeight?: number;
   underline?: boolean;
+  flexShrink?: number;
   align?: "left" | "center" | "right";
   children?: React.ReactElement;
 }
 
 function Text({
-  children, color, size, lineHeight, weight, align, text, underline
+  children, color, size, lineHeight, weight, align, text, underline, flexShrink = 0
 }: TextComponentProps) {
   return (
     <ReactPDFText
       style={{
+        flexShrink: resolveFlexShrink(flexShrink),
         color,
         fontSize: size,
         fontWeight: weight,
@@ -43,6 +46,7 @@ Text.propTypes = {
   lineHeight: PropTypes.number,
   align: PropTypes.oneOf(["left", "center", "right"]),
   underline: PropTypes.bool,
+  flexShrink: PropTypes.oneOf([0, 1]),
   children: PropTypes.node,
 };
 
